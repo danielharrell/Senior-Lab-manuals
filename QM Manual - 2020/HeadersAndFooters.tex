@@ -1,0 +1,39 @@
+%
+% Definition of our variations of the sectioning commands (i.e., \chapter, 
+% \section, etc) as provided for by the titlesec package. See titlesec.pdf 
+% for detailed descriptions and further examples
+%
+\titleformat{\chapter}
+   {\normalfont\scshape\Huge\fontseries{b}\filcenter}
+   %{\chaptername\ \thechapter\ --\ }{0pt}{ }
+      { }{0pt}{ }
+\titlespacing*{\chapter}  {0pt}{0pt}{20pt}
+
+%\titleformat{\section}
+%   {\normalfont\large\bfseries\filright}
+%   {\thesection}{1em}{}
+%\titlespacing*{\section}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+
+\titleformat{\section}[display] 
+     {\normalfont\scshape\Large\fillast} 
+     {\thesection} {1ex minus .1ex} { }
+\titlespacing{\section} {3pc}{*3}{*2}[3pc]
+
+\titleformat{\subsection}
+   {\normalfont\normalsize\bfseries}
+   {\thesubsection}{1em}{}
+\titlespacing{\subsection}{0pt}
+	 {3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+
+\titleformat{\subsubsection}
+   {\normalfont\normalsize\fontseries{b}\selectfont}
+   {\thesubsubsection}{1em}{}
+\titlespacing{\subsubsection}{0pt}
+	{3.5ex plus 1ex minus .2ex}{1.3ex plus .2ex}
+
+\titleformat{\paragraph}[runin]
+   {\normalfont\normalsize\bfseries}
+   {\theparagraph}{1em}{}
+\titlespacing{\paragraph}
+   {15pt}{3.25ex plus 1ex minus .2ex}{.5em}
+

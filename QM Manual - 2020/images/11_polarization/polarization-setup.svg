@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="6in"
+   height="3.7in"
+   viewBox="0 0 152.4 93.980002"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="polarization-setup.svg"
+   inkscape:export-filename="C:\Users\grecco\OneDrive\Documents\QM manual\images\15_optics-lab\apparatus.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5356"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5354"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotL"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4663"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotM"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4666"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4629"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4918"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4916"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4611"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4605"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <linearGradient
+       id="linearGradient4566"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4564" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4566"
+       id="linearGradient4568"
+       x1="28.992941"
+       y1="209.68749"
+       x2="31.86123"
+       y2="209.68749"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4566"
+       id="linearGradient4572"
+       gradientUnits="userSpaceOnUse"
+       x1="28.992941"
+       y1="209.68749"
+       x2="31.86123"
+       y2="209.68749"
+       gradientTransform="translate(9.2604167,3.112437e-6)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4566"
+       id="linearGradient4576"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(38.364583,3.112437e-6)"
+       x1="28.992941"
+       y1="209.68749"
+       x2="31.86123"
+       y2="209.68749" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4566"
+       id="linearGradient4580"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(71.437505,4.6686555e-6)"
+       x1="28.992941"
+       y1="209.68749"
+       x2="31.86123"
+       y2="209.68749" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.6"
+     inkscape:cx="208.53275"
+     inkscape:cy="209.75471"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="in"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-to-guides="false"
+     inkscape:object-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4548" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-203.01998)">
+    <rect
+       style="opacity:0.98000004;fill:none;fill-opacity:0.98039216;stroke:#000000;stroke-width:0.19746864;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect815"
+       width="18.520834"
+       height="5.1284862"
+       x="7.9375"
+       y="207.04164"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\grecco\OneDrive\Documents\QM manual - 2019\images\13_polarization\polarization-setup.png" />
+    <rect
+       style="opacity:0.98000004;fill:none;fill-opacity:0.98039216;stroke:#000000;stroke-width:0.22245806;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect819"
+       width="2.6458309"
+       height="5.2916603"
+       x="113.77084"
+       y="207.04164"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\grecco\OneDrive\Documents\QM manual - 2019\images\13_polarization\polarization-setup.png" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot857"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:Helvetica;font-style:italic;font-weight:normal;font-size:16px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Helvetica Italic';font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion859"><rect
+           id="rect861"
+           width="0.22026876"
+           height="17.400875"
+           x="139.20705"
+           y="122.38064" /></flowRegion><flowPara
+         id="flowPara863" /></flowRoot>    <text
+       id="text867"
+       y="208.33392"
+       x="13.225055"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.17975283px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26123455"
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="scale(0.98734317,1.0128191)"
+       inkscape:export-filename="C:\Users\grecco\OneDrive\Documents\QM manual - 2019\images\13_polarization\polarization-setup.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';stroke-width:0.26123455"
+         y="208.33392"
+         x="13.225055"
+         id="tspan865"
+         sodipodi:role="line">laser</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:0;stroke-dasharray:none;marker-end:url(#marker5356);paint-order:stroke markers fill"
+       d="m 26.458333,209.68748 h 87.312497 v 0 0"
+       id="path4550"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\grecco\OneDrive\Documents\QM manual - 2019\images\13_polarization\polarization-setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="opacity:0.98000004;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.23057216;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4554"
+       sodipodi:type="arc"
+       sodipodi:cx="117.7128"
+       sodipodi:cy="209.68748"
+       sodipodi:rx="2.4875"
+       sodipodi:ry="2.6631432"
+       sodipodi:start="4.7011218"
+       sodipodi:end="1.5565775"
+       d="m 117.68477,207.02451 a 2.4875,2.6631432 0 0 1 2.51533,2.62904 2.4875,2.6631432 0 0 1 -2.45193,2.69681 l -0.0354,-2.66288 z"
+       inkscape:export-filename="C:\Users\grecco\OneDrive\Documents\QM manual - 2019\images\13_polarization\polarization-setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       transform="scale(0.96406878,1.0372704)"
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.33408976px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20838061"
+       x="115.38117"
+       y="208.63574"
+       id="text4560"
+       inkscape:export-filename="C:\Users\grecco\OneDrive\Documents\QM manual - 2019\images\13_polarization\polarization-setup.png"><tspan
+         sodipodi:role="line"
+         id="tspan4558"
+         x="115.38117"
+         y="208.63574"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';stroke-width:0.20838061">detector</tspan></text>
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       y="207.04166"
+       x="29.10417"
+       height="5.2916603"
+       width="2.6458309"
+       id="rect4562"
+       style="opacity:0.98000004;fill:url(#linearGradient4568);fill-opacity:1;stroke:#000000;stroke-width:0.22245806;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\grecco\OneDrive\Documents\QM manual - 2019\images\13_polarization\polarization-setup.png" />
+    <rect
+       style="opacity:0.98000004;fill:url(#linearGradient4572);fill-opacity:1;stroke:#000000;stroke-width:0.22245806;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4570"
+       width="2.6458309"
+       height="5.2916603"
+       x="38.364586"
+       y="207.04166"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\grecco\OneDrive\Documents\QM manual - 2019\images\13_polarization\polarization-setup.png" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       y="207.04166"
+       x="67.46875"
+       height="5.2916603"
+       width="2.6458309"
+       id="rect4574"
+       style="opacity:0.98000004;fill:url(#linearGradient4576);fill-opacity:1;stroke:#000000;stroke-width:0.22245806;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\grecco\OneDrive\Documents\QM manual - 2019\images\13_polarization\polarization-setup.png" />
+    <rect
+       style="opacity:0.98000004;fill:url(#linearGradient4580);fill-opacity:1;stroke:#000000;stroke-width:0.22245806;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4578"
+       width="2.6458309"
+       height="5.2916603"
+       x="100.54167"
+       y="207.04166"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\grecco\OneDrive\Documents\QM manual - 2019\images\13_polarization\polarization-setup.png" />
+    <text
+       id="text4584"
+       y="208.63574"
+       x="25.342279"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.33408976px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20838061"
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="scale(0.96406878,1.0372704)"
+       inkscape:export-filename="C:\Users\grecco\OneDrive\Documents\QM manual - 2019\images\13_polarization\polarization-setup.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';stroke-width:0.20838061"
+         y="208.63574"
+         x="25.342279"
+         id="tspan4582"
+         sodipodi:role="line">depol.</tspan></text>
+    <text
+       transform="scale(0.96406878,1.0372704)"
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.33408976px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20838061"
+       x="39.381172"
+       y="208.53764"
+       id="text4588"
+       inkscape:export-filename="C:\Users\grecco\OneDrive\Documents\QM manual - 2019\images\13_polarization\polarization-setup.png"><tspan
+         sodipodi:role="line"
+         id="tspan4586"
+         x="39.381172"
+         y="208.53764"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';stroke-width:0.20838061">P1</tspan></text>
+    <text
+       id="text4592"
+       y="208.34143"
+       x="69.464508"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.33408976px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20838061"
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="scale(0.96406878,1.0372704)"
+       inkscape:export-filename="C:\Users\grecco\OneDrive\Documents\QM manual - 2019\images\13_polarization\polarization-setup.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';stroke-width:0.20838061"
+         y="208.34143"
+         x="69.464508"
+         sodipodi:role="line"
+         id="tspan4594">P2</tspan></text>
+    <text
+       transform="scale(0.96406878,1.0372704)"
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.33408976px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20838061"
+       x="103.98118"
+       y="208.43953"
+       id="text4600"
+       inkscape:export-filename="C:\Users\grecco\OneDrive\Documents\QM manual - 2019\images\13_polarization\polarization-setup.png"><tspan
+         id="tspan4598"
+         sodipodi:role="line"
+         x="103.98118"
+         y="208.43953"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype';stroke-width:0.20838061">P3</tspan></text>
+  </g>
+</svg>

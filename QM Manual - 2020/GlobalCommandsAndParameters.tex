@@ -1,0 +1,48 @@
+%
+% Set some global parameters
+%
+\settrimmedsize{11in}{210mm}{*} 
+\setlength{\trimtop}{0pt} 
+\setlength{\trimedge}{\stockwidth} 
+\addtolength{\trimedge}{-\paperwidth} 
+\settypeblocksize{7.75in}{33pc}{*} 
+\setulmargins{4cm}{*}{*} 
+\setlrmargins{1.25in}{*}{*} 
+\setmarginnotes{17pt}{51pt}{\onelineskip} 
+\setheadfoot{\onelineskip}{2\onelineskip} 
+\setheaderspaces{*}{2\onelineskip}{*} 
+\checkandfixthelayout 
+
+\setcounter{secnumdepth}{0} % only the chapters will display numbers
+\setcounter{tocdepth}{1}    % only chapters and section will appear in TOC
+%
+% define places to look for figures so that we don't have to include the directory-name every time
+% we refer to a figure
+%
+\graphicspath{{ }{./fig/}}
+%{./chapterI/fig/}{./chapterII/fig/}{./chapterIII/fig/}{./chapterIV/fig/}{./chapterV/fig/}}
+%
+% Define some math commands
+%
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\newcommand{\dif}[1]{\frac{d}{d #1}}
+\newcommand{\Dif}[1]{\frac{\partial}{\partial #1}}
+\newcommand{\der}[2]{\frac{d #2}{d #1}}
+\newcommand{\Der}[2]{\frac{\partial #2}{\partial #1}}
+\newcommand{\dder}[2]{\frac{d^2 #2}{d #1^2}}
+\newcommand{\DDer}[2]{\frac{\partial^2 #2}{\partial #1^2}}
+\newcommand{\MDer}[3]{\frac{\partial^2 #3}{\partial #1\partial #2}}
+\renewcommand{\colon}{\negthinspace :\negthinspace}
+\newcommand{\ratio}[2]{#1\negthinspace :\negthinspace #2}
+%
+% abbreviations
+%
+\providecommand{\e}[1]{\ensuremath{\times 10^{#1}}}
+
+\def\etal{{\textsl et al.}}
+\def\ie{{\textsl i.e.}}
+\def\eg{{e.g.}}
+\def\th{{$^{th}$}}
+\def\nd{{$^{nd}}}
+\def\st{{$^{st}$}}
+\def\etc{{\textsl etc.}}

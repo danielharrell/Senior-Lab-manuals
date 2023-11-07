@@ -1,0 +1,130 @@
+\documentclass[11pt]{memoir}
+\usepackage{amsmath}
+\usepackage[polutonikogreek,francais,english]{babel}
+\usepackage{setspace}
+\usepackage{subfig}  
+\usepackage{booktabs}
+\usepackage{titlesec}
+\usepackage{url}
+\usepackage{graphicx} 
+\usepackage{longtable}
+\usepackage{makecell} 
+\usepackage{bigdelim}
+\usepackage{multirow}
+\usepackage{caption}
+\captionsetup{font=small}
+\usepackage{wrapfig}
+\usepackage{braket}
+\usepackage{chemfig}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage[stable]{footmisc}
+\usepackage{textcomp}
+
+
+
+\input{MacroPackages} 
+\input{GlobalCommandsAndParameters} 
+\input{HyphenationAdditions}
+
+
+
+%% DRS: This allows us to manually specify header content. See Morgan chapter for more deatils.
+\pagestyle{myheadings}
+
+%% DRS: This redefines how figures are labeled (no chapter number)
+%\renewcommand{\thefigure}{\arabic{figure}}
+
+%
+% Above replaced with manual figure numbers throughout
+% using \caption*{}
+%
+
+\chapterstyle{thatcher}
+\renewcommand{\chaptitlefont}{\normalfont\scshape\huge}
+
+\renewcommand{\prechapterprecis}{%
+  \vspace*{\prechapterprecisshift}%
+  \begin{center}\precisfont}
+\renewcommand{\postchapterprecis}{\end{center}}
+\renewcommand*{\precisfont}{\normalfont\scshape}
+
+%% DRS: The following commands change the font families for the entire document. I chose Palatino. See the supporting docs for more info on font choices.
+\renewcommand{\rmdefault}{ppl}
+\renewcommand{\sfdefault}{phv}
+\renewcommand{\ttdefault}{pcr}
+\usepackage[left=1.5in,right=1in,top=1in,bottom=1.0in]{geometry} 
+ 
+\pretitle{\begin{center}}
+\title{{\large Senior Laboratory} \\
+  \vspace{.5in}
+  {\LARGE ATOMS AND MEASUREMENT}}
+\posttitle{\end{center}}
+\author{\vspace{4in} \\
+    St. John's College\\ 
+    Annapolis, MD --- Santa Fe, NM}
+\predate{\begin{center}}
+\date{2020 Revision}
+\postdate{\end{center}}
+
+
+
+% Acknowledgments page: also note the conventions (bracketed footnotes, asterisks for ellipsis,
+% block quotes for original papers interspersed with commentary [name chapters])
+
+\begin{document}
+
+\setlength{\aboverulesep}{0pt} % from {booktabs} for better rules in tables
+\setlength{\belowrulesep}{0pt}
+  
+\titleformat{\section}{\normalfont\Large\scshape\centering}{\thesection}{}{}
+\titleformat{\subsection}{\normalfont\bfseries}{\thesubsection}{}{}
+
+
+
+\frontmatter
+
+\input{00_cover.tex}
+\thispagestyle{empty}
+\newpage
+
+\maketitle
+\thispagestyle{empty}
+\newpage
+
+\input{00_acknowledgments.tex}
+\thispagestyle{empty}
+\newpage
+
+\renewcommand{\contentsname}{Table of Contents}
+\tableofcontents*
+
+\mainmatter
+\pagenumbering{arabic}
+
+\input{01_faraday.tex}
+\input{02_thomson.tex}
+\input{03_millikan.tex}
+\input{04_rutherford.tex}
+\input{05_planck.tex}
+\input{06_einstein.tex}	
+\input{07_bohr.tex}
+\input{08_debroglie.tex}
+\input{09_schroedinger.tex}
+\input{10_heisenberg.tex}
+\input{11_polarization.tex}
+\input{12_dirac.tex}
+\input{13_optics-lab.tex}
+\input{14_interference.tex}
+\input{15_quantum-eraser.tex}
+\input{16_epr.tex}
+\input{17_bell.tex}
+\input{18_appendix.tex}
+
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
