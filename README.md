@@ -2,7 +2,7 @@
  Senior Lab manuals for St. John's College, Annapolis
 
  ## To Do
-1. [ ] Redraw Table VI, Millikan paper, in Latex to make corrections.
+1. [ ] 1. Redraw Table VI, Millikan paper, in Latex to make corrections.
     1. [ ] p. 33, Radius value: for .000276, read .0000276
 1. [ ] p. 38, table near bottom, column 4, line 3: for 0.800, read 0.0800
 1. [ ] p. 48, middle: add section no. 1 before “it is well known . . .”
