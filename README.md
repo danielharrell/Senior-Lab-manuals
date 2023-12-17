@@ -8,7 +8,7 @@
 - [x] p. 48, middle: add section no. 1 before “it is well known . . .”
 - [x] p. 49: add section no. “2” before “We shall first examine . . .”
 - [x] p. 50, n. 10, par.2, line 3: for R, read r
-- [ ] p. 51, n. 14: add “Book I” to Newton reference
+- [x] p. 51, n. 14: add “Book I” to Newton reference
 - [ ] p. 52, n.16, line 2: for 67, read 50
 - [ ] p. 52, n. 17: add “Book I” to Newton reference
 - [ ] p. 53: add section no. “3” before “Probability of Single Deflection . . .”
