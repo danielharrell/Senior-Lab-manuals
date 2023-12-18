@@ -10,7 +10,7 @@
 - [x] p. 50, n. 10, par.2, line 3: for R, read r
 - [x] p. 51, n. 14: add “Book I” to Newton reference
 - [x] p. 52, n.16, line 2: for 67, read 50
-- [ ] p. 52, n. 17: add “Book I” to Newton reference
+- [x] p. 52, n. 17: add “Book I” to Newton reference
 - [ ] p. 53: add section no. “3” before “Probability of Single Deflection . . .”
 - [ ] p. 54, n. 24:delete extraneous dφ’s after close parentheses in differential equation
 - [ ] p. 56: add ellipsis before topmost subheading
