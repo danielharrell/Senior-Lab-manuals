@@ -1,4 +1,5 @@
 \documentclass{article}
+\usepackage{makecell}
 \begin{document}
 \begin{center}
 \begin{tabular}{c|c|c|c|c|c}
@@ -19,4 +20,56 @@ $n$ & $4.917\!\times\!{n}$ & Observed Charge & $n$ & $4.917\!\times\!{n}$ & Obse
 \hline
 \end{tabular}
 \end{center}
+
+\bigskip
+
+\begin{center}
+\small
+\begin{tabular}{|l|c||c|c|c|c|c|c|c|c|}
+\hline
+ & $d$ = 0.5cm & & $d$ = 0.5cm & \makecell{Charge\\on ion} & & & \makecell{Frictional\\charge} & & \\
+\hline
+$t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(cm/sec)} & $(v_{2}'\!-\!v_2)$ & $n'$ & $\frac{v_{2}'-v_2}{n'}$ & $v_1+v_2$ & $n$ & $\frac{v_1+v_2}{n}$\\
+\hline
+18.2    & .00286 & 3.8 & 0.01316 & & & & 0.01602 & 3 & .00534\\
+18.6    & \emph{avr}  & & & .00470 & 1 & .00470 & & & \\
+19.2    & & 2.8 & .01786 & & & & & & \\
+18.0    & & & & .01561 & 3 & .00520 & & & \\
+17.2    & & 22.2 & .00225 & & & & & & \\
+15.4    & & & & .00544 & 1 & .00544 & & & \\
+16.7    & & 6.5 & .00769 & & & & & & \\
+18.0    & & & & .00541 & 1 & .00541 & & & \\
+15.4    & & 21.9 & .00228 & & & & & & \\
+17.3    & & & & .01123 & 2 & .00562 & & & \\
+\underline{18.4}    & & 3.7 & .01351 & & & \underline{\hspace{2em}} & & & \underline{\hspace{2em}} \\
+17.5 & & & & & & .00527 & & & .00534 \\
+\emph{avr} & & & & & & \emph{avr} & & &\\
+\hline
+\end{tabular}
+\end{center}
+
+\bigskip
+
+\begin{table}[htp]
+\centering
+\begin{minipage}{\textwidth}
+\centering
+\begin{tabular}{c|c|c|c|c|c}
+\multicolumn{6}{c}{TABLE VI\footnote{Several values have been corrected in this table from the original paper.}}\\
+\hline & \\[-1.0em]
+$t_g$ & $t_F$ & $\frac{1}{t_F}$ & $\frac{1}{t'_F}-\frac{1}{t_F}$ & $4.917\!\times\!{n}$ & Observed Charge\\[5pt]
+\hline
+1 & 4.917 & \ldots & 10 & 49.17 & 49.41\\
+2 & 9.834 & \ldots & 11 & 54.09 & 53.91\\
+3 & 14.75 & \ldots & 12 & 59.00 & 59.12\\
+4 & 19.66 & 19.66  & 13 & 63.92 & 63.68\\
+5 & 24.59 & 24.60  & 14 & 68.84 & 68.65\\
+6 & 29.50 & 29.62  & 15 & 73.75 & \ldots\\
+7 & 34.42 & 34.47  & 16 & 78.67 & 78.34\\
+8 & 39.34 & 39.38  & 17 & 83.59 & 83.22\\
+9 & 44.25 & 44.42  & 18 & 88.51 & \ldots\\
+\hline
+\end{tabular}
+\end{minipage}
+\end{table}
 \end{document}
