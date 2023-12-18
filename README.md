@@ -12,7 +12,7 @@
 - [x] p. 52, n.16, line 2: for 67, read 50
 - [x] p. 52, n. 17: add “Book I” to Newton reference
 - [x] p. 53: add section no. “3” before “Probability of Single Deflection . . .”
-- [ ] p. 54, n. 24:delete extraneous dφ’s after close parentheses in differential equation
+- [x] p. 54, n. 24:delete extraneous dφ’s after close parentheses in differential equation
 - [ ] p. 56: add ellipsis before topmost subheading
 - [ ] p. 56: add section nos. “6” and “7” to bold subheadings
 - [ ] p. 67, equation 11: add footnote to explain that "e" in equation (11) is the number 2.718... providing the base of natural logarithms, and is different from the “e” just below.
