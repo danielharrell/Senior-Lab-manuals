@@ -1,6 +1,35 @@
 \documentclass{article}
 \usepackage{makecell}
+\usepackage{siunitx}
 \begin{document}
+\begin{center}
+\begin{tabular}{S c c c c S}
+\multicolumn{6}{c}{\hspace{2em} TABLE IV}\\
+$t_g$ & & & & $t_F$\\
+13.6 & & & & 12.5\\
+13.8 & & & & 12.4&\\
+13.4 & & & & 21.8&\\
+13.4 & & & & 34.8&\\
+13.6 & & & & 84.5&\\
+13.6 & & & & 85.5&\\
+13.7 & & & & 34.6&\\
+13.5 & & & & 34.8&\\
+13.5 & & & & 16.0&\\
+13.8 & & & & 34.8&\\
+13.7 & & & & 34.6&\\
+13.8 & & & & 21.9&\\
+13.6&\\
+13.5&\\
+13.4&\\
+13.8&\\
+13.4&\\
+\hline
+\text{Mean} 13.595&\\
+\end{tabular}
+\end{center}
+
+\bigskip
+
 \begin{center}
 \begin{tabular}{c|c|c|c|c|c}
 \hline
@@ -54,12 +83,12 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
 \centering
 \begin{minipage}{\textwidth}
 \centering
-\begin{tabular}{c|c|c|c|c|c}
-\multicolumn{6}{c}{TABLE VI\footnote{Several values have been corrected in this table from the original paper.}}\\
-\hline & \\[-1.0em]
-$t_g$ & $t_F$ & $\frac{1}{t_F}$ & $\frac{1}{t'_F}-\frac{1}{t_F}$ & $4.917\!\times\!{n}$ & Observed Charge\\[5pt]
+\begin{tabular}{c|c|c|c|c|c||c|c|c}
+\multicolumn{9}{c}{TABLE VI\footnote{Several values have been corrected in this table from the original paper.}}\\
 \hline
-1 & 4.917 & \ldots & 10 & 49.17 & 49.41\\
+\makecell{$t_g$\\[-2pt]\footnotesize{Sec.}} & \makecell{$t_{\scriptstyle{F}}$\\[-2pt]\footnotesize{Sec.}} & $\frac{1}{t_F}$ & $\frac{1}{t'_F}-\frac{1}{t_F}$ & $n'$ & $\frac{1}{n'}(\frac{1}{t'_F}-\frac{1}{t_F})$ & $\frac{1}{t_g}+\frac{1}{t_F}$ & n & $\frac{1}{n}(\frac{1}{t_g}+\frac{1}{t_F})$\\[5pt]
+\hline
+11.848 & 80.708 & .01236 & & & & .09655 & 18 & .005366\\
 2 & 9.834 & \ldots & 11 & 54.09 & 53.91\\
 3 & 14.75 & \ldots & 12 & 59.00 & 59.12\\
 4 & 19.66 & 19.66  & 13 & 63.92 & 63.68\\
