@@ -13,8 +13,8 @@
 - [x] p. 52, n. 17: add “Book I” to Newton reference
 - [x] p. 53: add section no. “3” before “Probability of Single Deflection . . .”
 - [x] p. 54, n. 24:delete extraneous dφ’s after close parentheses in differential equation
-- [ ] p. 56: add ellipsis before topmost subheading
-- [ ] p. 56: add section nos. “6” and “7” to bold subheadings
+- [x] p. 56: add ellipsis before topmost subheading
+- [x] p. 56: add section nos. “6” and “7” to bold subheadings
 - [ ] p. 67, equation 11: add footnote to explain that "e" in equation (11) is the number 2.718... providing the base of natural logarithms, and is different from the “e” just below.
 - [ ] p. 67, 2nd par. from bottom, line 1:for “ν,” read “ε(ν)” [ε with a macron]
 - [ ] p. 90, n. 10, reverse order of 𝛂 and ∞ in integral for p.e.
