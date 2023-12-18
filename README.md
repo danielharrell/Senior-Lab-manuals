@@ -9,7 +9,7 @@
 - [x] p. 49: add section no. “2” before “We shall first examine . . .”
 - [x] p. 50, n. 10, par.2, line 3: for R, read r
 - [x] p. 51, n. 14: add “Book I” to Newton reference
-- [ ] p. 52, n.16, line 2: for 67, read 50
+- [x] p. 52, n.16, line 2: for 67, read 50
 - [ ] p. 52, n. 17: add “Book I” to Newton reference
 - [ ] p. 53: add section no. “3” before “Probability of Single Deflection . . .”
 - [ ] p. 54, n. 24:delete extraneous dφ’s after close parentheses in differential equation
@@ -25,3 +25,7 @@
 - [ ] p. 139, n. 8, first line, delete prime symbol after Δv
 - [ ] n. 8, first line, end, “h Δx/Δλ” should read “h ΔxΔλ/λ02”
 - [ ] p. 145, note 21: "See Chapter 9, note 9" should read "See Chapter 8, note 9."
+- [ ] p.145, third full par., line 2: adjust typography so that “corpuscular” is aligned with the margin.
+- [ ] p. 151, last par., line 2: for “arrange-ment” read “arrangement”
+- [ ] p. 155, par 1, line 6: for “Schroedinger” read “Schrödinger”
+- [ ] p. 191: move last line of text (the inequality) to the next page, so that it appears on the same page as its footnote.
