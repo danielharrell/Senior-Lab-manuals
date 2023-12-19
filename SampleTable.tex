@@ -1,7 +1,72 @@
 \documentclass{article}
+
 \usepackage{makecell}
 \usepackage{siunitx}
+\usepackage{multirow,bigdelim}
+
 \begin{document}
+
+\begin{tabular}{lll}
+Aardvark & Armenia & \rdelim\}{2}{3mm}[things beginning with vowels] \\
+Elephant & Ethiopia \\
+Platypus & Portugal & \rdelim\}{2}{3mm}[things beginning with consonants] \\
+Zebra  & Zimbabwe \\
+text  & text & \rdelim\}{3}{3mm}[things beginning and ending with t] \\
+text  & text \\
+text  & text \\
+\end{tabular}
+
+\begin{center}
+\begin{tabular}{ c c }
+  \multicolumn{2}{c}{TABLE V\footnotemark}\\
+  $v_2$ & $ (v'_2 - v_2)$\\
+  &\\
+  $\frac{.5222}{12.45} = .04196$ & \rdelim\}{3}{3mm}{$.01806 \div 2 = .00903$}\\
+  &\\
+  $\frac{.5222}{{[}21.85{]}} = .02390$ &\multirow{3}{*}{$\} .00885 \div 1 = .00885$}\\
+  &\\
+  $\frac{.5222}{34.7} = .01505$ &\multirow{3}{*}{$\} .00891 \div 1 = .00891$}\\
+  &\\
+  $\frac{.5222}{85.0} = .006144$ &\multirow{3}{*}{$\} .00891 \div 1 = .00891$}\\
+  &\\
+  $\frac{.5222}{34.7} = .01505$ &\multirow{3}{*}{$\} .01759 \div 2 = .00880$}\\
+  &\\
+  $\frac{.5222}{16.0} = .02364$ &\multirow{3}{*}{$\} .01759 \div 2 = .00880$}\\
+  &\\
+  $\frac{.5222}{34.7} = .01505$ &\multirow{3}{*}{$\} {[}.00885 \div 1 = .00885{]}$}\\
+  &\\
+  $\frac{.5222}{21.85} = .02390$ &\\
+\end{tabular}
+\end{center}
+\footnotetext{[The bracketed numbers are our corrections of typos
+  in Millikan's original table.]}
+
+\begin{center}
+\begin{tabular}{ c c }
+  \multicolumn{2}{c}{TABLE V\footnotemark}\\
+  $v_2$ & $ (v'_2 - v_2)$\\
+  &\\
+  $\frac{.5222}{12.45} = .04196$ & \multirow{3}{*}{$\} .01806 \div 2 = .00903$}\\
+  &\\
+  $\frac{.5222}{{[}21.85{]}} = .02390$ &\multirow{3}{*}{$\} .00885 \div 1 = .00885$}\\
+  &\\
+  $\frac{.5222}{34.7} = .01505$ &\multirow{3}{*}{$\} .00891 \div 1 = .00891$}\\
+  &\\
+  $\frac{.5222}{85.0} = .006144$ &\multirow{3}{*}{$\} .00891 \div 1 = .00891$}\\
+  &\\
+  $\frac{.5222}{34.7} = .01505$ &\multirow{3}{*}{$\} .01759 \div 2 = .00880$}\\
+  &\\
+  $\frac{.5222}{16.0} = .02364$ &\multirow{3}{*}{$\} .01759 \div 2 = .00880$}\\
+  &\\
+  $\frac{.5222}{34.7} = .01505$ &\multirow{3}{*}{$\} {[}.00885 \div 1 = .00885{]}$}\\
+  &\\
+  $\frac{.5222}{21.85} = .02390$ &\\
+\end{tabular}
+\end{center}
+\footnotetext{[The bracketed numbers are our corrections of typos
+  in Millikan's original table.]}
+
+ 
 \begin{center}
 \begin{tabular}{S c c c c S}
 \multicolumn{6}{c}{\hspace{2em} TABLE IV}\\
