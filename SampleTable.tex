@@ -1,8 +1,10 @@
 \documentclass{article}
-
+\usepackage{booktabs,siunitx}
 \usepackage{makecell}
-\usepackage{siunitx}
 \usepackage{multirow,bigdelim}
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathreplacing,calc,tikzmark}
+\usepackage{nicematrix}
 
 \begin{document}
 
@@ -21,19 +23,19 @@ text  & text \\
   \multicolumn{2}{c}{TABLE V\footnotemark}\\
   $v_2$ & $ (v'_2 - v_2)$\\
   &\\
-  $\frac{.5222}{12.45} = .04196$ & \rdelim\}{3}{3mm}{$.01806 \div 2 = .00903$}\\
+  $\frac{.5222}{12.45} = .04196$ & \multirow{3}{*}{$\biggr\} .01806 \div 2 = .00903$}\\
   &\\
-  $\frac{.5222}{{[}21.85{]}} = .02390$ &\multirow{3}{*}{$\} .00885 \div 1 = .00885$}\\
+  $\frac{.5222}{{[}21.85{]}} = .02390$ & \multirow{3}{*}{$\biggr\} .00885 \div 1 = .00885$}\\
   &\\
-  $\frac{.5222}{34.7} = .01505$ &\multirow{3}{*}{$\} .00891 \div 1 = .00891$}\\
+  $\frac{.5222}{34.7} = .01505$ &\multirow{3}{*}{$\biggr\} .00891 \div 1 = .00891$}\\
   &\\
-  $\frac{.5222}{85.0} = .006144$ &\multirow{3}{*}{$\} .00891 \div 1 = .00891$}\\
+  $\frac{.5222}{85.0} = .006144$ &\multirow{3}{*}{$\biggr\} .00891 \div 1 = .00891$}\\
   &\\
-  $\frac{.5222}{34.7} = .01505$ &\multirow{3}{*}{$\} .01759 \div 2 = .00880$}\\
+  $\frac{.5222}{34.7} = .01505$ &\multirow{3}{*}{$\biggr\} .01759 \div 2 = .00880$}\\
   &\\
-  $\frac{.5222}{16.0} = .02364$ &\multirow{3}{*}{$\} .01759 \div 2 = .00880$}\\
+  $\frac{.5222}{16.0} = .02364$ &\multirow{3}{*}{$\biggr\} .01759 \div 2 = .00880$}\\
   &\\
-  $\frac{.5222}{34.7} = .01505$ &\multirow{3}{*}{$\} {[}.00885 \div 1 = .00885{]}$}\\
+  $\frac{.5222}{34.7} = .01505$ &\multirow{3}{*}{$\biggr\} [.00885 \div 1 = .00885]$}\\
   &\\
   $\frac{.5222}{21.85} = .02390$ &\\
 \end{tabular}
@@ -149,13 +151,13 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
 \begin{minipage}{\textwidth}
 \centering
 \begin{tabular}{c|c|c|c|c|c||c|c|c}
-\multicolumn{9}{c}{TABLE VI\footnote{Several values have been corrected in this table from the original paper.}}\\
+\multicolumn{9}{c}{TABLE VI\footnote{The bracketed numbers are our corrections of errors in the original paper.}}\\
 \hline
 \makecell{$t_g$\\[-2pt]\footnotesize{Sec.}} & \makecell{$t_{\scriptstyle{F}}$\\[-2pt]\footnotesize{Sec.}} & $\frac{1}{t_F}$ & $\frac{1}{t'_F}-\frac{1}{t_F}$ & $n'$ & $\frac{1}{n'}(\frac{1}{t'_F}-\frac{1}{t_F})$ & $\frac{1}{t_g}+\frac{1}{t_F}$ & n & $\frac{1}{n}(\frac{1}{t_g}+\frac{1}{t_F})$\\[5pt]
 \hline
 11.848 & 80.708 & .01236 & & & & .09655 & 18 & .005366\\
-2 & 9.834 & \ldots & 11 & 54.09 & 53.91\\
-3 & 14.75 & \ldots & 12 & 59.00 & 59.12\\
+11.890 & 22.366 & & .03234 & 6 & .005390 & & & \\
+11.908 & 22.390 & .04470 & & & & .12887 & 24 & .005371\\
 4 & 19.66 & 19.66  & 13 & 63.92 & 63.68\\
 5 & 24.59 & 24.60  & 14 & 68.84 & 68.65\\
 6 & 29.50 & 29.62  & 15 & 73.75 & \ldots\\
@@ -166,4 +168,43 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
 \end{tabular}
 \end{minipage}
 \end{table}
+
+
+
+$\begin{NiceArray}{lcl}
+  T=0             & T=1 & T=2 \\
+  \Block{2-1}{-1} & 0   & R   \\
+                  & 1   & 0 
+\CodeAfter
+  \SubMatrix{\{}{2-2}{3-2}{.}
+\end{NiceArray}$
+
+\vspace{2cm}
+
+$\begin{NiceArray}{lcl}
+  T=0             & T=1 & T=2 \\
+  \Block{2-1}{-1} & 0   & R   \\
+                  & 1   & 0 
+\CodeAfter
+  \SubMatrix{\{}{2-2}{3-2}{.}[slim]
+\end{NiceArray}$
+
+%\url{https://tex.stackexchange.com/a/1570/86}
+
+\hfill\tikzmark{right}
+\begin{itemize}
+\item First line
+\item Second line \tikzmark{2nd}
+\item Third line, which is quite long and seemingly tedious in the extreme
+\item Fourth line, which isn't as long as the third \tikzmark{4th}
+\item Fifth line
+\end{itemize}
+
+\begin{tikzpicture}[overlay, remember picture]
+\node[anchor=base] (a) at (pic cs:2nd) {\vphantom{h}}; % push the mark to the top of the line (ie including ascenders)
+\node[anchor=base] (b) at (pic cs:4th) {\vphantom{g}}; % push the mark to the bottom of the line (ie including descenders)
+\draw [decoration={brace,amplitude=0.5em},decorate,ultra thick,gray]
+ (a.north -| {pic cs:right}) -- (b.south -| {pic cs:right});
+\end{tikzpicture}
+
 \end{document}
