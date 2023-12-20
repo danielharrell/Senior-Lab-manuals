@@ -1,10 +1,10 @@
 \documentclass{article}
-\usepackage{booktabs,siunitx}
+\usepackage{nicematrix}
+\usepackage{siunitx}
 \usepackage{makecell}
 \usepackage{multirow,bigdelim}
 \usepackage{tikz}
 \usetikzlibrary{decorations.pathreplacing,calc,tikzmark}
-\usepackage{nicematrix}
 
 \begin{document}
 
@@ -169,6 +169,37 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
 \end{minipage}
 \end{table}
 
+\begin{table}[htp]
+\centering
+\begin{minipage}{\textwidth}
+\centering
+\begin{tabular}{c|c|c|c|c|c||c|c|c}
+\multicolumn{9}{c}{TABLE VI\footnote{The bracketed numbers are our corrections of errors in the original paper.}}\\
+\hline
+\makecell{$t_g$\\[-2pt]\footnotesize{Sec.}} & \makecell{$t_{\scriptstyle{F}}$\\[-2pt]\footnotesize{Sec.}} & $\frac{1}{t_F}$ & $\frac{1}{t'_F}-\frac{1}{t_F}$ & $n'$ & $\frac{1}{n'}(\frac{1}{t'_F}-\frac{1}{t_F})$ & $\frac{1}{t_g}+\frac{1}{t_F}$ & n & $\frac{1}{n}(\frac{1}{t_g}+\frac{1}{t_F})$\\[5pt]
+\hline
+11.848 & 80.708 & .01236 & & & & .09655 & 18 & .005366\\
+11.890 & 22.366 & & .03234 & 6 & .005390 & & & \\
+11.908 & 22.390 & .04470 & & & & .12887 & 24 & .005371\\
+4 & 19.66 & 19.66  & 13 & 63.92 & 63.68\\
+5 & 24.59 & 24.60  & 14 & 68.84 & 68.65\\
+6 & 29.50 & 29.62  & 15 & 73.75 & \ldots\\
+7 & 34.42 & 34.47  & 16 & 78.67 & 78.34\\
+8 & 39.34 & 39.38  & 17 & 83.59 & 83.22\\
+9 & 44.25 & 44.42  & 18 & 88.51 & \ldots\\
+\hline
+\end{tabular}
+\end{minipage}
+\end{table}
+
+\begin{NiceTabular}{c  c  c}
+1.234 & 1.567 & 1.487\\
+1.345 & 1.824 & 1.925\\
+1.675 & 1.987 & 2.456\\
+\CodeAfter
+\SubMatrix{\}}{1-2}{3-2}{.}
+\SubMatrix{\}}{1-3}{3-3}{.}
+\end{NiceTabular}
 
 
 $\begin{NiceArray}{lcl}
@@ -188,6 +219,16 @@ $\begin{NiceArray}{lcl}
 \CodeAfter
   \SubMatrix{\{}{2-2}{3-2}{.}[slim]
 \end{NiceArray}$
+
+\begin{NiceTabular}{c l}
+Part A              & the first part \\
+\Block{2-1}{Part B} & a first sub-part \\
+                    & a second sub-part \\
+\CodeAfter
+  \SubMatrix{\{}{2-2}{3-2}{.}
+\end{NiceTabular}
+
+
 
 %\url{https://tex.stackexchange.com/a/1570/86}
 
