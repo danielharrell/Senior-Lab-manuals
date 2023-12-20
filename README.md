@@ -17,7 +17,7 @@
 - [x] p. 56: add section nos. “6” and “7” to bold subheadings
 - [x] p. 67, equation 11: add footnote to explain that "e" in equation (11) is the number 2.718... providing the base of natural logarithms, and is different from the “e” just below.
 - [x] p. 67, 2nd par. from bottom, line 1:for “ν,” read “ε(ν)” [ε with a macron]
-- [ ] p. 90, n. 10, reverse order of 𝛂 and ∞ in integral for p.e.
+- [x] p. 90, n. 10, reverse order of 𝛂 and ∞ in integral for p.e.
 - [ ] p. 92, main text, l. 8 from bottom: move period at beginning of line to end of equation (6) immediately above.
 - [ ] p. 114, n. 27, line 4: delete period at end of line
 - [ ] p. 125, n. 3: change “equation 2” to “equation 5”
