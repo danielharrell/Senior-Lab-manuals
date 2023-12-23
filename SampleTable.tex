@@ -61,15 +61,15 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
 \centering
 \begin{minipage}{\textwidth}
 \centering
-\begin{tabular}{c|r|l|c|c|c||c|c|c}
+\begin{tabular}{c|r@{\hspace{10pt}}|l|c|c|c||c|c|c}
 \multicolumn{9}{c}{TABLE VI\footnote{[The bracketed numbers are our corrections of errors in the original paper.]}}\\
 \hline
 \makecell{$t_g$\\[-2pt]\footnotesize{Sec.}} & \makecell{$t_{\scriptstyle{F}}$\\[-2pt]\footnotesize{Sec.}} & $\ \ \frac{1}{t_F}$ & $\frac{1}{t'_F}-\frac{1}{t_F}$ & $n'$ & $\frac{1}{n'}(\frac{1}{t'_F}-\frac{1}{t_F})$ & $\frac{1}{t_g}+\frac{1}{t_F}$ & n & $\frac{1}{n}(\frac{1}{t_g}+\frac{1}{t_F})$\\[5pt]
 \hline
 11.848 & 80.708 & .01236 & & & & .09655 & 18 & .005366\\
-11.890 & 22.366 & & .03234 & 6 & .005390 & & & \\
+11.890 & 22.366\tikzmark{1} & & .03234 & 6 & .005390 & & & \\
 11.908 & 22.390 & .04470 & & & & .12887 & 24 & .005371\\
-11.904 & 22.368 & & .03751 & 7 & .005358 & & & \\
+11.904 & 22.368\tikzmark{2} & & .03751 & 7 & .005358 & & & \\
 11.882 & 140.565 & .007192  & & & & .09138 & 17 & .005375\\
 6 & 29.50 & 29.62  & 15 & 73.75 & \ldots\\
 7 & 34.42 & 34.47  & 16 & 78.67 & 78.34\\
@@ -81,6 +81,11 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
 & Duration of exp. & = 45 min. & Pressure & = 75.62 cm.\\
 & Plate distance & = 16 mm. & Oil density & = .9199
 \end{tabular}
+\tikz[remember picture]
+\draw[overlay,decorate,
+    decoration = {brace,raise=4pt,amplitude=3pt,aspect=0.45}]([shift={(0pt,2pt)}]pic cs:1) -- ([shift={(0pt,2pt)}]pic cs:2);
+\bigskip
+
 \end{minipage}
 \end{table}
 
@@ -91,9 +96,9 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
 9 & 10\tikzmark{C} & 11 & 12\\
 \hline
 \end{tabular}
-\tikz[remember picture]\draw[overlay]([shift={(1pt,2pt)}]pic cs:A) -- ([shift={(-2pt,4pt)}]pic cs:B);
-\tikz[remember picture]\draw[overlay]([shift={(1pt,2pt)}]pic cs:C) -- ([shift={(-2pt,4pt)}]pic cs:B);
-
+\tikz[remember picture]
+\draw[overlay,decorate,
+    decoration = {brace,raise=6pt,amplitude=3pt,aspect=0.45}]([shift={(0pt,2pt)}]pic cs:A) -- ([shift={(0pt,2pt)}]pic cs:C);
 \bigskip
 
 \begin{tabular}{r r r r}
@@ -103,22 +108,10 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
 9 & 10\tikzmark{c} & 11 & 12\\
 \hline
 \end{tabular}
-\tikz[remember picture]\draw[overlay,dashed]([shift={(1pt,2pt)}]pic cs:a) -- ([shift={(-2pt,4pt)}]pic cs:b);
-\tikz[remember picture]\draw[overlay,dashed]([shift={(1pt,2pt)}]pic cs:c) -- ([shift={(-2pt,4pt)}]pic cs:b);
+\tikz[remember picture]\draw[overlay]([shift={(1pt,2pt)}]pic cs:a) -- ([shift={(-2pt,4pt)}]pic cs:b);
+\tikz[remember picture]\draw[overlay]([shift={(1pt,2pt)}]pic cs:c) -- ([shift={(-2pt,4pt)}]pic cs:b);
 
 \bigskip
-
-\begin{tabular}{c | c c c c}
-\hline
-Erzeugnis & \multicolumn{4}{c}{Fertigungsplätze}\\
-  & 1 & 2 & 3 & 4\\
-\cline{2-5}
-A & 1\tikzmark{A1} & \tikzmark{A2}3\tikzmark{A3} &   & \tikzmark{A4}2\\
-\hline
-\end{tabular}
-
-\tikz[remember picture] \draw[overlay] ([shift={(0.1em, 0.7ex)}]pic cs:A1) -- ([shift={(-0.1em, 0.7ex)}]pic cs:A2);
-\tikz[remember picture] \draw[overlay] ([shift={(0.1em, 0.7ex)}]pic cs:A3) -- ([shift={(-0.1em, 0.7ex)}]pic cs:A4);
 
 %\url{https://tex.stackexchange.com/a/1570/86}
 

@@ -29,3 +29,6 @@
 - [ ] p. 151, last par., line 2: for “arrange-ment” read “arrangement”
 - [ ] p. 155, par 1, line 6: for “Schroedinger” read “Schrödinger”
 - [ ] p. 191: move last line of text (the inequality) to the next page, so that it appears on the same page as its footnote.
+- [ ] p. 195, par. 2, line 4 from end of par: for "parameters, includes also", read "parameters and"
+- [ ] p. 195, par. 2, last 2 lines: for "on b, but the final result (15) contradicts", read "on b. The final result (15), however, contradicts"
+
