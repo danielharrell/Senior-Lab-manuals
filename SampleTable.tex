@@ -84,6 +84,42 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
 \end{minipage}
 \end{table}
 
+\begin{tabular}{r r r r}
+\hline
+1 & 2\tikzmark{A} & 3 & 4\\
+5 & 6\tikzmark{D} & \tikzmark{B}7 & 8\\
+9 & 10\tikzmark{C} & 11 & 12\\
+\hline
+\end{tabular}
+\tikz[remember picture]\draw[overlay]([shift={(1pt,2pt)}]pic cs:A) -- ([shift={(-2pt,4pt)}]pic cs:B);
+\tikz[remember picture]\draw[overlay]([shift={(1pt,2pt)}]pic cs:C) -- ([shift={(-2pt,4pt)}]pic cs:B);
+
+\bigskip
+
+\begin{tabular}{r r r r}
+\hline
+1 & 2\tikzmark{a} & 3 & 4\\
+5 & 6\tikzmark{d} & \tikzmark{b}7 & 8\\
+9 & 10\tikzmark{c} & 11 & 12\\
+\hline
+\end{tabular}
+\tikz[remember picture]\draw[overlay,dashed]([shift={(1pt,2pt)}]pic cs:a) -- ([shift={(-2pt,4pt)}]pic cs:b);
+\tikz[remember picture]\draw[overlay,dashed]([shift={(1pt,2pt)}]pic cs:c) -- ([shift={(-2pt,4pt)}]pic cs:b);
+
+\bigskip
+
+\begin{tabular}{c | c c c c}
+\hline
+Erzeugnis & \multicolumn{4}{c}{Fertigungsplätze}\\
+  & 1 & 2 & 3 & 4\\
+\cline{2-5}
+A & 1\tikzmark{A1} & \tikzmark{A2}3\tikzmark{A3} &   & \tikzmark{A4}2\\
+\hline
+\end{tabular}
+
+\tikz[remember picture] \draw[overlay] ([shift={(0.1em, 0.7ex)}]pic cs:A1) -- ([shift={(-0.1em, 0.7ex)}]pic cs:A2);
+\tikz[remember picture] \draw[overlay] ([shift={(0.1em, 0.7ex)}]pic cs:A3) -- ([shift={(-0.1em, 0.7ex)}]pic cs:A4);
+
 %\url{https://tex.stackexchange.com/a/1570/86}
 
 \hfill\tikzmark{right}
