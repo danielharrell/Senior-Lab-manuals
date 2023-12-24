@@ -21,8 +21,8 @@
 - [x] p. 93, main text, l. 8 from bottom: move period at beginning of line to end of equation (6) immediately above.
 - [x] p. 114, n. 27, line 4: delete period at end of line
 - [x] p. 125, n. 3: change “equation 2” to “equation 5”
-- [ ] p. 138, n. 4, last line: “λ0” should read “λ0”
-- [ ] p. 139, n. 8, first line, delete prime symbol after Δv
+- [x] p. 138, n. 5, last line: “λ0” should read “λ0”
+- [x] p. 139, n. 8, first line, delete prime symbol after Δv
 - [ ] n. 8, first line, end, “h Δx/Δλ” should read “h ΔxΔλ/λ02”
 - [ ] p. 145, note 21: "See Chapter 9, note 9" should read "See Chapter 8, note 9."
 - [ ] p.145, third full par., line 2: adjust typography so that “corpuscular” is aligned with the margin.
