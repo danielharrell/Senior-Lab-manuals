@@ -23,12 +23,12 @@
 - [x] p. 125, n. 3: change “equation 2” to “equation 5”
 - [x] p. 138, n. 5, last line: “λ0” should read “λ0”
 - [x] p. 139, n. 8, first line, delete prime symbol after Δv
-- [ ] n. 8, first line, end, “h Δx/Δλ” should read “h ΔxΔλ/λ02”
-- [ ] p. 145, note 21: "See Chapter 9, note 9" should read "See Chapter 8, note 9."
-- [ ] p.145, third full par., line 2: adjust typography so that “corpuscular” is aligned with the margin.
-- [ ] p. 151, last par., line 2: for “arrange-ment” read “arrangement”
-- [ ] p. 155, par 1, line 6: for “Schroedinger” read “Schrödinger”
-- [ ] p. 191: move last line of text (the inequality) to the next page, so that it appears on the same page as its footnote.
-- [ ] p. 195, par. 2, line 4 from end of par: for "parameters, includes also", read "parameters and"
-- [ ] p. 195, par. 2, last 2 lines: for "on b, but the final result (15) contradicts", read "on b. The final result (15), however, contradicts"
+- [x] n. 8, first line, end, “h Δx/Δλ” should read “h ΔxΔλ/λ02”
+- [x] p. 145, note 21: "See Chapter 9, note 9" should read "See Chapter 8, note 9."
+- [x] p.145, third full par., line 2: adjust typography so that “corpuscular” is aligned with the margin.
+- [x] p. 151, last par., line 2: for “arrange-ment” read “arrangement”
+- [x] p. 155, par 1, line 6: for “Schroedinger” read “Schrödinger”
+- [x] p. 191: move last line of text (the inequality) to the next page, so that it appears on the same page as its footnote.
+- [x] p. 195, par. 2, line 4 from end of par: for "parameters, includes also", read "parameters and"
+- [x] p. 195, par. 2, last 2 lines: for "on b, but the final result (15) contradicts", read "on b. The final result (15), however, contradicts"
 
