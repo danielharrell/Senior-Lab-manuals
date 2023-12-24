@@ -20,7 +20,7 @@
 - [x] p. 90, n. 10, reverse order of 𝛂 and ∞ in integral for p.e.
 - [x] p. 93, main text, l. 8 from bottom: move period at beginning of line to end of equation (6) immediately above.
 - [x] p. 114, n. 27, line 4: delete period at end of line
-- [ ] p. 125, n. 3: change “equation 2” to “equation 5”
+- [x] p. 125, n. 3: change “equation 2” to “equation 5”
 - [ ] p. 138, n. 4, last line: “λ0” should read “λ0”
 - [ ] p. 139, n. 8, first line, delete prime symbol after Δv
 - [ ] n. 8, first line, end, “h Δx/Δλ” should read “h ΔxΔλ/λ02”
