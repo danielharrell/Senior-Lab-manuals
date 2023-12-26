@@ -61,17 +61,18 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
 \centering
 \begin{minipage}{\textwidth}
 \centering
-\begin{tabular}{c|r@{\hspace{10pt}}|l|c|c|c||c|c|c}
+\begin{tabular}{c|r@{\hspace{10pt}}|l@{\hspace{10pt}}|c|c|c||c|c|c}
 \multicolumn{9}{c}{TABLE VI\footnote{[The bracketed numbers are our corrections of errors in the original paper.]}}\\
 \hline
 \makecell{$t_g$\\[-2pt]\footnotesize{Sec.}} & \makecell{$t_{\scriptstyle{F}}$\\[-2pt]\footnotesize{Sec.}} & $\ \ \frac{1}{t_F}$ & $\frac{1}{t'_F}-\frac{1}{t_F}$ & $n'$ & $\frac{1}{n'}(\frac{1}{t'_F}-\frac{1}{t_F})$ & $\frac{1}{t_g}+\frac{1}{t_F}$ & n & $\frac{1}{n}(\frac{1}{t_g}+\frac{1}{t_F})$\\[5pt]
 \hline
-11.848 & 80.708 & .01236 & & & & .09655 & 18 & .005366\\
+11.848 & 80.708 & .01236\phantom{0}\tikzmark{3} & & & & .09655 & 18 & .005366\\
 11.890 & 22.366\tikzmark{1} & & .03234 & 6 & .005390 & & & \\
-11.908 & 22.390 & .04470 & & & & .12887 & 24 & .005371\\
+11.908 & 22.390 & .04470\phantom{0}\tikzmark{4}\tikzmark{6} & & & & .12887 & 24 & .005371\\
 11.904 & 22.368\tikzmark{2} & & .03751 & 7 & .005358 & & & \\
-11.882 & 140.565 & .007192  & & & & .09138 & 17 & .005375\\
-6 & 29.50 & 29.62  & 15 & 73.75 & \ldots\\
+11.882 & 140.565 & .007192\tikzmark{5}\tikzmark{7}  & & & & .09138 & 17 & .005375\\
+& & & .005348 & 1 & .005348 & & &\\
+11.906 & 79.600 & .01254\phantom{0}\tikzmark{8} & & & & .09673 & 18 & .005374\\
 7 & 34.42 & 34.47  & 16 & 78.67 & 78.34\\
 8 & 39.34 & 39.38  & 17 & 83.59 & 83.22\\
 9 & 44.25 & 44.42  & 18 & 88.51 & \ldots\\
@@ -81,9 +82,17 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
 & Duration of exp. & = 45 min. & Pressure & = 75.62 cm.\\
 & Plate distance & = 16 mm. & Oil density & = .9199
 \end{tabular}
-\tikz[remember picture]
+\begin{tikzpicture}[remember picture]
 \draw[overlay,decorate,
-    decoration = {brace,raise=4pt,amplitude=3pt,aspect=0.45}]([shift={(0pt,2pt)}]pic cs:1) -- ([shift={(0pt,2pt)}]pic cs:2);
+    decoration = {brace,raise=3pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,2pt)}]pic cs:1) -- ([shift={(0pt,2pt)}]pic cs:2);
+\draw[overlay,decorate,
+    decoration = {brace,raise=2pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,2pt)}]pic cs:3) -- ([shift={(0pt,2pt)}]pic cs:4);
+\draw[overlay,decorate,
+    decoration = {brace,raise=2pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,3pt)}]pic cs:6) -- ([shift={(0pt,2pt)}]pic cs:5);
+\draw[overlay,decorate,
+    decoration = {brace,raise=2pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,3pt)}]pic cs:7) -- ([shift={(0pt,2pt)}]pic cs:8);
+\end{tikzpicture}
+
 \bigskip
 
 \end{minipage}
