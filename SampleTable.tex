@@ -82,7 +82,7 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
 & & & .005348 & 1 & .005348 & & &\\
 11.906 & 79.600 & .01254\phantom{0}\tikzmark{8} & & & & .09673 & 18 & .005374\\
 11.838 & 34.748\tikzmark{9} & & .01616  & 3 & .005387 & & & \\
-11.816 & 34.762 & .02870  & & & & .11289 & 21 & .005376\\
+11.816 & 34.762 & .02870\phantom{0}\tikzmark{11}  & & & & .11289 & 21 & .005376\\
 11.776 & 34.846\tikzmark{10} & & & & & & \\
 \hline
 \end{tabular}
@@ -105,7 +105,8 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
     decoration = {brace,raise=2pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,3pt)}]pic cs:6) -- ([shift={(0pt,3pt)}]pic cs:5);
 \draw[overlay,decorate,
     decoration = {brace,raise=2pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,3pt)}]pic cs:7) -- ([shift={(0pt,2pt)}]pic cs:8);
-
+\draw[overlay,decorate,
+    decoration = {brace,raise=2pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,2pt)}]pic cs:8) -- ([shift={(0pt,2pt)}]pic cs:11);
 \end{tikzpicture}
 \end{minipage}
 \end{table}
