@@ -70,7 +70,7 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
 \centering
 \begin{tabular}{c|r@{\hspace{10pt}}|l@{\hspace{10pt}}|c|c|c||c|c|c}
 \multicolumn{9}{c}{TABLE VI\footnote{[The bracketed numbers are our corrections of errors in the original paper.]}}\\[3pt]
-\hline
+\hline\hline
 \makecell{$t_g$\\[-2pt]\footnotesize{Sec.}} & \makecell{$t_{\scriptstyle{F}}$\\[-2pt]\footnotesize{Sec.}} & $\ \ \frac{1}{t_F}$ & $\frac{1}{t'_F}-\frac{1}{t_F}$ & $n'$ & $\frac{1}{n'}(\frac{1}{t'_F}-\frac{1}{t_F})$ & $\frac{1}{t_g}+\frac{1}{t_F}$ & n & $\frac{1}{n}(\frac{1}{t_g}+\frac{1}{t_F})$\\[5pt]
 \hline
 \rule{0pt}{1\normalbaselineskip}%space before first row numbers
@@ -84,13 +84,39 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
 11.838 & 34.748\tikzmark{9} & & .01616  & 3 & .005387 & & & \\
 11.816 & 34.762 & .02870\phantom{0}\tikzmark{11}  & & & & .11289 & 21 & .005376\\
 11.776 & 34.846\tikzmark{10} & & & & & & \\
+11.840 & 29.286\tikzmark{12} & & & & & & \\
+& & .03414 & & & & .11833 & 22 & .005379 \\
+11.904 & 29.236\tikzmark{13} & & .026872 & 5 & .005375 & & \\
+11.870 & 137.308 \\
+& & \\
+11.952 & 34.638 \\
+11.860 & \\
+11.846 & 22.104\tikzmark{14} \\
+& & \\
+11.912 & 22.268\tikzmark{15} \\
+11.910 & 500.1\phantom{00}\\
+11.918 & 19.704\tikzmark{16}\\
+& & \\
+11.870 & 19.668\tikzmark{17}\\
+& &\\
+11.888 & 77.630\tikzmark{18}\\
+& &\\
+11.894 & 77.806\tikzmark{19}\\
+11.878 & 42.302\\
+\hline
+\rule{0pt}{0.8\normalbaselineskip}
+$11.880\,\,$ \\
 \hline
 \end{tabular}
-\begin{tabular}{l@{\hskip 3em} l l@{\hskip 5em} l l}\\[-8pt]
+\small
+\begin{tabular}{l@{\hskip 2em} l l@{\hskip 5em} l l}\\[-8pt]
 & Duration of exp. & = 45 min. & Pressure & = 75.62 cm.\\
 & Plate distance & = 16 mm. & Oil density & = .9199\\
-& Fall distance & = 10.21 mm. & Air viscosity & = $1,824\times 10^{-7}$ [poise]\\
+& Fall distance & = 10.21 mm. & Air viscosity & = $1,824\times 10^{\,\text{-}7}$ [poise]\\
 & Initial volts & = 5,088.8 & Radius ($a$) & = .000276 cm.\\
+& Final volts & = 5,081.2 & $\frac{l}{a}$ [mean free path $\div\ a$] & = .034\\[2pt]
+& Temperature & = 22.82\textdegree C. & Speed of fall & = .08584 cm./sec.\\[3pt]
+\multicolumn{5}{c}{$e_i = 4.991\times 10^{\,\text{-}10}$ [statcoulomb]\footnote{[The value presently accepted is $4.802\times 10^{\,\text{-}10}$ statcoulombs.]}}\\
 \end{tabular}
 \begin{tikzpicture}[remember picture]
 % Column 2 braces
@@ -98,6 +124,15 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
     decoration = {brace,raise=3pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,2pt)}]pic cs:1) -- ([shift={(0pt,2pt)}]pic cs:2);
 \draw[overlay,decorate,
     decoration = {brace,raise=3pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,3pt)}]pic cs:9) -- ([shift={(0pt,2pt)}]pic cs:10);
+\draw[overlay,decorate,
+    decoration = {brace,raise=3pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,3pt)}]pic cs:12) -- ([shift={(0pt,2pt)}]pic cs:13);
+\draw[overlay,decorate,
+    decoration = {brace,raise=3pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,3pt)}]pic cs:14) -- ([shift={(0pt,2pt)}]pic cs:15);
+\draw[overlay,decorate,
+    decoration = {brace,raise=3pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,3pt)}]pic cs:16) -- ([shift={(0pt,2pt)}]pic cs:17);
+\draw[overlay,decorate,
+    decoration = {brace,raise=3pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,3pt)}]pic cs:18) -- ([shift={(0pt,2pt)}]pic cs:19);
+
 % Column 3 braces
 \draw[overlay,decorate,
     decoration = {brace,raise=2pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,3pt)}]pic cs:3) -- ([shift={(0pt,3pt)}]pic cs:4);
