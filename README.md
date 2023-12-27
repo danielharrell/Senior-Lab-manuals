@@ -33,3 +33,4 @@
 - [x] p. 195, par. 2, last 2 lines: for "on b, but the final result (15) contradicts", read "on b. The final result (15), however, contradicts"
 - [ ] p. 192, note 12. Clarify use of Griffiths and absolute value.
 - [ ] p. 153-54 Restore diagrams for note on single-slit diffraction etc.
+- [ ] Establish system cross-references
