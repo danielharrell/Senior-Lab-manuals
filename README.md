@@ -31,4 +31,4 @@
 - [x] p. 191: move last line of text (the inequality) to the next page, so that it appears on the same page as its footnote.
 - [x] p. 195, par. 2, line 4 from end of par: for "parameters, includes also", read "parameters and"
 - [x] p. 195, par. 2, last 2 lines: for "on b, but the final result (15) contradicts", read "on b. The final result (15), however, contradicts"
-
+- [ ] p. 192, note 12. Clarify use of Griffiths and absolute value.
