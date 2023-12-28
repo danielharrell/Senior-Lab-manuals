@@ -34,3 +34,4 @@
 - [ ] p. 192, note 12. Clarify use of Griffiths and absolute value.
 - [ ] p. 153-54 Restore diagrams for note on single-slit diffraction etc.
 - [ ] Establish system cross-references
+- [ ] Replace other tables in Millikan
