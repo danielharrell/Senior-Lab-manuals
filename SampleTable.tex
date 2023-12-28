@@ -1,4 +1,6 @@
 \documentclass{article}
+\usepackage{wrapfig}
+\usepackage{graphicx}
 \usepackage{pdfpages}
 \usepackage{nicematrix}
 \usepackage{siunitx}
@@ -192,6 +194,144 @@ $11.880\,\,$ \\
 \begin{equation}
 P(\pmb{a}, \pmb{b}) = \int d\lambda\, \rho(\lambda) A(\pmb{a}, \lambda) B(\pmb{b}, \lambda).\footnote{[According to the hypothesis Bell is investigating, the "more complete specification" of the particles' state, the extra information that would tell the observer who knew it which way the particle would respond to a given measurement, is given by $\lambda$. Equation (2) considers all the possible $\lambda$'s and weights them according to how likely each is. Mathematically, that means integrating over all the possible values of $\lambda$ and weighting each by its likelihood, represented by the probability distribution $\rho(\lambda)$. It may be helpful to note that $P$ was likely chosen to stand for "product," since the term we are integrating $\rho$ against is the product of $A$ and $B$. Because we've defined $A$ and $B$ such that the results of measurements yield the values $+1$ and $-1$, the product for any given value of $\lambda$ will always be either $+1$ (meaning that the two particles would both be measured to be pointing either in the selected directions $\pmb{a}$ and $\pmb{b}$ or in directions opposed to them) or $-1$ (meaning that the directions of $\pmb{\sigma}_1$ and $\pmb{\sigma}_2$ would be measured to be opposed, whether because $\pmb{\sigma}_1$ would \emph{not} be measured to point in direction $\pmb{a}$ and $\pmb{\sigma}_2$ \emph{would} be measured to point in direction $\pmb{b}$ or because $\pmb{\sigma}_1$ \emph{would} be measured to point in direction $\pmb{a}$ and $\pmb{\sigma}_2$ would \emph{not} be measured to point in direction $\pmb{b}$. Since it is weighted sum of all the positive and negative terms, $P(\pmb{a},\pmb{b})$ is thus a measure of the \emph{correlation} between the spin-direction of the two particles relative to the angles $\pmb{a}$ and $\pmb{b}$.]}
 \end{equation}
+
+\newpage
+
+\section*{Note\\
+  {\large Single-slit Diffraction and the Limit of Optical Resolution}}
+
+\begin{wrapfigure}{r}{0.45\textwidth}
+\includegraphics{Figure1SSD.pdf}
+\end{wrapfigure}
+
+1. \emph{Single-slit diffraction}. Let there be a narrow slit of width
+$d$, illuminated uniformly along the axis perpendicular to the
+plane of the slit. As in Huygens' treatment, consider the plane of the
+slit to be populated by infinitely many centers of wavelets, expanding
+in all forward directions. Thus the light beam will spread out as it
+leaves the slit.
+
+
+There will be some angle, say $\theta$, at which the wavelets that were
+emitted from \emph{one edge} of the slit and from the \emph{center} of
+the slit, respectively, will cover distances that differ by an integral
+number of half-wavelengths and arrive together at some distant
+point---where they will mutually cancel, being exactly out of phase with
+one another. The innumerable remaining wavelets may be similarly paired
+for mutual cancellation; so that the overall result will be a dark spot
+at angle $\theta$ from the perpendicular axis.
+
+In the right triangle thus formed with hypotenuse $d/2$ and one leg
+an integral multiple of $\lambda/2$, the marked angle will be equal to
+$\theta$ and will have sine given by
+
+\begin{equation*}
+\sin \theta = \frac{n\lambda/2}{d/2} = \frac{n\lambda}{d}.
+\end{equation*}
+
+Since $n$ is any integer, there will be alternating bands of
+illumination and darkness for all angles up to 90$^\circ$ on either side of the
+perpendicular axis. But in practice the greatest illumination is found
+within the ``central maximum,'' that region bounded by the two minima
+for which $n = 1$ (called ``first-order'' minima). Suppose these
+minima appear at angles $\theta_1$ on either side of the axis. Then
+$\theta_1$ will be the \emph{angular half-width} of the central maximum,
+and will be given by
+
+\begin{equation*}
+\sin \theta_1 = \frac{\lambda}{d}.
+\end{equation*}
+
+2. \emph{Optical resolution}.\footnote{After Curtis Wilson, c. 1980.}
+Consider points P$_1$ and P$_2$ on the surface of some object. Let their
+angular separation be $\beta$, and let it be supposed that both points
+emit or reflect light of wavelength $\lambda$. For the sake of
+simplicity, we will let the aperture through which light is admitted to
+the instrument be a slit of width $a$ (a circular aperture can be
+analogously treated, but numerous complications arise for that case).
+Light from each point forms its own independent diffraction pattern with
+a central maximum flanked by pairs of minima. As shown in the previous
+section 1, each central maximum will have an angular half-width equal to
+$\theta_1$ such that
+
+\begin{equation*}
+\sin \theta_1 = \lambda/a.
+\end{equation*}
+
+Now the central maxima of the two patterns lie in the focal plane of the
+instrument lens and (since rays passing through the center of a lens are
+not bent) must be separated from one another by the angle $\beta$. But
+as aperture \emph{a} is made smaller, the angular half-width of each
+central maximum increases, until eventually $\theta_1 = \beta$---that
+is, the central maximum of each pattern coincides with a first-order
+minimum of the other pattern. The central bright maxima will then be
+immediately adjacent to one another. Inspection of the sum of the two
+intensity graphs under these conditions shows that instead of forming
+two distinct bands, the central maxima will merge into a \emph{single
+band}.
+
+Someone viewing such an image through the instrument would be quite
+unable to distinguish either of these maxima from the other; and thus
+the points P1 and P2 would become \emph{indistinguishable}. No increase
+of magnifying power, so long as the same aperture width is retained, can
+remedy this limitation. However, if the aperture width $a$ is
+increased even the slightest amount, so that the separation between the
+two patterns increases by any degree at all, there will be found a dip
+between the two maxima when the sum of the intensity graphs is plotted
+as before. Thus, that the central maximum of each pattern shall coincide
+with the first-order minimum of the other is a \emph{limiting condition}
+for the resolution of the images of two points; it is called
+\emph{Rayleigh's criterion}.
+
+Heisenberg's equation (16) derives directly from
+Rayleigh's criterion. For suppose $\theta_1 = \beta$ as described
+above; that is, let
+%
+\begin{equation}
+\sin \beta = \lambda/a. % eqn (1)
+\end{equation}
+%
+Let the object distance be $R$, and suppose also that angle
+$\beta$ is very small. Then $\Delta x$ is the chord of a circle with
+center at the vertex of $\beta$, and so it very nearly equals the arc
+which it subtends. This small arc equals $R\beta$ \ (radians);
+while in its turn a very small angle $\beta$ (in radians) nearly equals
+$\sin \beta$. This gives $\Delta x \approx R \times \sin\beta$, so that
+%
+\begin{equation}
+\sin \beta \approx \Delta x/R . % eqn (2)
+\end{equation}
+%
+From equations (1) and (2) it follows that
+%
+\begin{equation}
+\frac{\Delta x}{R} = \frac{\lambda}{a}. % eqn (3)
+\end{equation}
+%
+
+
+Similarly, the aperture of width $a$ located at distance $R$
+from a point will subtend an angle $\varepsilon$ such that, if $\varepsilon$ is
+very small,
+%
+\begin{equation*}
+\sin \varepsilon \approx a/R,
+\end{equation*}
+%
+from which
+
+\begin{equation}
+a \approx R \sin \varepsilon. % eqn (4)
+\end{equation}
+
+Substitution of equation (4) into equation (3) above yields
+%
+\begin{equation*}
+\frac{\Delta x}{R} \approx \frac{\lambda}{R \sin \varepsilon}
+\end{equation*}
+%
+which becomes Heisenberg's equation (16), when $R$ is canceled from
+both sides. Q.E.D.
 
 \newpage
 \includepdf[pages=-,pagecommand={},fitpaper=true]{Note_SSDiffraction}
