@@ -36,5 +36,6 @@
     - [x] First diagram
 - [ ] Establish system cross-references
     - [x] Faraday paper
-- [ ] Replace other tables in Millikan
+- [ ] Replace other tables in Millikan (and table environ)
+    - [x] Table IV reformatted
 - [ ] Rename folders and files for 2024
