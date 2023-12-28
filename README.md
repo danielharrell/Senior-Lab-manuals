@@ -38,4 +38,5 @@
     - [x] Faraday paper
 - [ ] Replace other tables in Millikan (and table environ)
     - [x] Table IV reformatted
+    - [x] Table V reformatted
 - [ ] Rename folders and files for 2024
