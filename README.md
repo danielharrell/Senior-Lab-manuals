@@ -36,6 +36,7 @@
     - [x] First diagram
     - [x] Second diagram
     - [ ] Third diagram
+    - [ ] Fourth diagram
     - [ ] Restore to manual
 - [ ] Establish system cross-references
     - [x] Faraday paper
