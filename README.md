@@ -34,10 +34,13 @@
 - [ ] p. 192, note 12. Clarify use of Griffiths and absolute value.
 - [ ] p. 153-54 Restore diagrams for note on single-slit diffraction etc.
     - [x] First diagram
+    - [x] Second diagram
 - [ ] Establish system cross-references
     - [x] Faraday paper
 - [ ] Replace other tables in Millikan (and table environ)
     - [x] Table IV reformatted
     - [x] Table V reformatted
+    - [ ] Table VI reformotted
+    - [x] Table VII reformatted
 - [ ] Rename folders and files for 2024
 - [ ] Check to-do list in QM folder
