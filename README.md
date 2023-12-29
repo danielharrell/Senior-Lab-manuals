@@ -35,9 +35,9 @@
 - [ ] p. 153-54 Restore diagrams for note on single-slit diffraction etc.
     - [x] First diagram
     - [x] Second diagram
-    - [ ] Third diagram
-    - [ ] Fourth diagram
-    - [ ] Restore to manual
+    - [x] Third diagram
+    - [x] Fourth diagram
+    - [ ] Restore to manual (with page reference Heis restored)
 - [ ] Establish system cross-references
     - [x] Faraday paper
 - [ ] Replace other tables in Millikan (and table environ)
