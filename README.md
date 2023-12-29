@@ -35,6 +35,8 @@
 - [ ] p. 153-54 Restore diagrams for note on single-slit diffraction etc.
     - [x] First diagram
     - [x] Second diagram
+    - [ ] Third diagram
+    - [ ] Restore to manual
 - [ ] Establish system cross-references
     - [x] Faraday paper
 - [ ] Replace other tables in Millikan (and table environ)
@@ -42,5 +44,6 @@
     - [x] Table V reformatted
     - [ ] Table VI reformotted
     - [x] Table VII reformatted
+    - [x] Work on our tables page 38 (formatting and placement)
 - [ ] Rename folders and files for 2024
 - [ ] Check to-do list in QM folder

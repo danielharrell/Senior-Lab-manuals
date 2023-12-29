@@ -751,18 +751,22 @@ direction are desirable. Do not raise or lower the plate voltage
 adjustment once you begin timing a drop. Record the fall times and rise
 times in separate columns. A series of measurements of these times,
 \emph{all performed on the same drop}, will enable you to construct a
-table like Millikan's Table VI. Here is an example (figures are from
-1997):
-
-\begin{center}
+table like Millikan's Table VI. See Table A (figures are from
+1997).
+\begin{table}[htp]
+\centering
+%\begin{center}
 \small
-\begin{tabular}{|l|c||c|c|c|c|c|c|c|c|}
+\begin{tabular}{|S|c||S|c|c|c|c|c|c|c|}
 \hline
- & $d$ = 0.5cm & & $d$ = 0.5cm & \makecell{Charge\\on ion} & & & \makecell{Frictional\\charge} & & \\
+\rule{0pt}{1.5\normalbaselineskip}
+ & $d$ = 0.5cm & & $d$ = 0.5cm & \makecell{Charge\\on ion} & & & \makecell{Frictional\\charge} & & \\[10pt]
 \hline
-$t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(cm/sec)} & $(v_{2}'\!-\!v_2)$ & $n'$ & $\frac{v_{2}'-v_2}{n'}$ & $v_1+v_2$ & $n$ & $\frac{v_1+v_2}{n}$\\
+\rule{0pt}{1.5\normalbaselineskip}
+$t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(cm/sec)} & $(v_{2}'\!-\!v_2)$ & $n'$ & $\frac{v_{2}'-v_2}{n'}$ & $v_1+v_2$ & $n$ & $\frac{v_1+v_2}{n}$\\[10pt]
 \hline
-18.2    & .00286 & 3.8 & 0.01316 & & & & 0.01602 & 3 & .00534\\
+\rule{0pt}{1\normalbaselineskip}
+18.2    & .00286 & 3.8 & .01316 & & & & .01602 & 3 & .00534\\
 18.6    & \emph{avr}  & & & .00470 & 1 & .00470 & & & \\
 19.2    & & 2.8 & .01786 & & & & & & \\
 18.0    & & & & .01561 & 3 & .00520 & & & \\
@@ -772,15 +776,17 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
 18.0    & & & & .00541 & 1 & .00541 & & & \\
 15.4    & & 21.9 & .00228 & & & & & & \\
 17.3    & & & & .01123 & 2 & .00562 & & & \\
-\underline{18.4}    & & 3.7 & .01351 & & & \underline{\hspace{2em}} & & & \underline{\hspace{2em}} \\
-17.5 & & & & & & .00527 & & & .00534 \\
-\emph{avr} & & & & & & \emph{avr} & & &\\
+18.4    & & 3.7 & .01351 & & & & & & \\[3pt]
+\hline
+\rule{0pt}{1\normalbaselineskip}
+17.5 & & & & & & .00527 & & & .00534\\
+{\makecell[l]{\emph{avr}}} & & & & & & \emph{avr} & & &\\[3pt]
 \hline
 \end{tabular}
-\end{center}
-
+%\end{center}
+\caption*{Table A}
+\end{table}
 \subsubsection*{Measurements on Multiple Drops}
-
 Although it would be convenient to make all measurements on a single
 droplet, it is seldom possible to do so; for it proves extremely
 difficult to hold any one drop in play for long periods of time. But
@@ -795,24 +801,28 @@ $\sqrt{v_1}(v_1+v_2)$ & and & $\sqrt{v_1}(v_{2}'-v_2)$\\
 \end{tabular}
 \end{center}
 instead of (\emph{v}\textsubscript{1} + \emph{v}\textsubscript{2}) and
-(\emph{v}'\textsubscript{2} -- \emph{v}\textsubscript{2}) directly. Here
-is an example of such a table (the figures are from 1983):
+(\emph{v}'\textsubscript{2} -- \emph{v}\textsubscript{2}) directly. See Table B
+(the figures are from 1983).
 
-\begin{center}
+\begin{table}[htp]
+\centering
+%\begin{center}
 \small
-\begin{tabular}{l l l l l l}
-\hline
-Obsvd. $t_g$ & $v_1$ (i.e., $1/t_g$) & Obsvd. $t_F$ & $v_2$ (i.e., $1/t_F$) & $(v'_2-v_2)$ & $\sqrt{v_1}(v'_2-v_2)$\\
-\hline
-7.2 sec & .1389 & 2.1 sec & .4762 & .1984 & .0739\\
+\begin{tabular}{S S S S S S}
+\hline\\[-10pt]
+{Obsvd. $t_g$} & {$v_1$ (i.e., $1/t_g$)} & {Obsvd. $t_F$} & {$v_2$ (i.e., $1/t_F$)} & {\phantom{00}$(v'_2-v_2)$} & {$\sqrt{v_1}(v'_2-v_2)$}\\[1pt]
+\hline\\[-10pt]
+7.2\ {sec} & .1389 & 2.1\ {sec} & .4762 & .1984 & .0739\\
  & & 3.6 & .2778 & .1978 & .0737\\
  & & 12.5 & 0.0800 & &\\
-5.8 sec & .1724 & 1.9 & .5263 & .3792 & .1575\\
+5.8\ {sec} & .1724 & 1.9 & .5263 & .3792 & .1575\\
  & & 6.8 & .1471 & .8529 & .3541\\
  & & 1.0 & 1.000 & .7059 & .2931\\
  & & 3.4 & .2941 & &\\
 \end{tabular}
-\end{center}
+%\end{center}
+\caption*{Table B}
+\end{table}
 
 The table entries reflect measurements on two different droplets. In the
 sixth column the observed changes in rise speed are multiplied by
