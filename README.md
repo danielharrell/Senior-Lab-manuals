@@ -40,6 +40,7 @@
     - [x] Restore to manual (with page reference Heis restored)
 - [ ] Establish system cross-references
     - [x] Faraday paper
+    - [ ] Re-check Faraday, make everything lower case.
 - [ ] Replace other tables in Millikan (and table environ)
     - [x] Table IV reformatted
     - [x] Table V reformatted
