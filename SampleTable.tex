@@ -71,7 +71,7 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
 \centering
 \begin{minipage}{\textwidth}
 \centering
-\begin{tabular}{c|r@{\hspace{10pt}}|l@{\hspace{10pt}}|c|c|c||c|c|c}
+\begin{tabular}{c|r@{\hspace{10pt}}|l@{\hspace{10pt}}|l|c|c||c|c|c}
 \multicolumn{9}{c}{TABLE VI\footnote{[The bracketed numbers are our corrections of errors in the original paper.]}}\\[3pt]
 \hline\hline
 \makecell{$t_g$\\[-2pt]\footnotesize{Sec.}} & \makecell{$t_{\scriptstyle{F}}$\\[-2pt]\footnotesize{Sec.}} & $\ \ \frac{1}{t_F}$ & $\frac{1}{t'_F}-\frac{1}{t_F}$ & $n'$ & $\frac{1}{n'}(\frac{1}{t'_F}-\frac{1}{t_F})$ & $\frac{1}{t_g}+\frac{1}{t_F}$ & n & $\frac{1}{n}(\frac{1}{t_g}+\frac{1}{t_F})$\\[5pt]
@@ -88,24 +88,24 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
 11.816 & 34.762 & .02870\phantom{0}\tikzmark{11}  & & & & .11289 & 21 & .005376\\
 11.776 & 34.846\tikzmark{10} & & & & & & \\
 11.840 & 29.286\tikzmark{12} & & & & & & \\
-& & .03414 & & & & .11833 & 22 & .005379 \\
+& & .03414\phantom{0}\tikzmark{20} & & & & .11833 & 22 & .005379 \\
 11.904 & 29.236\tikzmark{13} & & .026872 & 5 & .005375 & & \\
-11.870 & 137.308 & .007268 \\
-& & \\
-11.952 & 34.638 & .02884 \\
-11.860 & \\
-11.846 & 22.104\tikzmark{14} \\
-& & .04507 \\
-11.912 & 22.268\tikzmark{15} \\
-11.910 & 500.1\phantom{00} & .002000\\
-11.918 & 19.704\tikzmark{16}\\
-& & .05079\\
-11.870 & 19.668\tikzmark{17}\\
-& &\\
-11.888 & 77.630\tikzmark{18}\\
-& & .01285\\
-11.894 & 77.806\tikzmark{19}\\
-11.878 & 42.302 & .02364\\
+11.870 & 137.308 & .007268\tikzmark{21} \\
+& & & .021572 \\
+11.952 & 34.638 & .02884\phantom{0}\tikzmark{22} \\
+11.860 & & & .01623 \\
+11.846 & 22.104\tikzmark{14} &\\
+& & .04507\phantom{0}\tikzmark{23} \\
+11.912 & 22.268\tikzmark{15} & & .04307 \\
+11.910 & 500.1\phantom{00} & .002000\tikzmark{24}\\
+11.918 & 19.704\tikzmark{16} & & .04879 \\
+& & .05079\phantom{0}\tikzmark{25}\\
+11.870 & 19.668\tikzmark{17} &\\
+& & & .03874\\
+11.888 & 77.630\tikzmark{18} &\\
+& & .01285\phantom{0}\tikzmark{26}\\
+11.894 & 77.806\tikzmark{19} & & .01079\\
+11.878 & 42.302 & .02364\phantom{0}\tikzmark{27}\\
 \hline
 \rule{0pt}{0.8\normalbaselineskip}
 $11.880\,\,$ \\
@@ -145,6 +145,20 @@ $11.880\,\,$ \\
     decoration = {brace,raise=2pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,3pt)}]pic cs:7) -- ([shift={(0pt,2pt)}]pic cs:8);
 \draw[overlay,decorate,
     decoration = {brace,raise=2pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,2pt)}]pic cs:8) -- ([shift={(0pt,2pt)}]pic cs:11);
+\draw[overlay,decorate,
+    decoration = {brace,raise=2pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,2pt)}]pic cs:20) -- ([shift={(0pt,2pt)}]pic cs:21);
+    \draw[overlay,decorate,
+    decoration = {brace,raise=2pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,2pt)}]pic cs:21) -- ([shift={(0pt,2pt)}]pic cs:22);
+    \draw[overlay,decorate,
+    decoration = {brace,raise=2pt,amplitude=4pt,aspect=0.3}]([shift={(0pt,2pt)}]pic cs:22) -- ([shift={(0pt,2pt)}]pic cs:23);
+    \draw[overlay,decorate,
+    decoration = {brace,raise=2pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,2pt)}]pic cs:23) -- ([shift={(0pt,2pt)}]pic cs:24);
+    \draw[overlay,decorate,
+    decoration = {brace,raise=2pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,2pt)}]pic cs:24) -- ([shift={(0pt,2pt)}]pic cs:25);
+    \draw[overlay,decorate,
+    decoration = {brace,raise=2pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,2pt)}]pic cs:25) -- ([shift={(0pt,2pt)}]pic cs:26);
+    \draw[overlay,decorate,
+    decoration = {brace,raise=2pt,amplitude=4pt,aspect=0.45}]([shift={(0pt,2pt)}]pic cs:26) -- ([shift={(0pt,2pt)}]pic cs:27);
 \end{tikzpicture}
 \end{minipage}
 \end{table}
