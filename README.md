@@ -32,7 +32,7 @@
 - [x] p. 195, par. 2, line 4 from end of par: for "parameters, includes also", read "parameters and"
 - [x] p. 195, par. 2, last 2 lines: for "on b, but the final result (15) contradicts", read "on b. The final result (15), however, contradicts"
 - [ ] p. 192, note 12. Clarify use of Griffiths and absolute value.
-- [ ] p. 153-54 Restore diagrams for note on single-slit diffraction etc.
+- [x] p. 153-54 Restore diagrams for note on single-slit diffraction etc.
     - [x] First diagram
     - [x] Second diagram
     - [x] Third diagram
@@ -49,3 +49,4 @@
     - [x] Work on our tables page 38 (formatting and placement)
 - [ ] Rename folders and files for 2024
 - [ ] Check to-do list in QM folder
+- [ ] Check formatting and footnote placement throughout manual
