@@ -37,7 +37,7 @@
     - [x] Second diagram
     - [x] Third diagram
     - [x] Fourth diagram
-    - [ ] Restore to manual (with page reference Heis restored)
+    - [x] Restore to manual (with page reference Heis restored)
 - [ ] Establish system cross-references
     - [x] Faraday paper
 - [ ] Replace other tables in Millikan (and table environ)
