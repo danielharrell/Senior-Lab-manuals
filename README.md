@@ -52,4 +52,5 @@
 - [ ] Rename folders and files for 2024
 - [ ] Check to-do list in QM folder
 - [ ] Check formatting and footnote placement throughout manual
-- [ ] Thomson page 18 put equations on same line
+- [x] Thomson page 18 put equations on same line
+- [ ] Reduce spacing equation (9) Millikan (page 35)
