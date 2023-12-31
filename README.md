@@ -40,9 +40,10 @@
     - [x] Fourth diagram
     - [x] Restore to manual (with page reference Heis restored)
 - [ ] Establish system cross-references
+    - [ ] Check all labels in documents and correct as necessary
     - [x] Faraday paper
     - [x] Re-check Faraday, make everything lower case.
-    - [ ] Millikan paper
+    - [ ] Millikan paper (on page 36)
 - [x] Replace other tables in Millikan (and table environ)
     - [x] Table IV reformatted
     - [x] Table V reformatted

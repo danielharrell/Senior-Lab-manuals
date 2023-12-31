@@ -52,7 +52,7 @@ With some constant of proportionality, $R$, then, the viscous force
 $r$ resisting the droplet's fall will be
 
 \begin{equation*}\tag{3.1}
-r = Rv
+r = Rv \label{eq:millikan_3.1}
 \end{equation*}
 %
 as shown in Fig. (a).
@@ -86,7 +86,7 @@ rather than, as is actually the case, to the presence of an upward
 buoyant force $\beta = V\rho g$. The expression for the net downward
 force can then be written
 \begin{equation*}\tag{3.2}
-f = mg - Rv
+f = mg - Rv \label{eq:millikan_3.2}
 \end{equation*}
 where $m = V(\sigma-\rho)$. There will be a downward
 acceleration---that is, a continuing increase in velocity $v$---so
@@ -95,7 +95,7 @@ effective weight $mg$.
 
 However, as the velocity of the drop increases, so will the resistance;
 as $Rv$ increases it will approach $mg$ and the net force
-$f$ will approach zero, as is clear from equation (3.2) above. The
+$f$ will approach zero, as is clear from equation \eqref{eq:millikan_3.2} above. The
 acceleration will become very small, and the droplet will continuously 
 approach the \emph{constant} velocity $v_1$,\footnote{In practice, the drop
 almost immediatley accelerates to a velocity immeasurably close to its terminal 
@@ -106,7 +106,7 @@ Rv = mg.
 %
 This gives
 \begin{equation*}\tag{3.3}
-v_1 = \frac{mg}{R}.
+v_1 = \frac{mg}{R}. \label{eq:millikan_3.3}
 \end{equation*}
 
 Suppose now that the droplet bears electric charge $e_n$. In the
@@ -125,23 +125,23 @@ Then by an argument similar to that for the drop when falling, the
 rising drop will shortly attain a constant upward velocity $v_2$,
 where
 \begin{equation*}\tag{3.4}
-v_2=\frac{Fe_n - mg}{R}
+v_2=\frac{Fe_n - mg}{R} \label{eq:millikan_3.4}
 \end{equation*}
 It is a striking characteristic of motion in a viscous medium that a
 body under the action of a constant force attains a \emph{constant
 velocity proportional to that force}.
 
-Equations (3.3) and (3.4) constitute all the theory that Millikan
+Equations \eqref{eq:millikan_3.3} and \eqref{eq:millikan_3.4} constitute all the theory that Millikan
 requires to establish from his observations that the electron
 \emph{exists}; although calculation of its \emph{quantity} involves, as
 we shall see, considerably more reasoning. Actually Millikan uses the
-\emph{quotient} of equation (3.3) by equation (3.4), which is
+\emph{quotient} of equation \eqref{eq:millikan_3.3} by equation \eqref{eq:millikan_3.4}, which is
 \begin{center}
-\begin{align*}\tag{1}
-\frac{v_1}{v_2} = \frac{mg}{Fe_n - mg} \quad\text{or}\quad & e_n = \frac{mg}{Fv_1}(v_1 + v_2)
-\end{align*}
+\begin{equation*}\tag{1}
+\frac{v_1}{v_2} = \frac{mg}{Fe_n - mg} \quad\text{or}\quad  e_n = \frac{mg}{Fv_1}(v_1 + v_2)
+\end{equation*}
 \end{center}
-It will be called equation (9) in the selection that follows.
+It will be called equation \eqref{eq:millikan_9} in the selection that follows.
 
 A final remark: unlike Thomson (who had to deal with both electric and
 magnetic qualities in his calculations), Millikan, who deals with the
@@ -152,9 +152,9 @@ read. Thus he will eventually state his fundamental unit of charge in
 results, recall that the electromagnetic and the e\-lec\-tro\-stat\-ic systems
 of units are related by the constant \emph{c} (the speed of light in 
 centimeters per second), so that one abcoulomb
-equals $3.00 \times 10^{10}$ stat\-cou\-lombs. (See Appendix below
+equals $3.00 \times 10^{10}$ stat\-cou\-lombs.\footnote{See Appendix (p.~\pageref{ch:appendix})
 for a fuller discussion of the relation between the ``e\-lec\-tro\-stat\-ic''
-and ``electromagnetic'' system of units.)
+and ``electromagnetic'' system of units.}
 
 \section*{The Electron\\ {\large R.\ A.\ Millikan}}
 
@@ -303,9 +303,9 @@ the time being as a mere assumption, as Townsend, Thomson, and Wilson
 had done before, we get
 %
 %\begin{center}
-\begin{align*}\tag{9}
-\frac{v_1}{v_2} = \frac{mg}{Fe_n-mg} \quad\text{or}\quad & e_n = \frac{mg}{Fv_1}(v_1+v_2)
-\end{align*}
+\begin{equation*}\tag{9}
+\frac{v_1}{v_2} = \frac{mg}{Fe_n-mg} \quad\text{or}\quad e_n = \frac{mg}{Fv_1}(v_1+v_2) \label{eq:millikan_9}
+\end{equation*}
 %\end{center}
 %
 The negative sign is used in the denominator because $v_2$ will for
@@ -316,7 +316,7 @@ on the drop, and must not be confused with the charge on an ion. If now
 by the capture of an ion the drop changes its charge from $e_n$ to
 $e_{n'}$, then the value of the captured charge $e_i$ is
 \begin{equation*}\tag{10}
-e_i = e_{n'}-e_n=\frac{mg}{Fv_1}(v_{2}'-v_2)
+e_i = e_{n'}-e_n=\frac{mg}{Fv_1}(v_{2}'-v_2) \label{eq:millikan_10}
 \end{equation*}
 and since $mg/Fv_1$ is a constant for this drop, any charge which it
 may capture will always be proportional to ($v_{2}'-v_2$),
@@ -329,7 +329,7 @@ are shown in Table V.
 \begin{minipage}{\textwidth}
 \centering
 \begin{tabular}{ c c }
-  \multicolumn{2}{c}{TABLE V\footnote{[The bracketed numbers are our corrections of typos
+  \multicolumn{2}{c}{TABLE V\footnote{[The bracketed numbers are our corrections of errors
   in Millikan's original table.]}}\\[3pt]
   $v_2$ & $ (v'_2 - v_2)$\\[5pt]
   $\frac{.5222}{12.45} = .04196$ & \multirow{3}{*}{$\biggr\} .01806 \div 2 = .00903$}\\
@@ -381,7 +381,7 @@ ordinary static charges are built up of electrons, this charge should be
 found to be an exact multiple of the ionic charge which had been found
 from the most reliable measurement shown in Table V to be proportional
 to the velocity .00891. This initial charge $e_n$ on the drop is
-seen from equations (9) and (10) to bear the same relation to ($v_1$
+seen from equations \eqref{eq:millikan_9} and \eqref{eq:millikan_10} to bear the same relation to ($v_1$
 + $v_2$) which the ionic charge $e_{n'} - e_n$ bears to
 ($v_{2}' - v_2$). Now, $v_1 = .5222\div13.595 = .03842$, hence
 $v_1 + v_2 = .03842 + .04196 = .08038$. Dividing this by 9 we
@@ -446,7 +446,7 @@ capture of ions. These also are expressed merely as time reciprocals.
 \begin{minipage}{\textwidth}
 \centering
 \begin{tabular}{c|r@{\hspace{10pt}}|l@{\hspace{10pt}}|l|c|c||c|c|c}
-\multicolumn{9}{c}{TABLE VI\footnote{[The bracketed numbers are our corrections of errors in the original paper.]}}\\[3pt]
+\multicolumn{9}{c}{TABLE VI\footnote{[The bracketed numbers are our corrections of errors in Millikan's original table.]}}\\[3pt]
 \hline\hline
 \makecell{$t_g$\\[-2pt]\footnotesize{Sec.}} & \makecell{$t_{\scriptstyle{F}}$\\[-2pt]\footnotesize{Sec.}} & $\ \ \frac{1}{t_F}$ & $\frac{1}{t'_F}-\frac{1}{t_F}$ & $n'$ & $\frac{1}{n'}(\frac{1}{t'_F}-\frac{1}{t_F})$ & $\frac{1}{t_g}+\frac{1}{t_F}$ & n & $\frac{1}{n}(\frac{1}{t_g}+\frac{1}{t_F})$\\[5pt]
 \hline
@@ -670,9 +670,9 @@ recorded in Table IV took place.\\
 As Millikan shows in his Table V, the two equations
 %
 \begin{center}
-\begin{align*}\tag{9}
-\frac{v_1}{v_2} = \frac{mg}{Fe_n-mg} & \: & \text{or} & \: & e_n = \frac{mg}{Fv_1}(v_1+v_2)
-\end{align*}
+\begin{equation*}\tag{9}
+\frac{v_1}{v_2} = \frac{mg}{Fe_n-mg} \quad \text{or} \quad e_n = \frac{mg}{Fv_1}(v_1+v_2)
+\end{equation*}
 \end{center}
 %
 and
@@ -695,14 +695,14 @@ mg = V(\sigma\!-\!\rho)g
 or, assuming the drop to be a sphere of radius \emph{a},
 %
 \begin{equation*}\tag{3.6}
-mg = \frac{4\pi{a}^3}{3}(\sigma\!-\!\rho)g.
+mg = \frac{4\pi{a}^3}{3}(\sigma\!-\!\rho)g. \label{eq:millikan_3.6}
 \end{equation*}
 %
 Millikan has no way to measure this quantity directly; but reasoning
 from the viscous (resistive) properties of the medium, air, he is able
 to devise an indirect measurement.
 
-We have already derived in equation (3.3) an expression for the limiting 
+We have already derived in equation \eqref{eq:millikan_3.3} an expression for the limiting 
 velocity attained by a body that falls through a viscous medium:
 %
 \begin{equation*}\tag{3.3}
