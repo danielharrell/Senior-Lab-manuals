@@ -43,7 +43,8 @@
     - [ ] Check all labels in documents and correct as necessary
     - [x] Faraday paper
     - [x] Re-check Faraday, make everything lower case.
-    - [ ] Millikan paper (on page 36)
+    - [x] Millikan paper (on page 36)
+    - [ ] Rutherford paper
 - [x] Replace other tables in Millikan (and table environ)
     - [x] Table IV reformatted
     - [x] Table V reformatted
