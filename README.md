@@ -51,7 +51,8 @@
     - [x] Table VI reformatted
     - [x] Table VII reformatted
     - [x] Work on our tables page 38 (formatting and placement)
-- [ ] Rename folders and files for 2024
+- [x] Rename folders and files for 2023
+- [ ] Rename to 2024?
 - [ ] Check to-do list in QM folder
 - [ ] Check formatting and footnote placement throughout manual
 - [x] Thomson page 18 put equations on same line
