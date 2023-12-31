@@ -88,7 +88,7 @@ force can then be written
 \begin{equation*}\tag{3.2}
 f = mg - Rv \label{eq:millikan_3.2}
 \end{equation*}
-where $m = V(\sigma-\rho)$. There will be a downward
+where $m = V(\sigma-\rho)$.\label{eq_s:millikan_3.2} There will be a downward
 acceleration---that is, a continuing increase in velocity $v$---so
 long as the resistance $Rv$ of the medium is less than the
 effective weight $mg$.
@@ -221,7 +221,7 @@ short-circuited and the drop allowed to fall under gravity until it was
 close to N, when the direction of motion would be again reversed by
 throwing on the field. In this way the drop would be kept traveling back
 and forth between the plates. The first time the experiment was tried an
-ion\footnote{{[}``Ion'' was Faraday's term for the particles of matter
+ion\footnote{\label{fn:millikan_5}{[}``Ion'' was Faraday's term for the particles of matter
   which seemed, in electrolysis, to migrate from one region of the
   solution to another. Although Faraday himself distrusted the atomic
   view, researchers of a later generation collected much evidence that
@@ -686,7 +686,8 @@ on an oil drop) and $e_i$ (charge of a captured ion), using nothing
 more than stopwatch measurements on the motion of the drop. The
 equations will determine \emph{exact} values for those charges as well;
 but only if he can evaluate \emph{mg}, the ``effective'' weight of the
-drop in a buoyant medium, which we have already expressed above as
+drop in a buoyant medium, which we have already expressed above
+as\footnote{See sentence with equation \eqref{eq:millikan_3.2}, p.~\pageref{eq_s:millikan_3.2}.}
 %
 \begin{equation*}
 mg = V(\sigma\!-\!\rho)g
@@ -830,10 +831,12 @@ times in separate columns. A series of measurements of these times,
 table like Millikan's Table VI. See Table A (figures are from
 1997).
 \begin{table}[htp]
+\begin{minipage}{\textwidth}
+\caption*{Table A\footnote{Overlined numbers are averages.}}
 \centering
 %\begin{center}
 \small
-\begin{tabular}{|S|c||S|c|c|c|c|c|c|c|}
+\begin{tabular}{|c|c||S|c|c|c|c|c|c|c|}
 \hline
 \rule{0pt}{1.5\normalbaselineskip}
  & $d$ = 0.05cm & & $d$ = 0.05cm & \makecell{Charge\\on ion} & & & \makecell{Frictional\\charge} & & \\[10pt]
@@ -842,8 +845,8 @@ table like Millikan's Table VI. See Table A (figures are from
 $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(cm/sec)} & $(v_{2}'\!-\!v_2)$ & $n'$ & $\frac{v_{2}'-v_2}{n'}$ & $v_1+v_2$ & $n$ & $\frac{v_1+v_2}{n}$\\[10pt]
 \hline
 \rule{0pt}{1\normalbaselineskip}
-18.2    & .00286 & 3.8 & .01316 & & & & .01602 & 3 & .00534\\
-18.6    & \emph{avr}  & & & .00470 & 1 & .00470 & & & \\
+\!18.2    & $\overline{.00286}$ & 3.8 & .01316 & & & & .01602 & 3 & .00534\\
+18.6    & & & & .00470 & 1 & .00470 & & & \\
 19.2    & & 2.8 & .01786 & & & & & & \\
 18.0    & & & & .01561 & 3 & .00520 & & & \\
 17.2    & & 22.2 & .00225 & & & & & & \\
@@ -852,24 +855,21 @@ $t_g$ & \makecell{$v_1(=d/t_g)$\\(cm/sec)} & $t_F$ & \makecell{$v_2(=d/t_F)$\\(c
 18.0    & & & & .00541 & 1 & .00541 & & & \\
 15.4    & & 21.9 & .00228 & & & & & & \\
 17.3    & & & & .01123 & 2 & .00562 & & & \\
-18.4    & & 3.7 & .01351 & & & & & & \\[3pt]
-\hline
-\rule{0pt}{1\normalbaselineskip}
-17.5 & & & & & & .00527 & & & .00534\\
-{\makecell[l]{\emph{avr}}} & & & & & & \emph{avr} & & &\\[3pt]
+18.4    & & 3.7 & .01351 & & & & & & \\
+$\overline{17.5}$ & & & & & & $\overline{.00527}$ & & & $\overline{.00534}$\\[2pt]
 \hline
 \end{tabular}
 %\end{center}
-\caption*{Table A}
+\end{minipage}
 \end{table}
 \subsubsection*{Measurements on Multiple Drops}
 Although it would be convenient to make all measurements on a single
 droplet, it is seldom possible to do so; for it proves extremely
 difficult to hold any one drop in play for long periods of time. But
 droplets of the same material differ from one another only in mass.
-Therefore---see Equation 3.8 above---if the electric field intensity
-\emph{F} is not changed, the coefficient in Millikan's equations (9) and
-(10) will vary, from drop to drop, only in proportion to $\sqrt{v_1}$. You may
+Therefore---see Equation \eqref{eq:millikan_3.8}---if the electric field intensity
+\emph{F} is not changed, the coefficient in Millikan's equations \eqref{eq:millikan_9} and
+\eqref{eq:millikan_10} will vary, from drop to drop, only in proportion to $\sqrt{v_1}$. You may
 therefore combine data from different drops by tabulating and comparing
 \begin{center}
 \begin{tabular}{ c c c }
@@ -881,6 +881,7 @@ instead of (\emph{v}\textsubscript{1} + \emph{v}\textsubscript{2}) and
 (the figures are from 1983).
 
 \begin{table}[htp]
+\caption*{Table B}
 \centering
 %\begin{center}
 \small
@@ -897,7 +898,6 @@ instead of (\emph{v}\textsubscript{1} + \emph{v}\textsubscript{2}) and
  & & 3.4 & .2941 & &\\
 \end{tabular}
 %\end{center}
-\caption*{Table B}
 \end{table}
 
 The table entries reflect measurements on two different droplets. In the
@@ -951,14 +951,13 @@ again, and repeat the measurements on another drop.
 \subsubsection*{Calculation of the Fundamental Charge}
 
 The stopwatch measurements illustrated in the previous chart suffice to
-determine values of and which, as Millikan's equations (9) and (10) make
+determine values of and which, as Millikan's equations \eqref{eq:millikan_9} and \eqref{eq:millikan_10} make
 clear, are proportional to the \emph{initial frictional charge on a
 drop} and the \emph{charge on a captured ion}, respectively. But in
 order to calculate exact values of these charges, not just relative
 ones, we must evaluate the coefficient that appears in those equations.
-By our equation 3.8 above, the coefficient can be calculated
+By our equation \eqref{eq:millikan_3.8} above, the coefficient can be calculated
 from the following quantities:
-
 \begin{quote}
 (a) the velocity $v_1$ of the falling drop. This you have already
 measured; just remember to cite the correct value for each different
@@ -972,28 +971,29 @@ volt = 1/300 statvolts, so \emph{the voltmeter reading must be divided
 by 300}. The plate separation is 0.76 cm, unless a different value is
 labeled on the side of your apparatus. Then the voltage in statvolts
 divided by the plate separation in cm will give electric field intensity
-in e.s.u.\footnote{See Appendix for an explanation of the units and for the
+in e.s.u.\footnote{See Appendix (p.~\pageref{ch:appendix}) for an explanation of the units and for the
   relation between $F$ and the potential difference.}
 
 (c) the density of the oil, $\sigma$. We use Squibb \#5597 non-volatile
 mineral oil, for which $\sigma = .886\ \text{g/cm}^3$.
 
-(d) the density of the air, $\rho$, obtained from the graph below. You
+(d) the density of the air, $\rho$, obtained from Graph B below. You
 will have to note the temperature of the air in the chamber and the 
 barometric pressure in the room. Typical values for
 $\rho$ are about $.0012\ \text{g/cm}^3$.
 
-(e) the viscosity of the air, $\eta$, obtained from the graph below.
+(e) the viscosity of the air, $\eta$, obtained from Graph A below.
 Typical values for $\eta$ are around $1825\ \times\ 10^{-7}\ \text{poise (gm/cm-sec)}.$
 
 (f) the acceleration of gravity, $g = 980\ \text{cm/sec}^2$.
 \end{quote}
 
-
-\begin{figure}[h]
+\begin{figure}[htp]
   \begin{center}
     \includegraphics[width=0.9\textwidth]{images/03_millikan/image100.png}
   \end{center}
+  \vspace*{-20pt}
+  \caption*{Graphs A and B}
 \end{figure}
 
 
@@ -1017,7 +1017,7 @@ theoretically pivotal but ex\-per\-i\-men\-tal\-ly elusive quantity,
 \emph{Avogadro's number}---the number of atoms in a gram-atomic weight
 of any element.\footnote{There had been earlier efforts to estimate
   Avogadro's number, predating Millikan's oil-drop measurements;
-  Einstein cites one of his own in his paper that appears in Chapter VI
+  Einstein cites one of his own in his paper that appears in Chapter \ref{ch:einstein}
   below. But the most reliable determinations of Avogadro's number and
   many other constants all depend on accurate knowledge of the electron
   charge (cf.\ \emph{The Electron}, Chapter X).}
@@ -1088,7 +1088,7 @@ But measurements by Thomson and others of the charge-to-mass ratio of
 ions in both gases and liquids strongly implicated Thomson's
 \emph{cathode-ray corpuscle} as the es\-sen\-tial constituent whereby atoms
 acquire either an excess or deficiency of negative charge to become
-ions.\footnote{See note 5 above; Millikan devotes the whole of
+ions.\footnote{See footnote \ref{fn:millikan_5} above; Millikan devotes the whole of
   his Chapter II to this very interesting story.} This implies that
 \emph{the charge borne by each cathode ray corpuscle must be the very
 quantity of charge that had been termed ``electron.''} As a result,
