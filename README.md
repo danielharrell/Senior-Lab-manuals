@@ -2,9 +2,9 @@
  Senior Lab manuals for St. John's College, Annapolis
 
  ## To Do
-- [ ] Redraw Table VI, Millikan paper, in Latex to make corrections.
-    - [ ] p. 33, Radius value: for .000276, read .0000276
-    - [ ] p. 33, other corrected values in brackets
+- [x] Redraw Table VI, Millikan paper, in Latex to make corrections.
+    - [x] p. 33, Radius value: for .000276, read .0000276
+    - [x] p. 33, other corrected values in brackets
 - [x] p. 38, table near bottom, column 4, line 3: for 0.800, read 0.0800
 - [x] p. 48, middle: add section no. 1 before “it is well known . . .”
 - [x] p. 49: add section no. “2” before “We shall first examine . . .”
@@ -41,11 +41,12 @@
     - [x] Restore to manual (with page reference Heis restored)
 - [ ] Establish system cross-references
     - [x] Faraday paper
-    - [ ] Re-check Faraday, make everything lower case.
-- [ ] Replace other tables in Millikan (and table environ)
+    - [x] Re-check Faraday, make everything lower case.
+    - [ ] Millikan paper
+- [x] Replace other tables in Millikan (and table environ)
     - [x] Table IV reformatted
     - [x] Table V reformatted
-    - [ ] Table VI reformotted
+    - [x] Table VI reformatted
     - [x] Table VII reformatted
     - [x] Work on our tables page 38 (formatting and placement)
 - [ ] Rename folders and files for 2024
