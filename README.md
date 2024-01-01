@@ -2,6 +2,17 @@
  Senior Lab manuals for St. John's College, Annapolis
 
  ## To Do
+- [ ] Establish system cross-references
+    - [ ] Check all labels in documents and correct as necessary
+    - [x] Faraday paper
+    - [x] Re-check Faraday, make everything lower case.
+    - [x] Millikan paper (on page 36)
+    - [ ] Rutherford paper
+        - [ ] page 50 
+- [ ] p. 192, note 12. Clarify use of Griffiths and absolute value.
+- [ ] Rename to 2024?
+- [ ] Check to-do list in QM folder
+- [ ] Check formatting and footnote placement throughout manual
 - [x] Redraw Table VI, Millikan paper, in Latex to make corrections.
     - [x] p. 33, Radius value: for .000276, read .0000276
     - [x] p. 33, other corrected values in brackets
@@ -32,19 +43,12 @@
 - [x] p. 191: move last line of text (the inequality) to the next page, so that it appears on the same page as its footnote.
 - [x] p. 195, par. 2, line 4 from end of par: for "parameters, includes also", read "parameters and"
 - [x] p. 195, par. 2, last 2 lines: for "on b, but the final result (15) contradicts", read "on b. The final result (15), however, contradicts"
-- [ ] p. 192, note 12. Clarify use of Griffiths and absolute value.
 - [x] p. 153-54 Restore diagrams for note on single-slit diffraction etc.
     - [x] First diagram
     - [x] Second diagram
     - [x] Third diagram
     - [x] Fourth diagram
     - [x] Restore to manual (with page reference Heis restored)
-- [ ] Establish system cross-references
-    - [ ] Check all labels in documents and correct as necessary
-    - [x] Faraday paper
-    - [x] Re-check Faraday, make everything lower case.
-    - [x] Millikan paper (on page 36)
-    - [ ] Rutherford paper
 - [x] Replace other tables in Millikan (and table environ)
     - [x] Table IV reformatted
     - [x] Table V reformatted
@@ -52,8 +56,5 @@
     - [x] Table VII reformatted
     - [x] Work on our tables page 38 (formatting and placement)
 - [x] Rename folders and files for 2023
-- [ ] Rename to 2024?
-- [ ] Check to-do list in QM folder
-- [ ] Check formatting and footnote placement throughout manual
 - [x] Thomson page 18 put equations on same line
-- [ ] Reduce spacing equation (9) Millikan (page 35)
+- [x] Reduce spacing equation (9) Millikan (page 35)
