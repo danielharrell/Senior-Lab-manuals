@@ -4,11 +4,8 @@
  ## To Do
 - [ ] Establish system cross-references
     - [ ] Check all labels in documents and correct as necessary
-    - [x] Faraday paper
-    - [x] Re-check Faraday, make everything lower case.
-    - [x] Millikan paper (on page 36)
     - [ ] Rutherford paper
-        - [ ] page 50 
+        - [ ] page 52 
 - [ ] p. 192, note 12. Clarify use of Griffiths and absolute value.
 - [ ] Rename to 2024?
 - [ ] Check to-do list in QM folder
