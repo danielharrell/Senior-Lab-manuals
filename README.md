@@ -6,8 +6,10 @@
     - [ ] Check all labels in documents and correct as necessary
     - [ ] Check references to tables and figures
     - [ ] Make sure equations from original numbering are tagged
-    - [ ] Rutherford paper
-        - [ ] page 53 
+    - [ ] Move footnotes outside of equations to previous text
+        - [ ] Millikan paper review
+        - [ ] Rutherford paper
+            - [ ] page 53 
 - [ ] p. 192, note 12. Clarify use of Griffiths and absolute value.
 - [ ] Rename to 2024?
 - [ ] Check to-do list in QM folder
