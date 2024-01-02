@@ -5,7 +5,7 @@
 - [ ] Establish system cross-references
     - [ ] Check all labels in documents and correct as necessary
     - [ ] Rutherford paper
-        - [ ] page 52 
+        - [ ] page 53 
 - [ ] p. 192, note 12. Clarify use of Griffiths and absolute value.
 - [ ] Rename to 2024?
 - [ ] Check to-do list in QM folder
