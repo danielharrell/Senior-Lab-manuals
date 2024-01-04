@@ -31,13 +31,16 @@ known; actually their determination constitutes an important second
 phase of the analysis.
 
 \begin{figure}[h]
-  \begin{center}
+  \centering
+  %\begin{center}
     \includegraphics[width=3.63667in]{images/03_millikan/drops.png}
-  \end{center}
+  %\end{center}
+  \caption{}
+  \label{fig:millikan_1}
 \end{figure}
 
 The forces which act on a falling drop in the absence of an electric
-field are sketched on the left side of the diagram, marked (a). The mass 
+field are sketched on the left side of Figure \ref{fig:millikan_1}, marked (a). The mass 
 of the drop is $\mu$ and the weight is therefore $\mu g$. The drop falls 
 through the air, which we shall regard as a very thin homogeneous fluid that 
 both buoys up a body and resists motion through itself. We also assume, with 
@@ -55,7 +58,7 @@ $r$ resisting the droplet's fall will be
 r = Rv \label{eq:millikan_3.1}
 \end{equation*}
 %
-as shown in Fig. (a).
+as shown in Figure \ref{fig:millikan_1} (a).
 
 At the same time, the drop is buoyed up by a force equal to the weight
 of air which it displaces.\footnote{Archimedes, \emph{On Floating
@@ -190,16 +193,18 @@ size of the electron.
 
 In order to compare the charges on different ions, the procedure adopted
 was to blow with an ordinary commercial atomizer an oil spray into the
-chamber C (Fig. 3). The air with which this spray was blown was first
+chamber C (Fig.\ 3). The air with which this spray was blown was first
 rendered dust-free by passage through a tube containing glass wool. The
 minute droplets of oil constituting the spray, most of them having a
 radius of the order of a one-thousandth of a millimeter, slowly fell in
 the chamber C, and occasionally one of them would find its way through
 the minute pinhole \emph{p} in the middle of the circular brass plate M,
-\begin{figure}[h]
-  \begin{center}
+\begin{figure}[htp]
+\centering
+  %\begin{center}
     \includegraphics[width=0.6\textwidth]{images/03_millikan/image013.png}
-  \end{center}
+  %\end{center}
+  \vspace*{-3mm}
   \caption*{Figure 3}
 \end{figure}
 22 cm in diameter, which formed one of the plates of the air condenser.
@@ -772,11 +777,15 @@ of the wire. Turn the Vertical Adjustment to direct the brightest light
 onto the part of the wire that is within the reticle. Remove and return
 the focusing wire to its storage position and reassemble the chamber.
 
-\begin{wrapfigure}[18]{r}{2.45in} % this can appear anywhere in this subsection
-										  % move if necessary
-  \begin{center}
-    \includegraphics[width=2.33056in,height=3.38264in]{images/03_millikan/image067.png}
-  \end{center}
+\begin{wrapfigure}[15]{R}{2.45in} % this can appear anywhere in this subsection
+\centering										  % move if necessary
+  %\begin{center}
+  \setbox0\hbox
+    {\includegraphics[width=2.33056in,height=3.38264in]{images/03_millikan/image067.png}}
+   \ht0=215pt % change this to move it up or down
+  \dp0=0pt
+  \box0
+  %\end{center}
 \end{wrapfigure}
 
 \emph{Adjust the plate voltage:} Connect the high-voltage supply. Turn
@@ -1118,7 +1127,7 @@ e = 4.802 \times 10^{-10} \text{ statC},
 \end{equation*}
 we may calculate
 \begin{equation*}
-m = 1.895 \times 10^{-18} \times 4.802 \times 10^{-10} = .9099 \times 10^{-27} \text{ g}.
+m = 1.895 \times 10^{-18} \times 4.802 \times 10^{-10} = 0.9099 \times 10^{-27} \text{ g}.
 \end{equation*}
 Hence the electron will be almost 1840 times lighter than the hydrogen
 atom. That an electron weighs such a slight fraction of even the
