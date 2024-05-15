@@ -8,8 +8,8 @@
     - [ ] Make sure equations from original numbering are tagged
     - [ ] Move footnotes outside of equations to previous text
         - [x] Millikan paper review
-        - [ ] Rutherford paper
-            - [ ] page 53 
+        - [x] Rutherford paper
+        - [ ] Planck paper (p.61)
 - [ ] p. 192, note 12. Clarify use of Griffiths and absolute value.
 - [ ] Rename to 2024?
 - [ ] Check to-do list in QM folder

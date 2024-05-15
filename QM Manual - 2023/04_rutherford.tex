@@ -583,13 +583,11 @@ its centre is given by\label{eq_s:rutherford}\footnote{{[}This was our ``note on
 \begin{equation*}
 m = \pi p^{2}nt.\end{equation*}
 
+\begin{samepage}
 Chance $dm$ of {[}an alpha-particle's{]} striking within radii
 $p$ and $p+dp$ {[}and, correlatively, of its emerging from the
 gold foil at an angle of deviation between $\phi$ and
-$\phi +d\phi${]} is given by
-\begin{equation}\tag{2}
-  dm = 2\pi p \cdot n \cdot t\,dp = \frac{\pi}{4}ntb^2 \cot \left(\frac{\phi}{2}\right)\csc^2 
-  \left(\frac{\phi}{2}\right)\,d\phi.\footnote{{[}Beginning with the prior equation, Rutherford lets
+$\phi +d\phi${]} is given by\footnote{{[}Beginning with the prior equation, Rutherford lets
   $p$ vary by the small amount $dp$; $m$ then varies by
   $dm$. As a result, $dm \approx 2\pi ptn\,dp$ may be said to represent
   the probability that a particle will strike between distances $p$
@@ -617,10 +615,14 @@ $\phi +d\phi${]} is given by
   dm \approx -\frac{\pi ntb^2}{4}\cot(\phi/2)\csc^2(\phi/2)\,d\phi.
   \end{equation*}
   Rutherford ignores the minus sign since $\phi$~may be considered either positive or negative.{]}}
-\end{equation}\\
+\begin{equation}\tag{2}\label{eq_s:rutherford2}
+  dm = 2\pi p \cdot n \cdot t\,dp = \frac{\pi}{4}ntb^2 \cot \left(\frac{\phi}{2}\right)\csc^2 
+  \left(\frac{\phi}{2}\right)\,d\phi.
+\end{equation}\\[-5pt]
 \centerline{* * *}
+\end{samepage}
 %
-It is convenient to express the equation (2) in another form for
+It is convenient to express the equation \eqref{eq_s:rutherford2} in another form for
 comparison with experiment. In the case of the $\alpha$ rays, the number
 of scintillation{[}s{]} appearing on a \emph{constant} area of a zinc
 sulphide screen are counted for different angles with the direction of
@@ -628,10 +630,7 @@ incidence of the particles. Let $r$ = distance from point of
 incidence of $\alpha$ rays on scattering material, then if $Q$ be
 the total number of $\alpha$ particles falling on the scattering
 material, then number $y$ of $\alpha$ particles falling on a unit
-area which are deflected through an angle $\phi$ is given by
-\begin{equation}\tag{5}
-y = \frac{Q \cdot dm}{2\pi r^2\sin(\phi)\,d\phi} = \frac{ntb^2 \cdot Q \cdot\csc^4(\phi/2)}{16r^2} \;
-\footnote{[Rutherford's detector is a tiny zinc sulphide screen
+area which are deflected through an angle $\phi$ is given by\footnote{[Rutherford's detector is a tiny zinc sulphide screen
   which emits a microscopic flash of light when struck by an alpha
   particle. It can ``view'' only a small portion of each ring-shaped
   zone which its diameter defines. Plainly, then, the particles that
@@ -656,14 +655,16 @@ y = \frac{Q \cdot dm}{2\pi r^2\sin(\phi)\,d\phi} = \frac{ntb^2 \cdot Q \cdot\csc
   \begin{equation*}
   y = \frac{Qntb^2\cot(\phi/2)\csc^2(\phi/2)}{16r^2\sin(\phi/2)\cos(\phi/2)} = \frac{Qntb^2\cos(\phi/2)\csc^2(\phi/2)}{16r^2\sin^2(\phi/2)\cos(\phi/2)}
   \end{equation*}
-  which reduces to Rutherford's formula (5).]}
+  which reduces to Rutherford's equation \eqref{eq_s:rutherford5}.]}
+\begin{equation}\tag{5}\label{eq_s:rutherford5}
+y = \frac{Q \cdot dm}{2\pi r^2\sin(\phi)\,d\phi} = \frac{ntb^2 \cdot Q \cdot\csc^4(\phi/2)}{16r^2}.
 \end{equation}
 
 
-Since
-\begin{equation*}
-b = 2NeE / mu^2 , \footnote{{[}Derived in note 13
+Since\footnote{{[}Derived in footnote \ref{fn:rutherford_13} (p.~\pageref{fn:rutherford_13})
   above.{]}}
+\begin{equation*}
+b = 2NeE / mu^2 , 
 \end{equation*}
 we see from this equation that a number of $\alpha$~particles
 (scintillations) per unit area of zinc sulphide screen at a given
@@ -788,9 +789,9 @@ holds also for the lighter atoms. In cases where the mass of the
 deflecting atom (for example, hydrogen, helium, lithium) is not very
 different from that of the $\alpha$ particle, the general theory of
 single scattering will require modification, for it is necessary to take
-into account the movements of the atom itself\footnote{{[}Compare
-  Newton, \emph{Principia}, Book I, Props. 57-60, in which corrections
-  are made for the motion of the central body.{]}}...
+into account the movements of the atom itself\ldots.\footnote{{[}Compare
+  Newton, \emph{Principia}, Book I, Props.\ 57--60, in which corrections
+  are made for the motion of the central body.{]}}
 
 The deductions from the theory so far considered are independent of the
 sign of the central charge, and it has not so far been found possible to
@@ -828,7 +829,7 @@ Magazine} \textbf{25} (1913), 604--623; reprinted in \emph{The World of The
 Atom}, vol.\ I, 722--733:
 
 \begin{quote}
-At the suggestion of Prof. Rutherford, we have carried out experiments
+At the suggestion of Prof.\ Rutherford, we have carried out experiments
 to test the main conclusions of the above theory. The following points
 were investigated:---
 
@@ -850,7 +851,7 @@ carried out by observing the scintillations due to the scattered
 $\alpha$~particles on a zinc-sulphide screen, and during the course of
 the experiments over 100,000 scintillations have been counted. It may be
 mentioned in anticipation that all the results of our investigation are
-in good agreement with the theoretical deductions of Prof. Rutherford,
+in good agreement with the theoretical deductions of Prof.\ Rutherford,
 and afford strong evidence of the correctness of the underlying
 assumption that an atom contains a strong charge at the centre, of
 dimensions small compared with the diameter of the atom.
@@ -879,7 +880,7 @@ per second up to six or seven degrees to each side of the center).
 Nevertheless, the apparatus is sufficiently precise to test Rutherford's
 statement that, at a given angle $\phi$, the number of alpha particles
 detected per unit area and per unit time will be proportional to
-cosec\textsuperscript{4}($\phi$ /2).
+$\csc^4(\phi/2)$.
 
 Although long angle deflections are more probable than Thomson's model
 of the atom would suggest, they are still relatively rare, so that
