@@ -12,7 +12,7 @@ Inc., 1972), 113--116 and 119--123.}
 
 \renewcommand{\theequation}{\arabic{equation}}
 
-The mathematical analysis in Einstein's paper in Chapter VI is connected
+The mathematical analysis in Einstein's paper in Chapter \ref{ch:einstein} is connected
 to something called ``Planck's quantum hypothesis,'' and Einstein
 emphasizes the strength the connection lends to his own argument.
 Planck's quantum hypothesis states that microscopic light-emitting
@@ -122,7 +122,7 @@ $\Re_T(\nu)$ called the \emph{spectral radiancy}, which
 is defined so that the quantity $\Re_T(\nu)\,d\nu$ is the
 {[}time{]} rate at which energy is radiated per unit area of a surface
 at absolute temperature \emph{T} for frequencies in the interval
-$\nu$ to $\nu\! +\! d\nu$. In Fig. 1, we show the experimentally
+$\nu$ to $\nu\! +\! d\nu$. In Figure 1, we show the experimentally
 observed dependence
 %
 \begin{figure}[h]
@@ -173,7 +173,7 @@ $\nu_{max}$, then as \emph{T} increases
 $\nu_{max}$ is displaced toward higher frequencies. This
 relation,
 %
-\begin{equation}\tag{3a}
+\begin{equation}\label{eq:planck_3}%\tag{3a}
 \nu_{max} \propto T
 \end{equation}
 %
@@ -187,7 +187,7 @@ red to white to blue).
 
 Most black bodies used in laboratory experiments are cavities (ovens)
 having a very small opening. Let's explain why such a cavity, shown
-schematically in Fig.\ 2, is a black body. Radiation outside the cavity
+schematically in Figure 2, is a black body. Radiation outside the cavity
 can enter it through the hole. It then strikes the inner wall, where it
 is partially absorbed and partially reflected. The reflected part then
 strikes another part of the inner wall where it, too, is partially
@@ -205,7 +205,7 @@ small) amount of the incoming radiation that can be
     outside. Radiation incident upon the hole is partly absorbed on each
     reflection and completely absorbed after many successive reflections on
     the inner surface of the cavity. (Note the diminution in intensity of
-    the successive reflections.) The hole absorbs like a black body. . . .
+    the successive reflections.) The hole absorbs like a black body\ldots.
     The hole emits like a black body.}}
   \end{center}
 \end{figure}
@@ -236,10 +236,10 @@ another; that is,
 %
 \setcounter{equation}{3}
 \begin{equation}
-\rho_T(\nu) = (8\pi/c) \Re_T(\nu) \text{[equation modified]}
+\rho_T(\nu) = (8\pi/c) \Re_T(\nu)\ \ \text{[equation modified]}
 \end{equation}
 %
-. . . Suppose that we uniformly heat to a temperature \emph{T} a piece
+\ldots Suppose that we uniformly heat to a temperature \emph{T} a piece
 of metal containing a cavity. The electrons in the metallic walls are
 thermally agitated and emit electromagnetic radiation into the cavity.
 Thermal equilibrium is established and maintained in the cavity by the
@@ -264,13 +264,13 @@ N(\nu)\, d\nu = \frac{8\pi V}{c^3}\nu^{2}\, d\nu % eqn (5)
 in which \emph{c} is the velocity of electromagnetic waves. Now, each
 such standing wave contains energy. The average energy per wave, when
 the system is in thermal equilibrium, can be determined from the
-\textbf{classical} \emph{law of equipartition of energy}.... This states
+\textbf{classical} \emph{law of equipartition of energy}\ldots. This states
 that the average energy {[}per wave{]} is the same for each standing
 wave in the cavity, independent of its frequency, i.e., the energy is
 partitioned equally over all frequencies; the value of the average
 energy $\bar{\varepsilon}$ depends only on the temperature \emph{T} and is given by
 %
-\begin{equation}
+\begin{equation}\label{eq:planck_6}
 \bar{\varepsilon}(\nu, T) = \bar{\varepsilon}(T) = kT % eqn (6)
 \end{equation}
 %
@@ -282,17 +282,17 @@ by the average energy of a wave and divide by the volume of the cavity.
 In this way {[}based on the classical law of equipartition{]}, Rayleigh
 and Jeans found the energy density $\rho_T(\nu) d\nu$ to be
 %
-\begin{equation}
+\begin{equation}\label{eq:planck_7}
 \rho_T(\nu) d\nu = \frac{8\pi \nu^2}{c^3}kT\, d\nu, % eqn (7)
 \end{equation}
 %
 which is called \emph{the Rayleigh-Jeans formula for black-body
-radiation}.\footnote{Rayleigh realized in 1900 that Equation 7
-  contradicted Wien's displacement law (Eq. 3a). In 1911 Paul Ehrenfest
+radiation}.\footnote{Rayleigh realized in 1900 that Equation \eqref{eq:planck_7}
+  contradicted Wien's displacement law (Eq.\ \ref{eq:planck_3}). In 1911 Paul Ehrenfest
   pointed out that it also implied what was called ``the ultra-violet
   catastrophe.''}
 
-We compare the Rayleigh-Jeans formula, in Fig. 4, with the
+We compare the Rayleigh-Jeans formula, in Figure 4, with the
 experimental result for a cavity radiator at 1500$^\circ$K. As the frequency is
 reduced to zero, the spectrum predicted by the Rayleigh-Jeans classical
 formula does come closer and closer to the experimentally observed
@@ -339,14 +339,14 @@ results. He arrived at the following empirical formula:
 \begin{equation}\label{e_eq}
 \bar{\varepsilon}(\nu) = \frac{h\nu}{e^{h\nu/kT}-1} \; , % eqn (11)
 \end{equation}
-where $h$ is a constant.\footnote{The constant $e$ in eq.\! \ref{e_eq} is the number $2.718\dots$ providing the base of natural logarithms. This is different from the "e" in the unit "eV" in the next sentence, an abbreviation for electronvolts.} In particular, it turned out that the
+where $h$ is a constant.\footnote{The constant $e$ in eq.~\eqref{e_eq} is the number $2.718\dots$ providing the base of natural logarithms. This is different from the "e" in the unit "eV" in the next sentence, an abbreviation for electronvolts.} In particular, it turned out that the
 value of this constant $h$ that would give the best fit between his
 formula and the experimental data was: $h = 6.63\! \times\!
 10^{-34}$ joule-sec $= 4.14\! \times\! 10^{-15}$
 eV-sec, which is very nearly the same as the modern value for what has
 come to be known as \emph{Planck's constant.}
 
-In Figure 5 we compare Equation 11 with Equation 6, the classical law of
+In Figure 5 we compare Equation \eqref{e_eq} with Equation \eqref{eq:planck_6}, the classical law of
 equipartition:
 %
 \begin{equation*}\tag{6}
@@ -367,10 +367,10 @@ equipartition:
 {[}N{]}ote that $\bar{\varepsilon}(\nu)$ drops from \emph{kT} to zero in a continuous
 way with increasing frequency, at first rapidly and then slowly.
 
-When Planck used his result (Eq. 11) for $\bar{\varepsilon}$ rather than the classical value
-$\bar{\varepsilon} = kT$ (Eq. 6) in the calculation of the energy density in the
+When Planck used his result (Eq.~\ref{e_eq}) for $\bar{\varepsilon}$ rather than the classical value
+$\bar{\varepsilon} = kT$ (Eq.~\ref{eq:planck_6}) in the calculation of the energy density in the
 cavity radiation spectrum, he found
-\begin{equation}
+\begin{equation}\label{eq:planck_12}
 \rho_T(\nu)\, d\nu = \frac{8\pi\nu^2}{c^3} \frac{h\nu}{e^{h\nu/kT}-1} d\nu \; . % eqn (12)
 \end{equation}
 This is \emph{the Planck formula for black body radiation}. Figure 6
@@ -402,10 +402,10 @@ are in complete agreement with Planck's formula at all temperatures.
 \section*{B. Black Body Radiation: Planck's \emph{Theoretical}
 Determination of the Formula That Fit the Experimental Results.}
 
-Up to this point Equation 12 is merely an \emph{ad hoc} formula based on
-Equation 11, which had been constructed to fit the experimental results.
+Up to this point Equation \eqref{eq:planck_12} is merely an \emph{ad hoc} formula based on
+Equation \eqref{e_eq}, which had been constructed to fit the experimental results.
 Planck was convinced that it was right. Yet, theorist that he was, he
-wanted more: he wanted a \emph{theoretical} derivation of Equation 11
+wanted more: he wanted a \emph{theoretical} derivation of Equation \eqref{e_eq}
 that would explain why it was so, giving it physical meaning. We shall
 ignore most of the details and, instead, focus on Planck's fundamental
 modification of the classical view.
@@ -432,8 +432,12 @@ oscillators}. In this analogy, Planck imagined that the cavity walls
 consisted of tiny `springs' of force constants $\beta$, on the ends of
 which were charged particles of masses \emph{m}. As we saw in Junior
 Laboratory, this meant that each such oscillator would have a natural
-frequency given by
-\begin{equation}
+frequency given by\footnote{The equation in the Junior Lab manual is for the
+period $T$ and force constant $k$ where $T=2\pi\sqrt{m/k}$. Since the period $T$
+is the inverse of the wavelength $v$, inverting the equation for $T$ yields
+$v=1/2\pi\sqrt{k/m}$. Replacing the letter $k$ with $\beta$ for the force constant
+yields eq.~\eqref{eq:planck_13} above.}
+\begin{equation}\label{eq:planck_13}
 \nu = \frac{1}{2\pi}\sqrt{\frac{\beta}{m}} \; . % eqn (13)
 \end{equation}
 That is, each of them had its own fixed frequency, determined by the
