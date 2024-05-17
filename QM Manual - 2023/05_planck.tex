@@ -462,7 +462,7 @@ determine how, on the average, the total amount of energy in the cavity
 at temperature \emph{T} would distribute itself on the average among the
 various oscillators of different natural frequencies, $\nu$, of
 vibration. That is, Planck tried to \emph{derive} the formula for
-$\bar{\varepsilon}(\nu)$ (Eq. 11), which he had already arrived at by matching the
+$\bar{\varepsilon}(\nu)$ (Eq.~\ref{e_eq}), which he had already arrived at by matching the
 experimental results. This \emph{equilibrium distribution} of energy
 among the oscillators will, in turn, determine how the energy density,
 $\rho_T(\nu)$, of the cavity radiation varies with
@@ -502,26 +502,26 @@ states, $\varepsilon$, he determined the fraction,
 $\Delta N_{\varepsilon}/N$, of the total number of molecules,
 \emph{N,} that had energy $\varepsilon$, in the most probable distribution:
 %
-\begin{equation}
+\begin{equation}\label{eq:planck_14}
 \frac{\Delta N_{\varepsilon}}{N} \propto e^{-{\varepsilon}/kT} % eqn (14)
 \end{equation}
 %
 where \emph{e} is the base of natural logarithms, \emph{T} is the
 absolute temperature, and \emph{k} is Boltzmann's constant, given by the
 gas constant \emph{R} divided by Avogadro's number. The proportionality
-(14) implies that the fraction $\Delta N_{\varepsilon}/N$
+in \eqref{eq:planck_14} implies that the fraction $\Delta N_{\varepsilon}/N$
 decreases as $\varepsilon$, the energy state considered, increases.
 
 In order to find the way energy would distribute itself among his
 hypothetical oscillators, Planck made use of the Boltzmann distribution
-(14). He proceeded in somewhat the following way.
+\eqref{eq:planck_14}. He proceeded in somewhat the following way.
 
 Consider an oscillator of mass $m$ and force constant $\beta$; let
 its displacement be $x$ and its momentum $p$ =
 $m(dx/dt)$. Its potential energy will be
 $(1/2)\beta x^2$ and its kinetic energy $(1/2)m(dx/dt)^{2} = p^{2}/2m$.
 Therefore, its total energy is\footnote{You may want to review the
-  second semester junior lab manual treatment of the pendulum for what
+  first semester junior lab manual treatment of the pendulum for what
   follows. Potential energy should equal the work done against the
   restoring force in moving the mass $m$ from zero to displacement
   $x$. The restoring force is $F = - \beta x$. Therefore the
@@ -529,32 +529,32 @@ Therefore, its total energy is\footnote{You may want to review the
   integrate over $x$ rather than write $Fx$ because the force
   varies with $x$.}
 
-\begin{equation}
+\begin{equation}\label{eq:planck_15}
 \varepsilon = \frac{p^2}{2m} + \frac{\beta x^2}{2} % eqn (15)
 \end{equation}
 
 Its frequency, which should be regarded as fixed in what follows, is
-given by Equation 13.
+given by Equation \eqref{eq:planck_13}.
 
-Equation 15 can be viewed as the equation of an ellipse in the
+\[A = 4\int_{0}^{a}b\left(1 - \frac{x^2}{a^2}\right)^{\frac{1}{2}}dx
+= \frac{4b}{a}\int_{0}^{a}\left(a^2 - x^2\right)^{\frac{1}{2}}dx \]
+%= \frac{4b}{a}[\frac{x}{2}({a^{2} - x^{2})}^{\frac{1}{2}} + \frac{a^{2}}{2}\sin^{- 1}({\frac{x}{a})}]_{0}^{a} = \pi ab,\] 
+
+Equation \eqref{eq:planck_15} can be viewed as the equation of an ellipse in the
 (\emph{p,x}) plane (this plane is called the \emph{state domain} by
 Planck), where $\sqrt{2m\varepsilon}$ and $\sqrt{2\varepsilon/\beta}$ are the semi-minor and
 semi-major axes\footnote{According to the Sophomore Mathematics manual,
   \emph{A Cartesian Survey of the Conic Sections}, when the equation for
-  an ellipse centered at the origin is put into standard form:\\
-  \(\frac{x^{2}}{a^{2}} + \frac{y^{2}}{b^{2}} - 1 = 0\), according as
+  an ellipse centered at the origin is put into standard form:
+  $(x^2/a^2) + (y^2/b^2) - 1 = 0$, according as
   $a$ is greater or less than $b$, the major axis is of
   length $2a$, along the $x$-axis, or of length $2b$,
   along the $y$-axis.} of the inmost ellipse in Figure 7, labeled
   $\varepsilon = h\nu$. The area of the inmost ellipse will be\footnote{Given
   the equation of the ellipse in the previous note, one-fourth of the
-  ellipse would correspond to $y = b[1 - (x/a)^2]^{1/2}, x \geq 0$.
-
-  Then the area contained by the ellipse would be given by:
-
-  \({A = \ 4\int_{0}^{a}{b(1 - \frac{x^{2}}{a^{2}}})}^{1/2}dx = \ \frac{4b}{a}\int_{0}^{a}{({a^{2} - \ x^{2})}^{\frac{1}{2}\ }}dx = \ \frac{4b}{a}\lbrack\frac{x}{2}({a^{2} - \ x^{2})}^{\frac{1}{2}\ } + \ \frac{a^{2}}{2}\sin^{- 1}({\frac{x}{a})}\rbrack_{0\ }^{a} = \ \pi ab\),
-
-  where the indefinite integral is found from a table of integrals.}
+  ellipse would correspond to $y = b[1 - (x/a)^2]^{1/2},\ x \geq 0$.
+Then the area contained by the ellipse would be given by:
+\[{A = 4\int_{0}^{a}b(1 - \frac{x^{2}}{a^{2}}})^{\frac{1}{2}}dx = \frac{4b}{a}\int_{0}^{a}{({a^{2} - \ x^{2})}^{\frac{1}{2}}}dx = \frac{4b}{a}[\frac{x}{2}({a^{2} - x^{2})}^{\frac{1}{2}} + \frac{a^{2}}{2}\sin^{- 1}({\frac{x}{a})}]_{0}^{a} = \pi ab,\] where the indefinite integral is found from a table of integrals.}
 %
 \begin{equation}
 A_1 = \pi p_{max}x_{max} = \pi\sqrt{2m\varepsilon}\sqrt{2\frac{\varepsilon}{\beta}} = 2\pi\varepsilon\sqrt{m/\beta} = \frac{\varepsilon}{\nu}. % eqn (16)
@@ -585,9 +585,9 @@ areas of size $h$, each of which corresponds to an amount of energy
 = $h\nu$. It remains to associate a probability with each annular
 region and then to take the limit of the sum of these probabilities as
 the areas of the annular regions shrink to zero. But this is given to us
-by the Boltzmann distribution, Equation 14.
+by the Boltzmann distribution, Equation \eqref{eq:planck_14}.
 
-Identifying $\varepsilon$ in Equation 14 with $h\nu$ gives us the result
+Identifying $\varepsilon$ in Equation \eqref{eq:planck_14} with $h\nu$ gives us the result
 that the probability of an oscillator of frequency $\nu$ having
 energy $\varepsilon = h\nu$, that is, $P(\nu, h\nu)$, or, equivalently, the
 fraction of the total number of oscillators of frequency $\nu$ that
