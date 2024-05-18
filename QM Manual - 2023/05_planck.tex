@@ -328,7 +328,7 @@ density, $\rho_T(\nu)$, is related to the average
 energy per wave at $\nu$ and \emph{T}, $\bar{\varepsilon}(\nu, T)$, as follows:
 %
 \setcounter{equation}{9}
-\begin{equation}
+\begin{equation}\label{eq:planck_10}
 \rho_T(\nu)\, d\nu = \frac{8\pi \nu^2}{c^3}\bar{\varepsilon}(\nu, T)\, d\nu. % eqn (10)
 \end{equation}
 %
@@ -536,10 +536,6 @@ Therefore, its total energy is\footnote{You may want to review the
 Its frequency, which should be regarded as fixed in what follows, is
 given by Equation \eqref{eq:planck_13}.
 
-\[A = 4\int_{0}^{a}b\left(1 - \frac{x^2}{a^2}\right)^{\frac{1}{2}}dx
-= \frac{4b}{a}\int_{0}^{a}\left(a^2 - x^2\right)^{\frac{1}{2}}dx \]
-%= \frac{4b}{a}[\frac{x}{2}({a^{2} - x^{2})}^{\frac{1}{2}} + \frac{a^{2}}{2}\sin^{- 1}({\frac{x}{a})}]_{0}^{a} = \pi ab,\] 
-
 Equation \eqref{eq:planck_15} can be viewed as the equation of an ellipse in the
 (\emph{p,x}) plane (this plane is called the \emph{state domain} by
 Planck), where $\sqrt{2m\varepsilon}$ and $\sqrt{2\varepsilon/\beta}$ are the semi-minor and
@@ -554,7 +550,10 @@ semi-major axes\footnote{According to the Sophomore Mathematics manual,
   the equation of the ellipse in the previous note, one-fourth of the
   ellipse would correspond to $y = b[1 - (x/a)^2]^{1/2},\ x \geq 0$.
 Then the area contained by the ellipse would be given by:
-\[{A = 4\int_{0}^{a}b(1 - \frac{x^{2}}{a^{2}}})^{\frac{1}{2}}dx = \frac{4b}{a}\int_{0}^{a}{({a^{2} - \ x^{2})}^{\frac{1}{2}}}dx = \frac{4b}{a}[\frac{x}{2}({a^{2} - x^{2})}^{\frac{1}{2}} + \frac{a^{2}}{2}\sin^{- 1}({\frac{x}{a})}]_{0}^{a} = \pi ab,\] where the indefinite integral is found from a table of integrals.}
+\[A = 4\int_{0}^{a}b\left(1 - \frac{x^2}{a^2}\right)^{\frac{1}{2}}dx
+= \frac{4b}{a}\int_{0}^{a}\left(a^2 - x^2\right)^{\frac{1}{2}}dx 
+= \frac{4b}{a}\left[\frac{x}{2}\left(a^2 - x^2\right)^{\frac{1}{2}} 
++ \frac{a^2}{2}\sin^{- 1}\left(\frac{x}{a}\right)\right]_0^a = \pi ab,\]  where the indefinite integral is found from a table of integrals.}
 %
 \begin{equation}
 A_1 = \pi p_{max}x_{max} = \pi\sqrt{2m\varepsilon}\sqrt{2\frac{\varepsilon}{\beta}} = 2\pi\varepsilon\sqrt{m/\beta} = \frac{\varepsilon}{\nu}. % eqn (16)
@@ -612,12 +611,8 @@ ellipses $\varepsilon = (n-1)h\nu$ and $\varepsilon = nh\nu$.
 
 The constant \emph{C} is determined by adding up all the probabilities, 
 which must equal 1;\footnote{The last step to the equation relies on an
-  identity that is part of the "toolkit" of physicists and
-  mathematicians, derivable using Taylor's theorem:
-
-  \emph{(1 - x)\textsuperscript{-1} = 1 + x + x\textsuperscript{2} +
-  x\textsuperscript{3} + \ldots{}}
-
+  identity that is part of the ``toolkit'' of physicists and
+  mathematicians, derivable using Taylor's theorem: $(1-x)^{-1}=1+x+x^2+x^3+\dots.$ 
   We let $x = e^{-h\nu/kT}$, and writing out
   some of the summation, we find that the identity is applicable.}
 %
@@ -626,50 +621,48 @@ which must equal 1;\footnote{The last step to the equation relies on an
 \end{equation}
 %
 from which it follows that
-\begin{equation}
+\begin{equation}\label{eq:planck_19}
 C = 1 - e^{-h\nu/kT}. % eqn (19)
 \end{equation}
 If we want to find the average energy, $\bar{\varepsilon}(\nu, T)$, of \emph{all} the
 oscillators having the frequency $\nu$ at temperature \emph{T}, we
-multiply each of the energies, $h\nu$, $2h\nu$, $3h\nu$, \ldots
-, by the probability of an oscillator's having that energy, and add up
+multiply each of the energies---$h\nu, 2h\nu, 3h\nu, \dots$---by the 
+probability of an oscillator's having that energy, and add up
 all the terms:
 %
-\begin{equation}
-\bar{\varepsilon}(\nu, T) \approx Ch\nu\left(e^{-h\nu/KT}+2e^{-2h\nu/kT}+\cdots\right) = Ch\nu e^{-h\nu/kT}\left(1-e^{-h\nu/kT}\right)^{-2}. % eqn (20)
+\begin{equation}\label{eq:planck_20}
+\bar{\varepsilon}(\nu, T) \approx Ch\nu\left(e^{-h\nu/KT}+2e^{-2h\nu/kT}+\cdots\right) = Ch\nu e^{-h\nu/kT}\left(1-e^{-h\nu/kT}\right)^{-2}, % eqn (20)
 \end{equation}
 %
 where, be it noted, we have had to include the possibility that an
 oscillator have zero energy.\footnote{We have again made use of an
-  identity, derivable from Taylor's Theorem,
-
-  \emph{(1 -- x)\textsuperscript{-2} = 1 + 2x + 3x\textsuperscript{2} +
-  4x\textsuperscript{3} + \ldots{} }
-
+  identity, derivable from Taylor's Theorem, 
+  $(1 - x)^{-2} = 1 + 2x + 3x^2 + 4x^3 + \dots.$
   And we again let $x = e^{-h\nu/kT}$ and
   factor that out, then use this identity to get the last expression in
-  Equation 20.} Substituting our value for \emph{C}, (19), into Equation
-20, we obtain for the average energy of the oscillators of frequency
+  Equation \eqref{eq:planck_20}.} 
+Substituting our value for $C$, \eqref{eq:planck_19}, into Equation
+\eqref{eq:planck_20}, we obtain for the average energy of the oscillators of frequency
 $\nu$ at temperature \emph{T:}\footnote{The equation gets its
   right-hand form by multiplication of both numerator and denominator by
   $e^{h\nu/kT}$.}
 %
-\begin{equation}
+\begin{equation}\label{eq:planck_21}
 \bar{\varepsilon}(\nu, T) \approx \frac{h\nu e^{-h\nu/kT}}{1-e^{-h\nu/kT}} = \frac{h\nu}{e^{h\nu/kT}-1}, % eqn (21)
 \end{equation}
 %
-which would be identical with Equation 11 if the ``$\approx$'' were replaced
+which would be identical with Equation \eqref{e_eq} if the ``$\approx$'' were replaced
 by ``=.``
 
 We observe that, so far, Planck has been considering finite increments
-in energy, of amount $h\nu$. Equation 21 is thus, according to the
+in energy, of amount $h\nu$. Equation \eqref{eq:planck_21} is thus, according to the
 notions of all earlier physics, only approximate; to obtain the exact
 expression, it would normally be necessary to take the limit of Equation
-21 as \emph{h} goes to zero. If this is done, however, we find
+\eqref{eq:planck_21} as \emph{h} goes to zero. If this is done, however, we find
 that\footnote{We let $a = h\nu/kT$, and we also recall that from
-  junior math, $e^a$ is expressible in the form
+  Junior Math, $e^a$ is expressible in the form
 \begin{equation*}
-e^a = 1 + a + \frac{a^2}{2!} + \frac{a^3}{3!} + \cdots + \frac{a^n}{n!} + \cdots
+e^a = 1 + a + \frac{a^2}{2!} + \frac{a^3}{3!} + \cdots + \frac{a^n}{n!} + \cdots.
 \end{equation*}
   If we now write
 \begin{equation*}
@@ -683,30 +676,30 @@ e^a = 1 + a + \frac{a^2}{2!} + \frac{a^3}{3!} + \cdots + \frac{a^n}{n!} + \cdots
 \bar{\varepsilon}(\nu, T) \rightarrow kT\quad \text{as}\quad h \rightarrow 0.
 \end{equation*}
 %
-Substituting this expression---$\bar{\varepsilon}(\nu, T) = kT$ {[}Eq.
-6{]}---for the average energy into Equation 10, gives for the energy
-density the Rayleigh-Jeans formula, Equation 7, which, as we have seen,
+Substituting this expression---$\bar{\varepsilon}(\nu, T) = kT$ 
+{[}Eq.~\ref{eq:planck_6}{]}---for the average energy into Equation \eqref{eq:planck_10}, gives for the energy
+density the Rayleigh-Jeans formula, Equation \eqref{eq:planck_7}, which, as we have seen,
 is in disagreement with experiment and is theoretically unacceptable in
 that it implies the ``ultraviolet catastrophe.''
 
 Now, in the classical calculation of the average energy of a large
 number of things of the same kind in thermal equilibrium with each other
 at temperature \emph{T} (a calculation that leads to the Equipartition
-Law, Eq.\ 6), it was assumed that the energy $\varepsilon$ was a continuous
-variable. However, as we have seen, Equation 21, \emph{without taking
-the limit}, implies an equation for the energy density, Equation 12,
+Law, Eq.~\ref{eq:planck_6}), it was assumed that the energy $\varepsilon$ was a continuous
+variable. However, as we have seen, Equation \eqref{eq:planck_21}, \emph{without taking
+the limit}, implies an equation for the energy density, Equation \eqref{eq:planck_12},
 that accords with experiment (Fig.\ 6). Thus, in order to derive the
 equation which fits the experimental results, Planck was forced to say
 that the correct expression for $\bar{\varepsilon}(\nu, T)$ must be, not the
-approximate Equation 21, or the exact equation resulting from allowing
-the annular regions to shrink, but rather Equation 11. In other words,
+approximate Equation \eqref{eq:planck_21}, or the exact equation resulting from allowing
+the annular regions to shrink, but rather Equation \eqref{e_eq}. In other words,
 he had to deny the assumption that the energy $\varepsilon$ varies
 continuously. He could not allow \emph{h} to approach zero but, instead,
 had to assume that the amount of energy assigned to an oscillator of
 frequency $\nu$ must be an integral number of units $\Delta\varepsilon = h\nu$ of
 energy---``energy \emph{quanta},'' as Planck called them---where
 \emph{h} was the non-zero constant whose value he had determined by
-fitting his Equation 11 to the empirical data. We have then, for nonzero
+fitting his Equation \eqref{e_eq} to the empirical data. We have then, for nonzero
 \emph{h}, a theoretical formula which describes the empirical results.
 What does it mean? How is the meaning of \emph{h} different now as
 compared with its meaning when it was first encountered above where it

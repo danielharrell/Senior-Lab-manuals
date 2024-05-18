@@ -9,7 +9,18 @@
     - [ ] Move footnotes outside of equations to previous text
         - [x] Millikan paper review
         - [x] Rutherford paper
-        - [ ] Planck paper (p.70---equation in fn. 5)
+        - [x] Planck paper
+        - [ ] Einstein paper
+        - [ ] Bohr paper
+        - [ ] Broglie paper
+        - [ ] Schrödinger paper
+        - [ ] Heisenberg paper
+        - [ ] Optics Practicum
+        - [ ] Dirac paper
+        - [ ] Optics Practicum 2, 3, 4
+        - [ ] EPR paper
+        - [ ] Bell paper
+        - [ ] Appendix 
 - [ ] p. 192, note 12. Clarify use of Griffiths and absolute value.
 - [ ] Rename to 2024?
 - [ ] Check to-do list in QM folder
