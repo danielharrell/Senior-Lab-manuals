@@ -35,6 +35,15 @@
 \renewcommand{\colon}{\negthinspace :\negthinspace}
 \newcommand{\ratio}[2]{#1\negthinspace :\negthinspace #2}
 %
+% Code below defines a new enumerate environment where spacing between items can be controlled. 
+% Used at end of Einstein paper.
+\newenvironment{tight_enumerate}{
+\begin{enumerate}
+  \setlength{\itemsep}{3pt}
+  \setlength{\parskip}{0pt}
+}{\end{enumerate}}
+% End of new enumerate environment
+
 % abbreviations
 %
 \providecommand{\e}[1]{\ensuremath{\times 10^{#1}}}

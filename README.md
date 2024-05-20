@@ -11,7 +11,7 @@
         - [x] Rutherford paper
         - [x] Planck paper
         - [x] Einstein paper
-        - [ ] Bohr paper (p.92)
+        - [ ] Bohr paper (p.95)
         - [ ] Broglie paper
         - [ ] Schrödinger paper
         - [ ] Heisenberg paper
