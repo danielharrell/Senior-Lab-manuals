@@ -10,7 +10,7 @@
         - [x] Millikan paper review
         - [x] Rutherford paper
         - [x] Planck paper
-        - [ ] Einstein paper [p.78]
+        - [x] Einstein paper
         - [ ] Bohr paper
         - [ ] Broglie paper
         - [ ] Schrödinger paper

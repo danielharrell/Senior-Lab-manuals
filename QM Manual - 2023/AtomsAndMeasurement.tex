@@ -77,6 +77,15 @@
 % Acknowledgments page: also note the conventions (bracketed footnotes, asterisks for ellipsis,
 % block quotes for original papers interspersed with commentary [name chapters])
 
+% Code below defines a new enumerate environment where spacing between items can be controlled. 
+% Used at end of Einstein paper.
+\newenvironment{tight_enumerate}{
+\begin{enumerate}
+  \setlength{\itemsep}{3pt}
+  \setlength{\parskip}{0pt}
+}{\end{enumerate}}
+% End of new enumerate environment
+
 \begin{document}
 
 \setlength{\aboverulesep}{0pt} % from {booktabs} for better rules in tables
