@@ -77,7 +77,7 @@ approximately by the formula
 where $A$ and $\alpha$ are constants having different values for
 the various series, while \emph{R} is a universal constant equal to the
 constant in the spectrum of hydrogen. If the wave lengths are measured
-in vacuo Rydberg calculated the value of R to be 109675.\footnote{{[}One
+in vacuo Rydberg calculated the value of $R$ to be 109675.\footnote{{[}One
   over this $\times 10^{10}$ is 91178.5 (this is for a vacuum,
   not air as in the previous table).{]}} In the spectra of many
 elements, as opposed to the simple spectrum of hydrogen, there are
@@ -91,7 +91,7 @@ establishment of the ``combination principle.'' According to this
 principle, the wave lengths of the various lines in the spectrum of an
 element may be expressed by the formula
 %
-\begin{equation}
+\begin{equation}\label{eq:bohr_2}
 \frac{1}{\lambda} = F_r(n_1) - F_s(n_2) .
 \end{equation}
 %
@@ -112,13 +112,14 @@ therefore to the prediction of a great number of lines which were not
 included in the spectral formulae previously considered, and in a large
 number of cases the calculations were found to be in close agreement
 with the experimental observations. In the case of hydrogen Ritz assumed
-that formula (1) was a special case\footnote{{[}``special case'':
-  Formula (1) is that special case of equation (3) in which $n_1^2$
-  has the value 4. Equation (3) is in turn that special case of equation
-  (2) in which $F_r(n)$ and $F_s(n)$ each have
+that formula \eqref{eq:bohr_1} was a special case\footnote{{[}``special case'':
+  Formula \eqref{eq:bohr_1} is that special case of equation \eqref{eq:bohr_3}
+  in which $n_1^2$
+  has the value 4. Equation \eqref{eq:bohr_3}, in turn, is that special case of equation
+  \eqref{eq:bohr_2} in which $F_r(n)$ and $F_s(n)$ each have
   the form $R/n^2$.]} of the general formula
 %
-\begin{equation}
+\begin{equation}\label{eq:bohr_3}
 \frac{1}{\lambda} = R\left(\frac{1}{n_1^2} - \frac{1}{n_2^2}\right) ,
 \end{equation}
 %
@@ -202,9 +203,9 @@ energy radiated from the body per second in the form of electromagnetic
 oscillations of various wave lengths. In a similar manner the absorption of 
 rays of a given wave length by a substance can be determined by calculating 
 the effect of electromagnetic oscillations upon the motion of the 
-electrons[\ldots]. As is well known this has been done by Lorentz (1903). 
+electrons\,[\,\ldots]. As is well known this has been done by Lorentz (1903). 
 He calculated the emissive as well as the absorptive power of a metal for 
-long wave lengths[\ldots]. Lorentz really obtained an expression for the law 
+long wave lengths\,[\,\ldots]. Lorentz really obtained an expression for the law 
 of temperature radiation which for long wave lengths agrees remarkably well
 with experimental facts. In spite of this beautiful and promising
 result, it has nevertheless become apparent that the electromagnetic
@@ -324,7 +325,7 @@ ellipse with the nucleus in one of the foci. Denoting the frequency of
 revolution by $\omega$, and the major axis of the ellipse by 2$a$
 we find that
 %
-\begin{equation}
+\begin{equation}\label{eq:bohr_4}
 \omega^2 = \frac{2W^3}{\pi^2e^4m} ,\quad\quad 2a = \frac{e^2}{W}
 \end{equation}
 %
@@ -333,11 +334,11 @@ while $W$ is the work which must be added to the system in order to
 remove the electron to an infinite distance from the nucleus.\footnote{{[}$W$
   therefore is the \emph{ionization energy}, the work required to remove
   the electron completely and thereby form a hydrogen \emph{ion}. Let us
-  derive equations (4) for the case of a circular orbit.
+  derive equations \eqref{eq:bohr_4} for the case of a circular orbit.
 
   (a) By Coulomb's Law, the electrostatic force exerted on the orbiting
   electron is $f = -e^2/r^2$ (negative because attractive, that
-  is, opposite to the direction of increasing \emph{r}). Integrate this
+  is, opposite to the direction of increasing $r$). Integrate this
   to obtain the potential energy at radius $a$:
   \begin{equation*}
   \text{p.e.}  = \int_{\infty}^{a} \left(-e^2/r^2\right)\,dr = - e^2/a .
@@ -359,29 +360,26 @@ remove the electron to an infinite distance from the nucleus.\footnote{{[}$W$
   \begin{equation*}\tag{ii}
   W = e^2/2a ,
   \end{equation*}
-  which is the righthand member of Bohr's equations (4). Note that in
+  which is the righthand member of Bohr's equations \eqref{eq:bohr_4}. Note that in
   general, if energy must be \emph{added} to the un-ionized atom in
   order to bring it to an energy level of \emph{zero}, then
-  $e + W = 0$, and therefore $e\! =\! -W$. Bohr will
-  make this relation explicit later on; see note 17 below.
+  $e + W = 0$, and therefore $e = -W$. Bohr will
+  make this relation explicit later on;\label{fn:bohr_W*} see fn.~\ref{fn:bohr_W} (p.~\pageref{fn:bohr_W}).
 
   (b) If the electron has tangential velocity $v$ and the
   circumference of its orbit is $2\pi a$, then the number of
   revolutions it accomplishes per second will be $\omega = v/2\pi a$, from which
-  \begin{tabular}{ l l }
-   & $\omega^2 = v^2/4\pi^2a^2 $.\\
-  But from (i) above, & $v^2 = e^2/ma$ ,\\
-  while from (ii), & $a = e^2/2W$ .\\
-  \end{tabular}\\  
+   $\omega^2 = v^2/4\pi^2a^2.$ But from (i) above, $v^2 = e^2/ma$,
+  while from (ii), $a = e^2/2W$.  
   Substituting for $v^2$ and $a$ then yields
   \begin{equation*}
   \omega^2 = e^2/4\pi^2ma^3 = 2W^3/\pi^2me^4 ,
   \end{equation*}
-  the lefthand member of equations (4). Note that Bohr uses the symbol
+  the lefthand member of equations \eqref{eq:bohr_4}. Note that Bohr uses the symbol
   $\omega$ to denote \emph{simple frequency} (revolutions per second)
   and not \emph{angular velocity} (radians per second).
 
-  One may prove that equations (4) hold also for an \emph{elliptical}
+  One may prove that equations \eqref{eq:bohr_4} hold also for an \emph{elliptical}
   orbit of the same diameter 2$a$; use the Corollary to Prop.\ 15
   and Corollary IV to Prop.\ 16 of Newton's \emph{Principia}, Book I.{]}}
 
@@ -403,19 +401,19 @@ a consideration of the dimensions involved; for with the aid of $e$
 and $m$ alone it is impossible to obtain a quantity which can be
 interpreted as a diameter of an atom or as a frequency.\footnote{{[}For
   example, the electrostatic unit of charge is expressed in
-  $gm^{1/2}-cm^{3/2}-sec^{-1}$, while the unit of mass is
-  \emph{gm}. No combination of these units alone can yield either
-  \emph{cm} (``the diameter of an atom'') or $sec^{-1}$ (``a
+  gm$^{1/2}$--\,cm$^{3/2}$--\,sec$^{-1}$, while the unit of mass is
+  gm. No combination of these units alone can yield either
+  cm (``the diameter of an atom'') or sec$^{-1}$ (``a
   frequency'') exclusively.{]}}
 
 If we attempt to account for the radiation of energy in the manner
 required by the ordinary electrodynamics it will only make matters
 worse. As a result of the radiation of energy, W would continually
-increase, and the above expressions (4) show that at the same time the
+increase, and the above expressions \eqref{eq:bohr_4} show that at the same time the
 frequency of revolution of the system would increase, and the dimensions
 of the orbit decrease.\footnote{{[}The electron, like any satellite
   which lost energy, would fall toward the center and thus, by Kepler's
-  law of periods or by Newton IV, 6, would revolve with a decreased
+  law of periods or by Newton Bk.\ I, Prop.\ IV, Cor.\ 6, would revolve with a decreased
   period or increased frequency. If $W$ is the work required to
   \emph{remove} the electron, then clearly $W$ increases as the
   electron loses energy.{]}} This process would not stop until the
@@ -452,8 +450,8 @@ oscillate with a given frequency per second, dependent only on the
 nature of the system and independent of the amount of energy contained
 in the system. In a system consisting of an electron and a nucleus the
 period of oscillation corresponds to the period of revolution of the
-electron. But the formula (4) for $\omega$ shows that the frequency of
-revolution depends upon $W$, i.e. on the energy of the system.
+electron. But the formula \eqref{eq:bohr_4} for $\omega$ shows that the frequency of
+revolution depends upon $W$, i.e.\ on the energy of the system.
 Still the fact that we can not immediately apply Planck's theory to our
 problem is not as serious as it might seem to be, for in assuming
 Planck's theory we have manifestly acknowledged the inadequacy of the
@@ -588,8 +586,8 @@ present at least, no other means available besides the ordinary
 mechanics.
 
 Corresponding to the $n$th stationary state in formula (4) for
-$\omega$, let us by way of experiment put $W = Rhc/n^2$ .\footnote{{[}We saw in 
-  note 10 above that $W$ is
+$\omega$, let us by way of experiment put $W = Rhc/n^2$ .\footnote{\label{fn:bohr_W}{[}We saw in 
+  fn.~\ref{fn:bohr_W*} (p.~\pageref{fn:bohr_W*}) that $W$ is
   numerically equal to the energy of the system but opposite in sign.
   Since now the energy of any stationary state has been taken to be
   $-Rhc/n^2 , W$ must be $Rhc/n^2$ .{]}} This gives us
