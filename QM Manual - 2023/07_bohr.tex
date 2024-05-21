@@ -331,7 +331,8 @@ we find that
 %
 where $e$ is the charge of the electron and $m$ its mass,
 while $W$ is the work which must be added to the system in order to
-remove the electron to an infinite distance from the nucleus.\footnote{{[}$W$
+remove the electron to an infinite distance from the 
+nucleus.\footnote{\label{fn:bohr_ke}{[}$W$
   therefore is the \emph{ionization energy}, the work required to remove
   the electron completely and thereby form a hydrogen \emph{ion}. Let us
   derive equations \eqref{eq:bohr_4} for the case of a circular orbit.
@@ -548,7 +549,7 @@ respectively.\footnote{{[}We saw earlier that the most general form of
   case to the larger value of $n$. For hydrogen,
   $F_r(n)$ and $F_s(n)$ prove to be identical
   functions, each equal to $R/n^2$ as indicated in equation (3).
-  So Bohr will express the stationary states for hydrogen
+  \label{fn:bohr_hyp} So Bohr will express the stationary states for hydrogen
   in the general form $E_n = -Rhc/n^2$.{]}} Using this
 interpretation the combination principle asserts that a series of
 stationary states exists for the given system, and that it can pass from
@@ -733,7 +734,7 @@ k\lambda = d \sin \theta
 %
 where $d$ is the line spacing of the grating, $\theta$ is the angle
 of diffraction of a given image, and $k$ is the order number of
-that image ($k$ = 1, 2, 3,...); it will enable measurement of
+that image ($k = 1, 2, 3,\dots$); it will enable measurement of
 $\lambda$.
 
 Unless they are permanently aligned by the builder (ours are not),
@@ -759,16 +760,15 @@ possible; calculate the wavelengths of these observed lines carefully,
 using the relation $k\lambda = d \sin \theta$ cited above. (Given the way 
 the spacing of our equipment is arranged, we will only see first-order images,
 so $k$ will always be equal to 1.)  Finally, use these measured wavelengths 
-to determine an average value for $R$ according to the Balmer series (Bohr's equation 1):
+to determine an average value for $R$ according to the Balmer series 
+(Bohr's equation \ref{eq:bohr_1}):\footnote{We leave it to you to solve for $R$.}
 
 \begin{equation*}\tag{1}
-\frac{1}{\lambda_n} = R\left(\frac{1}{4} - \frac{1}{n^2}\right) ,\footnote{We leave it to you to solve for $R$.}
+\frac{1}{\lambda_n} = R\left(\frac{1}{4} - \frac{1}{n^2}\right),
 \end{equation*}
-
-
 Compare this spectroscopically-determined constant $R$ to the
-theoretically-de\-ter\-mined value of $R$ according to Bohr's equation
-(7):
+theoretically-determined value of $R$ according to Bohr's equation
+\eqref{eq:bohr_7}:
 %
 \begin{equation*}\tag{7}
 R = \frac{2\pi^2e^4m}{ch^3} .
@@ -778,7 +778,7 @@ In the calculation, use presently-accepted values for the various
 quantities:
 \begin{align*}
 e &= 4.802 \cdot 10^{-10} \text{ esu}\\
-m &= 0.910 \cdot 10^{-27} \text {gm}\\
+m &= 0.910 \cdot 10^{-27} \text{ gm}\\
 c &= 2.999 \cdot 10^{10} \text{ cm/sec}\\
 h &= 6.625 \cdot 10^{-27} \text{ erg-sec}\\
 \end{align*}
@@ -789,51 +789,53 @@ Here are some exercises that may be helpful for visualizing Bohr's model
 of the hydrogen atom more clearly. They have no direct connection with
 our experiments.
 
-\begin{quote}
-1. Calculate the electron energies of the first seven stationary states
-($n$ = 1 to $n$ = 7) according to Bohr's hypothesis (see
-note 16 to Bohr's text above) that the energies are given by
+\begin{enumerate}
+\item Calculate the electron energies of the first seven stationary states
+($n = 1$ to $n = 7$) according to Bohr's hypothesis (see
+last paragraph of footnote \ref{fn:bohr_hyp} [p.~\pageref{fn:bohr_hyp}] to Bohr's text above)
+that the energies are given by
 \begin{equation*}
 E_n = - Rhc/n^2
 \end{equation*}
 or
 \begin{equation*}\tag{8}
-E_n = - \frac{2\pi^2me^4}{h^2n^2} ,
+E_n = - \frac{2\pi^2me^4}{h^2n^2},
 \end{equation*}
-substituting for $R$ from Equation 7.
+substituting for $R$ from Equation \eqref{eq:bohr_7}.
 
-2. Show that the quantum energy $h\nu$ or $hc/\lambda$ \emph{for each
+\item Show that the quantum energy $h\nu$ or $hc/\lambda$ \emph{for each
 spectral line} equals the difference between two stationary states. For
 example: between what two states must the electron fall in order to emit
 a quantum of light corresponding to the \emph{red} Balmer line? to the
 \emph{blue-green} line? (Note: do not confuse the number $n$ in the
 Balmer series with $n$ the number of a stationary state. The
 $n$th stationary state does not radiate; but the Balmer line
-$\lambda_\nu$ \emph{is} a radiation of light. Therefore the two \emph{n'}s cannot
+$\lambda_\nu$ \emph{is} a radiation of light. Therefore the two $n$'s cannot
 mean the same thing.)
 
-3. Using Bohr's equation (4), calculate the radii of the first seven
+\item Using Bohr's equation \eqref{eq:bohr_4}, calculate the radii of the first seven
 stationary states; then construct a scale drawing of the Bohr atom,
 assuming that the orbits are circular.
 
-4. Try calculating the \emph{angular momentum} $L_n$ of the electron orbit
+\item Try calculating the \emph{angular momentum} $L_n$ of the electron orbit
   for a given value of $n$. Hints:
 
   \begin{enumerate}
-  \item[a.]
+  \item
     Assume, for simplicity, that the orbits are circles of radius
     $a$ rather than ellipses with semi-major axis
     $a_n$.
-  \item[b.]
+  \item
     The angular momentum of a body of mass $m$ moving with velocity
-    $v$ in a circle of radius $a_n$ is $L_n = mva_n .$
+    $v$ in a circle of radius $a_n$ is $L_n = mva_n$.
 
-\item[c.]
-  As shown in footnote 10, the kinetic energy of an electron in
+\item
+  As shown in footnote \ref{fn:bohr_ke} (p.~\pageref{fn:bohr_ke}), 
+  the kinetic energy of an electron in
   a circular orbit of radius $a_n$ is $mv^2/2 = e^2/2a_n$. Show from this
   that $m^2v^2a_n^2 = ma_ne^2$ .
-\item[d.]
-  According to Bohr's equation (8), each allowable elliptical orbit has
+\item
+  According to Bohr's equation \eqref{eq:bohr_8}, each allowable elliptical orbit has
   a semi-major axis $a_n$ given by $2a_n = n^2h^2/2\pi^2me^2$.
   This formula applies also to circular orbits of radius
   $a_n$. Show from this that $ma_ne^2 = n^2h^2/4\pi^2$ .
@@ -847,4 +849,4 @@ hydrogen atom are, apparently, just those in which the electron's
 angular momentum is an integral multiple $n$ of the common unit
 $h/2\pi$?
  
-\end{quote}
+\end{enumerate}
