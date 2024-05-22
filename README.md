@@ -12,7 +12,7 @@
         - [x] Planck paper
         - [x] Einstein paper
         - [x] Bohr paper
-        - [ ] Broglie paper [p.106]
+        - [ ] Broglie paper [p.109] (get cross-references right)
         - [ ] Schrödinger paper
         - [ ] Heisenberg paper
         - [ ] Optics Practicum
