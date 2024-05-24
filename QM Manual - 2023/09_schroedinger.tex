@@ -20,7 +20,7 @@ analogy between ordinary mechanics and geometrical optics.}
   \begin{center}
     \includegraphics[width=1.98958in,height=1.47917in]{images/09_schroedinger/image035.png}
   \end{center}
-  \caption*{\emph{FIGURE 1}}
+  \caption*{Figure 1}
 \end{figure}
 
 When a \emph{mass-point} $m$ moves in a conservative field of
@@ -33,8 +33,8 @@ chosen point $B$ by suitably ``aiming,'' i.e.\ by letting it start in a
 quite definitely chosen \emph{direction}. There is in general \emph{one}
 definite dynamical orbit which leads from $A$ to $B$ \emph{with a
 given energy}. This orbit possesses the property that
-\begin{equation}
-\delta \int_{A}^{B} \! 2T\,dt = 0 , % eqn (1)
+\begin{equation}\label{eq:sch_1}
+\delta \int_{A}^{B} 2T dt = 0 , % eqn (1)
 \end{equation}
 and is defined by this property (Hamilton's principle in the form given
 to it by Maupertuis). Here $T$ means the kinetic energy of the mass-point,
@@ -43,20 +43,21 @@ leading from $A$ to $B$ and subject to the law of conservation
 of energy ($T + V = E$); among them the actual
 dynamical orbit is distinguished by the fact that, \emph{for it} and for
 all infinitely adjacent orbits of the manifold, the $\int_{A}^{B}$ has the \emph{same}
-value[\ldots]. Calling $w= ds/dt$ the velocity of the mass-point, we have
+value\,[\,\ldots]. Calling $w= ds/dt$ the velocity of the mass-point, we have
 \begin{equation*}
 2T = mw^2 = m\left(\frac{ds}{dt}\right)^2 = 2(E-V) = \frac{ds}{dt}\sqrt{2m(E-V)}
 \end{equation*}
-by means of which equation (1) can be transformed into
-\begin{equation} % eqn (2)
-\delta \int_{A}^{B} \! \sqrt{2m(E-V)}\,ds = 0.\footnote{{[}This is equivalent to $\partial \int_{A}^{B} \! mw\,ds = 0$, since $2m(E-V)=2mT=m^2w^2$.}
+by means of which equation \eqref{eq:sch_1} can be transformed into\footnote{{[}This is equivalent to
+$\partial \int_{A}^{B} \! mw\,ds = 0$, since $2m(E-V)=2mT=m^2w^2$.}
+\begin{equation}\label{eq:sch_2} % eqn (2)
+\delta \int_{A}^{B} \sqrt{2m(E-V)}\,ds = 0.
 \end{equation}
 This form has the advantage that the variational principle is applied to
 a purely geometrical integral, which does not contain the time-variable,
 and further, that the condition of constant energy is automatically
 taken care of.
 
-\emph{Hamilton} found it useful to compare equation (2) with
+\emph{Hamilton} found it useful to compare equation \eqref{eq:sch_2} with
 \emph{Fermat's} principle, which tells us that in an optically
 non-homogeneous medium the actual light rays, i.e.\ the tracks along
 which energy is propagated, are determined by the ``law of minimum
@@ -69,15 +70,15 @@ general be possible to illuminate an arbitrarily chosen point $B$
 by suitably \emph{aiming} at it with the searchlight. There is one
 definite light-path leading from $A$ to $B$, which obeys, and
 is uniquely defined by, the law
-\begin{equation}
-\delta \int_{A}^{B} \! \frac{ds}{u} = 0.
+\begin{equation}\label{eq:sch_3}
+\delta \int_{A}^{B} \frac{ds}{u} = 0. % eqn (3)
 \end{equation}
 Here \emph{ds}, as before, means the element of the path, and $u$
 is the velocity of light, a function of the co-ordinates $x, y, z$.
 
-The two laws contained in equations (2) and (3) respectively become
+The two laws contained in equations \eqref{eq:sch_2} and \eqref{eq:sch_3} respectively become
 \emph{identical}, if we postulate that
-\begin{equation}
+\begin{equation}\label{eq:sch_4}
 u = \frac{C}{\sqrt{2m(E-V)}} % eqn (4)
 \end{equation}
 where $C$ must be independent of $x, y, z$ but may
@@ -85,8 +86,8 @@ depend on $E$. Thus we have made a mental
 picture of an optical medium, in which the manifold of possible
 light-rays coincides with the manifold of dynamical orbits of a
 mass-point $m$ moving \emph{with given energy} $E$ in a field of
-force $V$(\emph{x},\emph{y},\emph{z}). The fact that \emph{u}, the
-velocity of light, depends not only on the co\-or\-di\-nates but also on
+force $V (x, y, z)$. The fact that $u$, the
+velocity of light, depends not only on the coordinates but also on
 $E$, the total energy of the mass-point, is of the utmost
 importance.
 
@@ -94,8 +95,8 @@ This fact allows us to push the analogy a step farther by picturing the
 dependence on $E$ as dispersion, i.e.\ as a dependence on
 \emph{frequency}. For this purpose we
 must attribute to our light-rays a definite frequency $\nu$,
-depending on E. We will (arbitrarily) put
-\begin{equation}
+depending on $E$. We will (arbitrarily) put
+\begin{equation}\label{eq:sch_5}
 E = h\nu % eqn (5)
 \end{equation}
 ($h$ being Planck's constant), without dwelling too much on this
@@ -107,32 +108,29 @@ proceed a stage farther, putting the question: can we make a small
 mass-point? (Hitherto we have only secured the geometrical identity of
 \emph{orbits}, quite neglecting the question of time-rate.) At first
 sight this seems impossible, since the velocity of the mass point,
-\begin{equation}
+\begin{equation}\label{eq:sch_6}
 w = \frac{1}{m}\sqrt{2m(E-V)} , % eqn (6)
 \end{equation}
 is (along the path, i.e.\ with constant $E$) \emph{inversely}
-proportional to the light-velocity $u$ (see equation (4); \emph{C}
+proportional to the light-velocity $u$ (see equation \eqref{eq:sch_4}; $C$
 depends on $E$ only). But we must remember that $u$ is of
 course the ordinary \emph{phase}-velocity, whereas a small light-signal
 moves with the so-called \emph{group-velocity}, say $g$, which is
-given by
-\begin{equation*}
-\frac{1}{g}=\frac{d}{d\nu}\left(\frac{\nu}{u}\right) ,\footnote{[See section C of the de Broglie
+given by\footnote{[See section C of the de Broglie
 chapter, particularly equation \eqref{debsch}, p.~\pageref{debsch}.]}
+\begin{equation*}
+\frac{1}{g}=\frac{d}{d\nu}\left(\frac{\nu}{u}\right) ,
 \end{equation*}
-or, in our case, following equation (5), by
-\begin{equation}
+or, in our case, following equation \eqref{eq:sch_5}, by
+\begin{equation}\label{eq:sch_7}
 \frac{1}{g} = \frac{d}{dE}\left(\frac{E}{u}\right). % eqn (7)
 \end{equation}
 \emph{We will try to make} $g=w$. The only means we have at our disposal
 for this purpose is a suitable choice of $C$, the arbitrary
-function of $E$ that appeared in equation (4). From (4), (6), and
-(7), the postulate $g=w$ becomes
-\begin{equation*}
-\frac{d}{dE}\left(\frac{E\sqrt{2m(E-V)}}{C}\right) = \frac{m}{\sqrt{2m(E-V)}}
-\equiv \frac{d}{dE}\left(\sqrt{2m(E-V)}\right) ;\footnote{{[}Schrödinger is really setting $1/g = 1/w$.
+function of $E$ that appeared in equation \eqref{eq:sch_4}. From \eqref{eq:sch_4}, 
+\eqref{eq:sch_6}, and \eqref{eq:sch_7}, the postulate $g=w$ becomes\footnote{{[}Schrödinger is really setting $1/g = 1/w$.
   The term on the left is $1/g$, while the middle term is
-  $1/w$ (from eq. 6). But the middle term is also identically equal
+  $1/w$ (from eq.~\ref{eq:sch_6}). But the middle term is also identically equal
   ($\equiv$) to the term on the right; thus the term on the left equals the
   term on the right. Moreover both terms are derivatives with respect to
   $E$. Since, then, the two quantities in parentheses have
@@ -140,6 +138,9 @@ function of $E$ that appeared in equation (4). From (4), (6), and
   by at most a constant} (that is, by something that does not vary with
   $E$). The expression in the next line denotes that difference;
   therefore it ``is constant with respect to $E$.''{]}}
+\begin{equation*}
+\frac{d}{dE}\left(\frac{E\sqrt{2m(E-V)}}{C}\right) = \frac{m}{\sqrt{2m(E-V)}}
+\equiv \frac{d}{dE}\left(\sqrt{2m(E-V)}\right) ;
 \end{equation*}
 hence
 \begin{equation*}
@@ -152,7 +153,7 @@ first factor vanish. Hence
 \begin{equation*}
 \frac{E}{C}-1=0 \quad\quad \text{or} \quad\quad C = E ,
 \end{equation*}
-which gives equation (4) the special form
+which gives equation \eqref{eq:sch_4} the special form
 \begin{equation}\label{SchDeB}
 u = \frac{E}{\sqrt{2m(E-V)}} . % eqn (8)
 \end{equation}
@@ -160,7 +161,7 @@ This assumption about phase-velocity is the only one which will secure
 absolute coincidence between the dynamical laws of motion of the
 mass-point and the optical laws of motion of light-signals in our
 imagined light-propagation. It is worthwhile mentioning that, according
-to (8),
+to \eqref{SchDeB},
 \begin{equation*}\tag{8'}
 u = \frac{\text{energy}}{\text{momentum}}. % eqn (8')
 \end{equation*}
