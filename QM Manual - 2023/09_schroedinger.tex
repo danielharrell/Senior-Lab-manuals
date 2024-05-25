@@ -171,7 +171,7 @@ u = \frac{\text{energy}}{\text{momentum}}. % eqn (8')
 Now the fundamental idea of wave-mechanics is the following. The
 phenomenon, of which we believed we had given an adequate description in
 the old mechanics by describing the motion of a mass-point, i.e.\ by
-giving its co-ordinates $x, y, z,$ as functions of the
+giving its co-ordinates $x$, $y$, $z$, as functions of the
 time variable $t$, is to be described correctly according to the
 new ideas by describing a definite wave-motion, which takes place among
 waves of the type considered, i.e.\ of the definite frequency and
@@ -180,7 +180,7 @@ what we called ``light'' in the preceding. The mathematical description
 of a wave-motion will be furnished not by a limited number of functions
 of the one variable $t$, but by a continuous manifold, so to speak,
 of such functions, viz.\ by a function (or possibly several functions) of
-$x, y, z,$ and $t$. These functions will be
+$x$, $y$, $z$, and $t$. These functions will be
 subject to a \emph{partial} differential equation, viz.\ to some sort of
 \emph{wave equation}.
 
@@ -236,17 +236,15 @@ mechanics we may hope on the one hand to retain ordinary mechanics as an
 approximation which is valid for the coarse ``macro-mechanical''
 phenomena, and on the other hand to get an explanation of those minute
 ``micro-mechanical'' phenomena (motion of the electrons in the atom),
-about which ordinary mechanics was quite unable to give any information[\ldots].
+about which ordinary mechanics was quite unable to give any information\,[\,\ldots].
 
 The step which leads from ordinary mechanics to wave mechanics is an
 advance similar in kind to Huygens' theory of light, which replaced
 Newton's theory. We might form the symbolic proportion:
-\begin{center}
-\begin{align*}
-\text{Ordinary mechanics} &: \text{Wave mechanics =}\\
-\text{Geometrical optics} &: \text{Undulatory optics.}\\
-\end{align*}
-\end{center}
+%\begin{center}
+\begin{quote}
+{\small Ordinary mechanics : Wave mechanics = Geometrical optics : Undulatory optics.}
+\end{quote}
 Typical quantum phenomena are analogous to typical wave phenomena like
 diffraction and interference.
 
@@ -255,12 +253,12 @@ the failure of ordinary mechanics does occur in dealing with very
 \emph{tiny} systems. We can immediately control {[}i.e., ascertain{]}
 the order of magnitude at which a complete failure is to be expected,
 and we shall find that it is exactly the right one. The wave-length, say
-$\lambda$, of our waves is (see equations (5) and (8))
-\begin{equation}
+$\lambda$, of our waves is (see equations \eqref{eq:sch_5} and \eqref{SchDeB})
+\begin{equation}\label{eq:sch_9}
 \lambda = \frac{u}{\nu} = \frac{h}{\sqrt{2m(E-V)}} = \frac{h}{mw} ,
 \end{equation}
 i.e.\ Planck's constant divided by the momentum of the
-mass-point.\footnote{{[}See Equation \eqref{SchDeB2}, page \pageref{SchDeB2}.{]}} Now take, for
+mass-point.\footnote{{[}See Section A of the de Broglie chapter, p.~\pageref{SchDeB2}.{]}} Now take, for
 the sake of simplicity, a circular orbit of the hydrogen-model, of
 radius $a$, but not necessarily a ``quantized'' one. Then we have
 by ordinary mechanics (without applying quantum rules):
@@ -268,11 +266,11 @@ by ordinary mechanics (without applying quantum rules):
 mwa = n\frac{h}{2\pi} , 
 \end{equation*}
 where $n$ is any real positive number (which for Bohr's quantized
-circles would be 1, 2, 3 \ldots ; the occurrence of $h$ in the
+circles would be $1, 2, 3 \dots$; the occurrence of $h$ in the
 latter equation is for the moment only a convenient way of expressing
 the order of magnitude). Combining the last two equations, we get
 \begin{equation*}
-\frac{\lambda}{a} = \frac{2\pi}{n}.
+\frac{\lambda}{a} = \frac{2\pi}{n}. % eqn (9)
 \end{equation*}
 Now in order that we may be justified in the application of ordinary
 mechanics it is necessary that the dimensions of the path calculated in
@@ -301,10 +299,10 @@ the latter case the problem is complicated by the existence of two types
 of waves, longitudinal and transverse. To avoid this complication, let
 us consider an elastic fluid contained in a given enclosure. For the
 pressure, $p$, say, we should have a wave equation
-\begin{equation}
+\begin{equation}\label{eq:sch_10}
 \nabla^2p - \frac{1}{u^2}\ddot{p} = 0 , %eqn (10)
 \end{equation}
-\emph{u} being the \emph{constant} velocity of propagation of
+$u$ being the \emph{constant} velocity of propagation of
 longi­tudinal waves, the only waves possible in the case of a fluid. We
 should have to try to find the most general solution of this partial
 differential equation that satisfies certain boundary
@@ -316,38 +314,36 @@ p(x,y,z,t) = \psi(x,y,z)e^{2\pi i\nu t} ,
 which gives for $\psi$ the equation
 %
 \begin{equation*}\tag{10'}
-\nabla^2\psi + \frac{4\pi^2\nu^2}{u^2}\psi = 0
+\nabla^2\psi + \frac{4\pi^2\nu^2}{u^2}\psi = 0,
 \end{equation*}
 %
 $\psi$ being subject to the same boundary conditions as $p$. We
-then meet with the well- known fact that a regular solution $\psi$
+then meet with the well-known fact that a regular solution $\psi$
 satisfying the equation and the boundary conditions cannot be obtained
 for \emph{all} values of the co­efficient of $\psi$, i.e.\ for
 \emph{all} frequencies $\nu$, but only for an infinite set of
-discrete frequencies \emph{$\nu$\textsubscript{1}, $\nu$\textsubscript{2},
-$\nu$\textsubscript{3}, \ldots , $\nu$\textsubscript{k}, \ldots ,} which are
+discrete frequencies $\nu_1, \nu_2, \nu_3, \dots , \nu_k, \dots,$ which are
 called the characteristic or proper
 frequencies (\emph{Eigenfrequenzen}) of the problem or of the body.
 Call $\psi_k$ the solution (ordinarily unique apart
 from a multiplying constant) that belongs to $\nu_k$,
 then---since the equation and the boundary conditions are homogeneous---
 %
-\begin{equation}
+\begin{equation}\label{eq:sch_11}
 p = \sum_{k}c_k \psi_k e^{2\pi i(\nu_kt+\theta_k)} % eqn (11)
 \end{equation}
 %
 will, with arbitrary constants $c_k$, $\theta_k$, be a more general solution and indeed be
 \emph{the} general solution, if the set of quantities
-($\psi_k, \nu_k$) is complete [\ldots].
+($\psi_k, \nu_k$) is complete [\,\ldots].
 
 In the case of the waves which are to replace in our thought the motion
 of the electron, there must also be some quantity $p$, subject to a wave 
-equation like equation (10),
+equation like equation \eqref{eq:sch_10},
 though we cannot yet tell the physical meaning of $p$. Let us put
-this question aside for the moment. In equation (10) we shall have to
-put
+this question aside for the moment. In equation \eqref{eq:sch_10} we shall have to put\footnote{{[}Compare Section C of the de Broglie chapter, especially equation (4), p.~\pageref{eq:deb_4}.{]}}
 \begin{equation*}\tag{8}
-u = \frac{E}{\sqrt{2m(E-V)}} .\footnote{{[}Compare Section C of the de Broglie chapter, especially equation 4.{]}}
+u = \frac{E}{\sqrt{2m(E-V)}} .
 \end{equation*}
 This is not a constant; it depends (1) on $E$, that is,
 essen­tially on the frequency $\nu$ ($= E/h$); (2) on the coordinates
@@ -358,24 +354,25 @@ serious. By the first, the dependence on $E$, we are restricted in
 that we can apply the wave equation only to a function $p$ whose
 dependence on the time is given by
 \begin{equation*}
-p \sim e^{\frac{2\pi iEt}{h}}
+p \sim e^{\frac{2\pi iEt}{h}},
 \end{equation*}
 whence
-\begin{equation}
-\ddot{p} = - \frac{4\pi^2E^2}{h^2}p .
+\begin{equation}\label{eq:sch_12}
+\ddot{p} = - \frac{4\pi^2E^2}{h^2}p . % eqn (12)
 \end{equation}
 We need not mind that, since it is precisely the same assumption
 (\emph{Ansatz}) as would be made in any case in the standard method of
-solution. Substituting from (12) and (8) in (10) and replacing the
+solution. Substituting from \eqref{eq:sch_12} and \eqref{SchDeB} in 
+\eqref{eq:sch_10} and replacing the
 letter $p$ by $\psi$ (to remind us that now, just as before, we
 are investigating a function of the coordinates only), we obtain
-\begin{equation}
+\begin{equation}\label{eq:sch_13}
 \nabla^2\psi + \frac{8\pi^2m}{h^2}(E-V)\psi = 0 . % eqn (13)
 \end{equation}
 We now see that the \emph{second} complication (the depen­dence of
-$u$ on $V$, i.e.\ on the co‑or\-di\-nates) merely results in a
-somewhat more interesting form of equation (13) as compared with (10'),
-the quantity multiplying $\psi$ being no longer a \emph{constant,} but
+$u$ on $V$, i.e.\ on the coordinates) merely results in a
+somewhat more interesting form of equation \eqref{eq:sch_13} as compared with (10'),
+the quantity multiplying $\psi$ being no longer a \emph{constant}, but
 depending on the coordinates. This was really to be expected, since an
 equation that is to embody the mechanical problem cannot very well help
 containing the potential energy of the problem. A simplification in the
@@ -388,7 +385,7 @@ insufficiently versed in mathematics, I could not imagine how proper
 vibration frequencies could appear \emph{without} boundary conditions.
 Later on I recognized that the more complicated form of the coefficients
 (i.e.\ the appearance of $V(x,y,z)$) takes charge, so to speak, of
-what is ordinarily brought about by bound\-a\-ry con\-di\-tions, name\-ly, the
+what is ordinarily brought about by boundary conditions, name\-ly, the
 selection of definite values of $E$.
 
 I cannot enter into this rather lengthy mathematical discussion here,
@@ -399,21 +396,21 @@ elliptical, according to the form of the function $V$) and putting
 $\psi$ equal to a \emph{product} of functions, each of which contains
 one coordinate only. I will state the result straightforwardly for the
 case of the hydrogen atom. Here we have to put
-\begin{equation}
-V = -\frac{e^2}{r} + \text{const.,}  % eqn (14)
+\begin{equation}\label{eq:sch_14}
+V = -\frac{e^2}{r} + \text{const.},  % eqn (14)
 \end{equation}
 $r$ being the distance from the nucleus. Then it is found that not
 for all, but only for the following values of $E$, is it possible
 to find regular, one‑valued, and finite solutions:
 \begin{equation*}\tag{14'}
 \begin{rcases}
-  \text{(A) } E_n &= \text{const.} - \frac{2\pi^2me^4}{h^2n^2}; n=1,2,3,4... \\
+  \text{(A) } E_n &= \text{const.} - \frac{2\pi^2me^4}{h^2n^2};\ n=1,2,3,4... \\
   \text{(B) } E &> \text{const.} % eqn (14')
 \end{rcases}
 \end{equation*}
-The constant is the same as in (14) and is (in non‑rela­tivistic wave
+The constant is the same as in \eqref{eq:sch_14} and is (in non‑rela­tivistic wave
 mechanics) meaningless, except that we cannot very well give it the
-value which is usually adopted for the sake of simplicity, \emph{viz}.
+value which is usually adopted for the sake of simplicity, \emph{viz}.\
 zero. For then all the values (A) would become negative. And a negative
 frequency, if it means anything at all, means the same as the positive
 frequency of the same absolute value. Then it would be mysterious why
@@ -440,11 +437,11 @@ In 1928, Erwin Schrödinger was invited to address the Royal Institution in Lond
 
 Quantization, of course, is a name for the fact we have been dealing with since learning about Bohr’s model of the atom, namely, the restriction of electrons to discrete orbits with definite energies, what Bohr called “stationary states.” De Broglie’s notion of some kind of wave associated with the particle suggests that the motion of a particle may be explained in terms of the refraction of this wave. The forces acting on a particle would thus be due to differences in something analogous to the refractive index of transparent materials, and the discreteness of its allowed orbits would result from the fact that the wave must be in phase with itself in its course about the nucleus; it must be a standing wave. Schrödinger carries this analogy even farther, with his mathematical formulation of a differential equation completely describing the motion of the electron, a wave equation.
 
-The equation, he points out in section 3, cannot be “solved” for just any values of its parameters, but, in the case of the term for the wave’s frequency, only for “an infinite set of discrete frequencies […] called the characteristic or proper frequencies (\emph{Eigenfrequenzen}) of the problem.” (The energies associated with these frequencies would then be the "proper values" or "eigenvalues" of the problem.) This set of frequencies can be likened to the harmonic series for a vibrating string, though, as we will see, there are other more spatially complicated forms of periodicity in the atom.
+The equation, he points out in section 3, cannot be “solved” for just any values of its parameters, but, in the case of the term for the wave’s frequency, only for “an infinite set of discrete frequencies [\,\ldots] called the characteristic or proper frequencies (\emph{Eigenfrequenzen}) of the problem.” (The energies associated with these frequencies would then be the "proper values" or "eigenvalues" of the problem.) This set of frequencies can be likened to the harmonic series for a vibrating string, though, as we will see, there are other more spatially complicated forms of periodicity in the atom.
 
 Those complications aside, most of what Schrödinger is saying is clear, even if it still requires a good deal of interpretation. Some of his argument, however, relies on mathematical relations and techniques that may be unfamiliar. In section 1, Schrödinger makes use of the calculus of variations and some reasoning from de Broglie to derive an expression for the phase-velocity of the electron. In section 3, he uses a variety of techniques for solving his differential equation including separation of variables and a complex exponential. Accounts of these relations and techniques follow.
 
-\subsection*{Calculus of Variations (Sec. 1): Least Action and Least Time}\label{sec:sch_least}
+\subsection*{Calculus of Variations (Sec.\ 1): Least Action and Least Time}\label{sec:sch_least}
 
 Leibniz in the \emph{Essay on Dynamics} had defined ``moving action''
 (\emph{l'action motrice}) as the joint product of the ``formal effect''
@@ -465,7 +462,7 @@ Q = 2T\cdot t.
 If the speed is not constant, we must \emph{integrate} the above
 expression over time, and thus the action $Q$ will be
 \begin{equation*}
-Q = \int_{A}^{B} 2T\,dt,
+Q = \int_{A}^{B} 2T dt,
 \end{equation*}
 where $A$ and $B$ refer respectively to the times at the beginning and the
 end of the motion.
@@ -487,19 +484,18 @@ To see what it means for action to be minimized, consider a freely moving body
 which traverses a path between A and B. Now consider the \emph{difference} $\Delta Q$ between the
 action calculated over that actual path and over some other path (with
 different velocities and kinetic energies $T'$) between the same
-two endpoints:
-\begin{equation*}
-\Delta Q = \int_{A}^{B}\!2T'\,dt-\int_{A}^{B}\! 2T\,dt = \Delta\int_{A}^{B}\!2T\,dt.
-\footnote{In this equation $A$ and $B$ are shorthand for the
+two endpoints:\footnote{In this equation $A$ and $B$ are shorthand for the
   times at which the body is at the $A$ and $B$ of the figure.
   They are not specified as the same for the two paths; only the points
   themselves are.}
+\begin{equation*}
+\Delta Q = \int_{A}^{B} 2T' dt-\int_{A}^{B} 2T dt = \Delta\int_{A}^{B} 2T dt.
 \end{equation*}
 Next, let the hypothetical path be only \emph{infinitesimally} removed
 from the actual path. Then the difference in action will likewise become
 infinitesimal. It is represented by the special notation
 \begin{equation*}
-\delta Q = \partial \int_{A}^{B} \! 2T\,dt.
+\delta Q = \partial \int_{A}^{B} 2T dt.
 \end{equation*}
 For the symbol $\delta$ read ``the \emph{variation of}.''
 
@@ -507,9 +503,9 @@ The variational principle states that for the \emph{actual} path, and
 only for that path, the variation $\delta Q$ will equal
 \emph{zero}. Symbolically, this condition is stated
 \begin{equation*}
-\delta Q\int_{A}^{B} \! 2T\,dt = 0.
+\delta Q\int_{A}^{B} 2T dt = 0.
 \end{equation*}
-It appears as equation (1) in Schrödinger's lecture.
+It appears as equation \eqref{eq:sch_1} in Schrödinger's lecture.
 
 As we indicated above, this is analogous to using calculus to find a
 maximum or minimum point for a function of one variable $y=f(x)$, for 
@@ -530,56 +526,57 @@ Thus one might expect that, analogously, the variation of the action
 integral was zero for the actual, least-action, path. Mathematicians
 managed to prove that this was indeed so.
 
-The \emph{Principle of Least} \emph{Time} applies to light, and
-states that the path actually taken by a light beam in passing from A to
-B is always a path of minimum overall time, compared to neighboring
+The \emph{Principle of Least Time} applies to light, and
+states that the path actually taken by a light beam in passing from $A$ to
+$B$ is always a path of minimum overall time, compared to neighboring
 paths joining the same endpoints. It too can be restated in the
 ``variational'' form:
 \begin{equation*}
-\delta \int_{A}^{B} \! dt = 0.
+\delta \int_{A}^{B} dt = 0.
 \end{equation*}
 
 Note that if the light velocity is $u = s/t$, then
 $t = s/u$ and $dt = ds/u$; so that the principle may also be expressed:
 \begin{equation*}
-\delta \int_{A}^{B} \! \frac{ds}{u} = 0.
+\delta \int_{A}^{B} \frac{ds}{u} = 0.
 \end{equation*}
-This appears as equation (3) in Schrödinger's lecture.
+This appears as equation \eqref{eq:sch_3} in Schrödinger's lecture.
 
-A related reformulation turns the time-integral of equation (1) into
-an integral over space, equation (2): note that $msv = (mv)s$, so that action can
+A related reformulation turns the time-integral of equation \eqref{eq:sch_1} into
+an integral over space, equation \eqref{eq:sch_2}: note that $msv = (mv)s$, so that action can
 also be thought of as \emph{momentum times distance traveled}. If
 $v$ is not constant, but is given as a function of the distance
 traveled, we can integrate, getting
 \begin{equation*}
-Q = \int_{A}^{B} \! mv\,ds ,
+Q = \int_{A}^{B}\! mv\, ds ,
 \end{equation*}
 where $A$ and $B$ correspond to the starting-point and endpoint of the motion,
 such that for that path the integral over distance \emph{s} will always
 be equal to the time-integral over $T$,
 \begin{equation*}
-Q = \int_{A}^{B} \! 2T\,dt ,
+Q = \int_{A}^{B} 2T dt ,
 \end{equation*}
 from above. Thus the variations of both of these integrals will equal
 zero for the same, least-action path.
 
 Schrödinger uses this spatial identity of the paths and some reasoning
 borrowed from de Broglie about group and phase velocity to derive equation
-(8), which will prove essential for later reasoning. In fact, here, there
+\eqref{SchDeB}, which will prove essential for later reasoning. In fact, here, there
 is a strict likeness to something familiar. In the final section of his
-``Remarks on the preceding papers by Mr. Bernoulli'' (\emph{Mechanics,} 207-230),
+``Remarks on the preceding papers by Mr.\ Bernoulli,''
 Euler confesses he does not know how to solve the wave equation for a string
 that varies in thickness along its length, i.e., when the velocity term is itself 
 a function of the spatial term: ``the determination of the movement of these strings appears to be
-beyond our powers'' (230). This is precisely what we will have in Schrödinger's
-wave equation (10), where the velocity $u$ defined in equation (8) contains 
+beyond our powers.''\footnote{See Euler, ``Remarks on the preceding papers by Mr.\ Bernoulli,'' par.~45, in the Junior Lab manual.}  This is precisely what we will have in Schrödinger's
+wave equation \eqref{eq:sch_10}, where the velocity $u$ defined in equation
+\eqref{SchDeB} contains 
 the potential $V$, which varies with position, in particular, with distance from
 the center of the atom.
 
-\subsection*{Solving Differential Equations (Sec. 3): Separation of Variables and Complex Exponentials}
+\subsection*{Solving Differential Equations (Sec.\ 3): Separation of Variables and Complex Exponentials}
 
 \emph{A. Notation.} As was just noted above, in one sense, Schrödinger's first approach to the wave 
-equation, in equation (10), could not be more traditional. It, too, relates the 
+equation, in equation \eqref{eq:sch_10}, could not be more traditional. It, too, relates the 
 spatial derivative to the temporal by a simple multiplicative factor, as we can
 see with a simple rearrangement:
 \begin{equation*}\tag{10'}
@@ -632,7 +629,7 @@ f \cdot 0 + f'(x)g(t) = f'(x)g(t)$---leaving equations that are easier to solve.
 As for what, beyond a desire for an easier solution, might induce us to think the 
 function we are looking for could be expressed as a product, we can note that this is
 just the form we see in the standing-wave solutions to the one-dimensional wave equation for
-the vibrating string. For a string free to move up and down along the $y$-axis and stretched along the $x$-axis from 0 to 2$\pi$, the second harmonic could have the form $y = sin(x)cos(\pi t).$ The following pictures 
+the vibrating string. For a string free to move up and down along the $y$-axis and stretched along the $x$-axis from $0$ to $2\pi$, the second harmonic could have the form $y = \sin(x)\cos(\pi t).$ The following pictures 
 show how this function appears at times $t = 0, 1, 2$.
 \begin{figure}[h]
   \centering
@@ -642,13 +639,13 @@ show how this function appears at times $t = 0, 1, 2$.
    \hspace{.2in}
   \subfloat{\includegraphics[width=1.75667in]{images/09_schroedinger/harmonic2.png}}
 \end{figure}
-The sinusoidal shape stays fixed in place, even as its amplitude diminishes to 0 and then passes 
+The sinusoidal shape stays fixed in place, even as its amplitude diminishes to $0$ and then passes 
 over into the negative. But this is just what the separated form of the wave-function says: there 
 is a shape, a function of the spatial coordinate, that does not vary with time, and a changing amplitude-factor that is the same throughout the whole spatial extent of the wave-function.
 
-In the case of Schrödinger's wave equation (10), he considers a ``trial'' solution that is the product
+In the case of Schrödinger's wave equation \eqref{eq:sch_10}, he considers a ``trial'' solution that is the product
 of distinct spatial and temporal parts. We've already noted how this might facilitate finding a solution.
-A futher simplification comes from the way the function of time is expressed, as a \emph{complex exponential}.
+A further simplification comes from the way the function of time is expressed, as a \emph{complex exponential}.
 
 \vspace{5pt}
 \emph{C. Complex Exponentials.} You will likely have encountered Euler's number, $e$, the base of the natural logarithm. And you may have encountered the imaginary unit $i = +\sqrt{-1}$, used in the definition of the \emph{complex numbers}, which have the form $a + bi$, where $a$ and $b$ are real numbers. Euler proved that, if it has any meaning at all, the expression $e^{i\theta}$ should be interpreted as equal to the complex number $\cos{\theta} + i\sin{\theta}$. If we imagine the complex numbers as represented in a plane, then the complex exponentials lie on the unit circle about the origin, and $\theta$ represents the arc length proceeding counter-clockwise around the circumference, starting from the point $1 + 0i$. 
@@ -658,15 +655,15 @@ with which it could be recast as a simple real-valued sinusoidal function (i.e.,
 by ignoring the imaginary part), the complex exponential earned itself a place in the physicist's
 mathematical toolbox. For our purposes, it is almost sufficient simply to know the rule
 \begin{equation*}
-de^{ix} = d(\cos{x} + i\sin{x}) = -\sin{x}\, dx + i\cos{x}\, dx = ie^{ix}\, dx.
+de^{ix} = d(\cos{x} + i\sin{x}) = -\sin{x}\,dx + i\cos{x}\,dx = ie^{ix}\,dx.
 \end{equation*}
 Given this, it's easy to see that the factor $-4\pi^2\nu^2$ in (10') comes from differentiating the product
-$\psi(x,y,z)e^{2\pi i\nu t}$ twice with respect to time, as does the similar factor in (12), after
+$\psi(x,y,z)e^{2\pi i\nu t}$ twice with respect to time, as does the similar factor in \eqref{eq:sch_12}, after
 the substitution of $E/h$ for the frequency $\nu$. Late in the next chapter, we will consider
 more about how the complex form of the solution affects interpretation.
 
 \vspace{5pt}
-\emph{D. The Form of the Solutions.} In equation (11), Schrödinger points out what would be the
+\emph{D. The Form of the Solutions.} In equation \eqref{eq:sch_11}, Schrödinger points out what would be the
 general solution if this were
 simply the problem of finding the pressure waves in ``an elastic fluid in a given enclosure.''
 There are a lot of terms, but if one imagines sinusoidal functions for each of the $\psi_k$, each
@@ -675,7 +672,7 @@ it looks a lot like Bernoulli's
 formulation for the shape of the vibrating string. Bernoulli's component waves, of course, have
 wavelengths that are submultiples of the length of the string, and in this way, his ``solution''
 to the problem already includes the so-called ``boundary conditions,'' as does Schrödinger's
-equation (11) in a general way (in its selection of frequencies $\nu_k$).
+equation \eqref{eq:sch_11} in a general way (in its selection of frequencies $\nu_k$).
 
 But by the time he gets to equation (14'), Schrödinger is referring to a far more definite set
 of solutions. Along the way, he notes two ``complications'' and one ``simplification'' of the
@@ -685,7 +682,7 @@ this and the problem Euler imagined, of the string of varying thickness. But it'
 that poses what could have been a ``fatal'' problem. In the case of Bernoulli's solution we just
 mentioned (as well as in that of Euler's reformulation), the boundary conditions did some of the
 work of selecting from among the infinite scope of possible solutions. Here, the electron could
-be \emph{anywhere in space,} like one of de Broglie's ``pilot waves.''
+be \emph{anywhere in space}, like one of de Broglie's ``pilot waves.''
 
 In this first lecture to the Royal Institution introducing the very idea of wave mechanics to
 a scientifically literate, but not necessarily expert, audience, Schrödinger is understandably
@@ -706,9 +703,9 @@ to bound electrons, near the nucleus] cannot very well be described in a unique 
 following reason. To \emph{one} value of $E_n$ there belongs in general not only one, but 
 precisely $n^2$ independent solutions of the wave equation. From the mathematical point of
 view this is an exception due to the particular form of the potential energy $V$, especially to
-its spherical symmetry[\ldots]. Since the equation is linear and homogeneous, any linear aggregate
+its spherical symmetry\,[\,\ldots]. Since the equation is linear and homogeneous, any linear aggregate
 with quite arbitrary coefficients [cf. equation (11)] will also be a solution belonging to the
-\emph{same} proper value[\ldots]. To give an example: from a set of solutions whose node-surfaces
+\emph{same} proper value\,[\,\ldots]. To give an example: from a set of solutions whose node-surfaces
 [i.e., surfaces with the same magnitude] are (1) concentric spheres, (2) co-axial cones, (3)
 planes passing through the cone-axis, you can form other solutions, in which the concentric
 spheres and co-axial cones are replaced by two sets of confocal paraboloids. This is only one
@@ -716,9 +713,9 @@ of the simplest cases. In general, taking arbitrary coefficients, the system of 
 will be \emph{much} more complicated.
 \end{quote}
 
-Two notes here: 1) the ``magnitude'' mentioned in the interpolation is the modulus squared
-of the complex number that is the value of the wave-function: if the number is $a + bi,$
-this is the non-negative real number $a^2 + b^2$; 2) the wave-function is in general spread
+Two notes here: (1) the ``magnitude'' mentioned in the interpolation is the modulus squared
+of the complex number that is the value of the wave-function: if the number is $a + bi$,
+this is the non-negative real number $a^2 + b^2$; (2) the wave-function is in general spread
 out in space, such that the node-surfaces formed by choosing a particular magnitude of the
 function give only some of the information about the geometry of the function, as a
 weather map might indicate gross features of the atmospheric pressure in a large region 
