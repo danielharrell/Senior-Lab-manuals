@@ -60,12 +60,13 @@ the definition of the momentum (mass times velocity) of the amount, say,
 $\Delta p$. Now, from the simplest laws of optics, together with the
 equations\footnote{{[}Heisenberg derives these equations in an
   appendix and references them here rather than writing them out. For
-  further details see fn.~\ref{fn:heis_6} below.{]}}
+  further details see fn.~\ref{fn:heis_6}
+  below.{]}}
 \begin{equation*}
 \left[ \lambda = \frac{h}{p} \quad\quad \text{and} \quad\quad v_g = \frac{h}{\mu\lambda_0}, \right]
 \end{equation*}
 it can be derived that
-\begin{equation}
+\begin{equation}\label{eq:heis_1}
 \Delta x\Delta p_x \geq h. % eqn (1)
 \end{equation}
 
@@ -76,10 +77,7 @@ $n = \Delta x/\lambda_0$ crests or troughs fall in the region
 inside the packet. Outside the packet the plane waves are to cancel each
 other by interference; this is possible if, and only if, the totality of
 component plane waves contains some for which at least $n + 1$
-waves fall in the critical range. This gives
-\begin{equation*}
-\frac{\Delta x}{\lambda_0 - \Delta\lambda} \geq n + 1 ,
-\footnote{{[}The waves of
+waves fall in the critical range. This gives\footnote{{[}The waves of
   longer and shorter wavelength must reinforce each other at the center
   of the packet and interfere at each end. Hence they must be out of
   coincidence by one-half wavelength at each end, which is only possible
@@ -88,11 +86,11 @@ waves fall in the critical range. This gives
   $n=\Delta x/\lambda_0$ of the longer waves of length $\lambda_0$ in the
   packet, then there must be at least $n + 1$ of the shorter waves
   of length $\lambda_0 - \Delta\lambda$ within the same region $\Delta x$.{]}}
+\begin{equation*}
+\frac{\Delta x}{\lambda_0 - \Delta\lambda} \geq n + 1 ,
 \end{equation*}
 where $\Delta\lambda$ indicates approximately the range of wave-lengths which
-is necessary for the representation of the packet. Consequently
-\begin{equation}  % eqn (2)
-\frac{\Delta x\Delta\lambda}{\lambda^2_0} \geq 1 .\footnote{{[}From the 
+is necessary for the representation of the packet. Consequently\footnote{{[}From the 
   inequality at the end of the previous note,
   \begin{equation*}
   \frac{\Delta x}{\lambda_0-\Delta\lambda} \geq n + 1 = \frac{\Delta x}{\lambda_0} + 1,
@@ -101,32 +99,32 @@ is necessary for the representation of the packet. Consequently
   \begin{equation*}
   \frac{\Delta x\Delta\lambda}{\lambda_0(\lambda_0-\Delta\lambda)} \geq 1 ,
   \end{equation*}
-  which can be approximated to inequality (2) if $\Delta\lambda$ is
+  which can be approximated to inequality \eqref{eq:heis_2} if $\Delta\lambda$ is
   sufficiently small compared to $\lambda_0$.{]}}
+\begin{equation}\label{eq:heis_2}  % eqn (2)
+\frac{\Delta x\Delta\lambda}{\lambda^2_0} \geq 1 .
 \end{equation}
-On the other hand, the group velocity of the waves is
-\begin{equation}
-v_g = \frac{h}{\mu\lambda_0} .  % eqn (3)
-\footnote{{[}As just mentioned, Heisenberg derives equation (3) in an
+On the other hand, the group velocity of the waves is\footnote{\label{fn:heis_6}{[}As just mentioned, 
+Heisenberg derives equation \eqref{eq:heis_3} in an
   appendix. Here $\mu$ is the mass of an electron. Now if in de
-  Broglie's $\lambda = h/p (=h/\mu v)$ one stipulates that the de
+  Broglie's $\lambda = h/p$ ($= h/\mu v$) one stipulates that the de
   Broglie wavelength of the \emph{electron} is ``the''
   $\lambda_0$ of the \emph{packet} and that the velocity
   of the electron equals the group velocity, one gets $\lambda_0=h/\mu v_g$, from
-  which eq. (3) follows immediately. But Heisenberg actually derives eq.
-  (3) \emph{directly from the Schrödinger wave equation} and,
+  which eq.\ \eqref{eq:heis_3} follows immediately. But Heisenberg actually derives eq.\
+  \eqref{eq:heis_3} \emph{directly from the Schrödinger wave equation} and $v_g = d\nu / dk$, 
   without relying on ``particle'' concepts. As he writes, ``The wave
   theory does not consider electrons, {[}but{]} merely universal
-  constants of the wave equation.''{]}\label{fn:heis_6}}
+  constants of the wave equation.''{]}}
+\begin{equation}\label{eq:heis_3}
+v_g = \frac{h}{\mu\lambda_0} .  % eqn (3)
 \end{equation}
 The dispersion of the packet corresponding to the range $\Delta\lambda$ is
-therefore characterized by {[}a range of velocities{]}
-\begin{equation*}
-\Delta v_g \approx \frac{h}{\mu\lambda_0^2}\Delta\lambda .
-\footnote{{[}If one does \emph{not} impose assumptions from the
+therefore characterized by {[}a range of velocities{]}\footnote{{[}If one does \emph{not} impose
+assumptions from the
   particle picture, then in the packet \emph{both} the longer \emph{and}
   the shorter waves have an equal claim to be considered ``the''
-  wavelength for purposes of equation (3). That equation is already
+  wavelength for purposes of equation \eqref{eq:heis_3}. That equation is already
   written for the longer wavelength $\lambda_0$. Were it instead to be
   written for the shorter wavelength, $\lambda_0 - \Delta\lambda$, there would
   be determined a different group velocity,
@@ -141,22 +139,25 @@ therefore characterized by {[}a range of velocities{]}
   .{]}
   \end{equation*}
 }
+\begin{equation*}
+\Delta v_g \approx \frac{h}{\mu\lambda_0^2}\Delta\lambda .
 \end{equation*}
   By definition $\Delta p_x = \mu\Delta v_g$, and therefore by
-  equation (2),
-\begin{equation*}
-  \Delta x\Delta p_x \geq h
-  . \footnote{{[}Substituting from the
+  equation \eqref{eq:heis_2},\footnote{{[}Substituting from the
   equation for $\Delta v_g$, $\mu\Delta v_g = \mu\frac{h}{\mu\lambda_0^2}\Delta\lambda
   = h\frac{\Delta\lambda}{\lambda^2_0}$. Therefore, $\Delta x\Delta p_x = h\frac{\Delta x\Delta\lambda}{\lambda^2_0}$; 
-  that is, by equation (2), $\Delta x\Delta p_x$ equals $h$ times something $\geq 1$.{]}}
+  that is, by equation \eqref{eq:heis_2}, $\Delta x\Delta p_x$ equals $h$ times something $\geq 1$.{]}}
+\begin{equation*}
+  \Delta x\Delta p_x \geq h. 
 \end{equation*}\\
 \centerline{* * *}
 %
-The indeterminacy relations [\ldots] specify the limits within which the
+Reference to footnote \ref{fn:heis_6}.
+
+The indeterminacy relations [\,\ldots] specify the limits within which the
 concepts of the particle theory can be applied. Any use of the words
 ``position'' or ``velocity'' with an exactness exceeding that indicated
-by equation (1) is just as empty of content as the use of words whose
+by equation \eqref{eq:heis_1} is just as empty of content as the use of words whose
 sense has not been defined.\footnote{In this connection one should
   particularly remember that the human language quite generally permits
   the construction of sentences from which no consequences follow and

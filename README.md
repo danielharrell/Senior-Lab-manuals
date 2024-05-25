@@ -14,7 +14,7 @@
         - [x] Bohr paper
         - [x] Broglie paper
         - [ ] Schrödinger paper
-        - [ ] Heisenberg paper [p.138] (fix footnote cross-reference)
+        - [ ] Heisenberg paper [p.139] section 2
         - [ ] Optics Practicum
         - [ ] Dirac paper
         - [ ] Optics Practicum 2, 3, 4
