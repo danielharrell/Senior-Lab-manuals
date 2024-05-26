@@ -13,8 +13,8 @@
         - [x] Einstein paper
         - [x] Bohr paper
         - [x] Broglie paper
-        - [ ] Schrödinger paper
-        - [ ] Heisenberg paper [p.143]
+        - [x] Schrödinger paper
+        - [x] Heisenberg paper
         - [ ] Optics Practicum
         - [ ] Dirac paper
         - [ ] Optics Practicum 2, 3, 4
