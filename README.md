@@ -3,6 +3,7 @@
 
  ## To Do
 - [x] Changed math font to Palatino to be consistent with text font
+- [ ] Figure out front matter blank pages so the manual prints properly.
 - [ ] Establish system cross-references
     - [ ] Check all labels in documents and correct as necessary
     - [ ] Check references to tables and figures
@@ -23,7 +24,7 @@
         - [ ] Bell paper
         - [ ] Appendix 
 - [ ] p. 192, note 12. Clarify use of Griffiths and absolute value.
-- [ ] Rename to 2024?
+- [x] Rename to 2024
 - [ ] Check to-do list in QM folder
 - [ ] Check formatting and footnote placement throughout manual
 - [x] Schrödinger: Reintroduce final paragraph at end of section 1.
