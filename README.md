@@ -19,7 +19,9 @@
         - [x] Heisenberg paper
         - [x] Optics Practicum
         - [x] Dirac paper
-        - [ ] Optics Practicum 2, 3, 4
+        - [x] Optics Practicum 2
+        - [ ] Optics Practicum 3
+        - [ ] Optics Practicum 4
         - [ ] EPR paper
         - [ ] Bell paper
         - [ ] Appendix 
