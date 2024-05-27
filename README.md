@@ -3,7 +3,7 @@
 
  ## To Do
 - [x] Changed math font to Palatino to be consistent with text font
-- [ ] Figure out front matter blank pages so the manual prints properly.
+- [x] Figure out front matter blank pages so the manual prints properly.
 - [ ] Establish system cross-references
     - [ ] Check all labels in documents and correct as necessary
     - [ ] Check references to tables and figures
@@ -18,7 +18,7 @@
         - [x] Schrödinger paper
         - [x] Heisenberg paper
         - [x] Optics Practicum
-        - [ ] Dirac paper
+        - [x] Dirac paper
         - [ ] Optics Practicum 2, 3, 4
         - [ ] EPR paper
         - [ ] Bell paper
