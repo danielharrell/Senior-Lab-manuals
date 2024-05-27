@@ -4,6 +4,7 @@
  ## To Do
 - [x] Changed math font to Palatino to be consistent with text font
 - [x] Figure out front matter blank pages so the manual prints properly.
+- [ ] Correct center environment to centering for figures throughout
 - [ ] Establish system cross-references
     - [ ] Check all labels in documents and correct as necessary
     - [ ] Check references to tables and figures
