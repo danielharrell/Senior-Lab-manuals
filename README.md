@@ -2,6 +2,7 @@
  Senior Lab manuals for St. John's College, Annapolis
 
  ## To Do
+- [x] Changed math font to Palatino to be consistent with text font
 - [ ] Establish system cross-references
     - [ ] Check all labels in documents and correct as necessary
     - [ ] Check references to tables and figures
@@ -15,7 +16,7 @@
         - [x] Broglie paper
         - [x] Schrödinger paper
         - [x] Heisenberg paper
-        - [ ] Optics Practicum
+        - [x] Optics Practicum
         - [ ] Dirac paper
         - [ ] Optics Practicum 2, 3, 4
         - [ ] EPR paper
