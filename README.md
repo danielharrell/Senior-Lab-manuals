@@ -21,7 +21,7 @@
         - [x] Dirac paper
         - [x] Optics Practicum 2
         - [x] Optics Practicum 3
-        - [ ] Optics Practicum 4
+        - [x] Optics Practicum 4
         - [ ] EPR paper
         - [ ] Bell paper
         - [ ] Appendix 
