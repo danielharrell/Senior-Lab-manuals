@@ -20,7 +20,7 @@
         - [x] Optics Practicum
         - [x] Dirac paper
         - [x] Optics Practicum 2
-        - [ ] Optics Practicum 3
+        - [x] Optics Practicum 3
         - [ ] Optics Practicum 4
         - [ ] EPR paper
         - [ ] Bell paper
