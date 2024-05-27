@@ -101,11 +101,11 @@ The main result will now be proved. Because $\rho$ is a normalized probability d
 \begin{equation}
 \int d\lambda\, \rho(\lambda) = 1,
 \end{equation}
-and because of the properties (1), $P$ in (2) cannot be less than $-1$. It can reach $-1$ at $\pmb{a} = \pmb{b}$ only if
+and because of the properties \eqref{eq:bell_1}, $P$ in \eqref{eq:bell_2} cannot be less than $-1$. It can reach $-1$ at $\pmb{a} = \pmb{b}$ only if
 \begin{equation}
 A(\pmb{a}, \lambda) = - B(\pmb{a}, \lambda)
 \end{equation}
-except at a set of points $\lambda$ of zero probability. Assuming this, (2) can be rewritten
+except at a set of points $\lambda$ of zero probability. Assuming this, \eqref{eq:bell_2} can be rewritten
 \begin{equation}
 P(\pmb{a}, \pmb{b}) = - \int d\lambda\, \rho(\lambda) A(\pmb{a}, \lambda) A(\pmb{b}, \lambda).
 \end{equation}
@@ -113,25 +113,24 @@ P(\pmb{a}, \pmb{b}) = - \int d\lambda\, \rho(\lambda) A(\pmb{a}, \lambda) A(\pmb
 It follows that if $\pmb{c}$ is another unit vector
 \begin{align*}
 P(\pmb{a}, \pmb{b}) - P(\pmb{a}, \pmb{c}) &= - \int d\lambda\, \rho(\lambda) [A(\pmb{a}, \lambda) A(\pmb{b}, \lambda) - A(\pmb{a}, \lambda) A(\pmb{c}, \lambda)] \\
- &= \int d\lambda\, \rho(\lambda) A(\pmb{a}, \lambda) A(\pmb{b}, \lambda) [A(\pmb{b}, \lambda) A(\pmb{c}, \lambda)-1],\footnotemark
+ &= \int d\lambda\, \rho(\lambda) A(\pmb{a}, \lambda) A(\pmb{b}, \lambda) [A(\pmb{b}, \lambda) A(\pmb{c}, \lambda)-1],
 \end{align*}
-\footnotetext{[Since $A(\pmb{b},\lambda)A(\pmb{b},\lambda)=1$ for any $\pmb{b}$ and any $\lambda$.]}
-using (1), whence
+using \eqref{eq:bell_1},\footnote{[Since $A(\pmb{b},\lambda)A(\pmb{b},\lambda)=1$ for any $\pmb{b}$ and any $\lambda$.]} whence\footnote{[The introduction of the inequality depends on two points. The definition of $A$ in \eqref{eq:bell_1} implies that the average value of $A(\pmb{a}, \lambda) A(\pmb{b}, \lambda)$ can range from $-1$ to $+1$; furthermore, $\rho(\lambda)[1 - A(\pmb{b}, \lambda) A(\pmb{c}, \lambda)] \geq 0$. This and the previous footnote are based on David J.\ Griffiths (\emph{Introduction to Quantum Mechanics}, Upper Saddle River, NJ: Pearson Prentice Hall, 2005), 437.]}
 \begin{equation*}
-|P(\pmb{a}, \pmb{b}) - P(\pmb{a}, \pmb{c})| \leq \int d\lambda\, \rho(\lambda) [1 - A(\pmb{b}, \lambda) A(\pmb{c}, \lambda)].\footnote{[The introduction of the inequality depends on two points. The definition of $A$ in (1) implies that the average value of $A(\pmb{a}, \lambda) A(\pmb{b}, \lambda)$ can range from $-1$ to $+1$; furthermore, $\rho(\lambda)[1 - A(\pmb{b}, \lambda) A(\pmb{c}, \lambda)] \geq 0$. This and the previous footnote are based on David J. Griffiths (\emph{Introduction to Quantum Mechanics}, Upper Saddle River, NJ: Pearson Prentice Hall, 2005), 437.]}
+|P(\pmb{a}, \pmb{b}) - P(\pmb{a}, \pmb{c})| \leq \int d\lambda\, \rho(\lambda) [1 - A(\pmb{b}, \lambda) A(\pmb{c}, \lambda)].
 \end{equation*}
 The second term on the right is $P(\pmb{b}, \pmb{c})$, whence
 \begin{equation}
-1 + P(\pmb{b}, \pmb{c}) \geq |P(\pmb{a}, \pmb{b}) - P(\pmb{a}, \pmb{c})|
+1 + P(\pmb{b}, \pmb{c}) \geq |P(\pmb{a}, \pmb{b}) - P(\pmb{a}, \pmb{c})|.
 \end{equation}
 Unless $P$ is constant, the right hand side is in general of order $|\pmb{b}-\pmb{c}|$ for small $|\pmb{b}-\pmb{c}|$. Thus $P(\pmb{b}, \pmb{c})$
 cannot be stationary at the minimum value ($-1$ at $\pmb{b} = \pmb{c}$) and cannot 
-equal the quantum mechanical value (3).\footnote{[See the Remarks after the paper for discussion of this and the previous sentence.]}\\
+equal the quantum mechanical value \eqref{eq:bell_3}.\footnote{[See the Remarks after the paper for discussion of this and the previous sentence.]}\\
 \centerline{* * *}
 
 \subsection*{V. Generalization}
 The example considered above has the advantage that it requires little imagination to envisage the
-measurements involved actually being made\ldots. [F]or at least one quantum state, the ``singlet'' state \ldots\ the 
+measurements involved actually being made\ldots. [F]or at least one quantum state, the ``singlet'' state \ldots\,the 
 statistical predictions of quantum mechanics are incompatible with separable predetermination.
 
 \subsection*{VI. Conclusion}
