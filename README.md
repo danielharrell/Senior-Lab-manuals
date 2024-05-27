@@ -23,7 +23,7 @@
         - [x] Optics Practicum 2
         - [x] Optics Practicum 3
         - [x] Optics Practicum 4
-        - [ ] EPR paper
+        - [x] EPR paper
         - [ ] Bell paper
         - [ ] Appendix 
 - [ ] p. 192, note 12. Clarify use of Griffiths and absolute value.
