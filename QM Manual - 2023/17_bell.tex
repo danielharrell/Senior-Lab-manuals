@@ -115,7 +115,9 @@ It follows that if $\pmb{c}$ is another unit vector
 P(\pmb{a}, \pmb{b}) - P(\pmb{a}, \pmb{c}) &= - \int d\lambda\, \rho(\lambda) [A(\pmb{a}, \lambda) A(\pmb{b}, \lambda) - A(\pmb{a}, \lambda) A(\pmb{c}, \lambda)] \\
  &= \int d\lambda\, \rho(\lambda) A(\pmb{a}, \lambda) A(\pmb{b}, \lambda) [A(\pmb{b}, \lambda) A(\pmb{c}, \lambda)-1],
 \end{align*}
-using \eqref{eq:bell_1},\footnote{[Since $A(\pmb{b},\lambda)A(\pmb{b},\lambda)=1$ for any $\pmb{b}$ and any $\lambda$.]} whence\footnote{[The introduction of the inequality depends on two points. The definition of $A$ in \eqref{eq:bell_1} implies that the average value of $A(\pmb{a}, \lambda) A(\pmb{b}, \lambda)$ can range from $-1$ to $+1$; furthermore, $\rho(\lambda)[1 - A(\pmb{b}, \lambda) A(\pmb{c}, \lambda)] \geq 0$. This and the previous footnote are based on David J.\ Griffiths (\emph{Introduction to Quantum Mechanics}, Upper Saddle River, NJ: Pearson Prentice Hall, 2005), 437.]}
+using \eqref{eq:bell_1},\footnote{[Since $A(\pmb{b},\lambda)A(\pmb{b},\lambda)=1$ for any $\pmb{b}$ and any $\lambda$. The negative sign is also multiplied through.]}%
+%
+whence\footnote{[The introduction of the inequality depends on two points. The definition of $A$ in \eqref{eq:bell_1} implies that the average value of $A(\pmb{a}, \lambda) A(\pmb{b}, \lambda)$ can range from $-1$ to $+1$; furthermore, $\rho(\lambda)[1 - A(\pmb{b}, \lambda) A(\pmb{c}, \lambda)] \geq 0$. So $|P(\pmb{a}, \pmb{b}) - P(\pmb{a}, \pmb{c})|$ will equal $\int d\lambda\, \rho(\lambda) [1 - A(\pmb{b}, \lambda) A(\pmb{c}, \lambda)]$ if $|A(\pmb{a}, \lambda) A(\pmb{b}, \lambda)|= 1$ and otherwise will be less. This and the previous footnote are based on David J.\ Griffiths (\emph{Introduction to Quantum Mechanics}, Upper Saddle River, NJ: Pearson Prentice Hall, 2005), 437.]}
 \begin{equation*}
 |P(\pmb{a}, \pmb{b}) - P(\pmb{a}, \pmb{c})| \leq \int d\lambda\, \rho(\lambda) [1 - A(\pmb{b}, \lambda) A(\pmb{c}, \lambda)].
 \end{equation*}
@@ -145,23 +147,23 @@ than or equal to that of light. In that connection, experiments of the type prop
 
 \section*{Remarks}
 
-Bell's "note" demonstrates a contradiction, and like any \emph{reductio ad absurdum,} therefore, 
+Bell's ``note'' demonstrates a contradiction, and like any \emph{reductio ad absurdum,} therefore, 
 demonstrates that an inconsistency lurks somewhere in the premises it is testing. He seems to
 identify one as the source of the problem when he writes: 
 \begin{quote}
-It is the \emph{requirement of locality,} or more precisely that the result of a measurement on one system be unaffected by operations on a distant system with which it has interacted in the past, that creates the essential difficulty.
+It is the \emph{requirement of locality}, or more precisely that the result of a measurement on one system be unaffected by operations on a distant system with which it has interacted in the past, that creates the essential difficulty.
 \end{quote}
-However that may be, the import of his argument has been interpreted variously, with many identifying the idea of complete determinacy or ``hidden'' variables as the essential problem. A main goal of these remarks is to clarify its logical structure. Afterwards, we will confirm by means of experiment the "statistical predictions of quantum mechanics" that are in contradiction with the sort of "local hidden variables theory" that is developed in the course of Bell's argument, though in a form different from the one he envisages, using photon polarization instead of electron spin.
+However that may be, the import of his argument has been interpreted variously, with many identifying the idea of complete determinacy or ``hidden'' variables as the essential problem. A main goal of these remarks is to clarify its logical structure. Afterwards, we will confirm by means of experiment the ``statistical predictions of quantum mechanics'' that are in contradiction with the sort of ``local hidden variables theory'' that is developed in the course of Bell's argument, though in a form different from the one he envisages, using photon polarization instead of electron spin.
 
 As for the argument, in section II, Bell reformulates EPR's proposal in the experimentally suggestive terms formulated by Bohm and Aharonov. The essential feature is the same, namely, two
 particles with a known relation (in this case, that their spins are opposed) are produced 
 by a process predicted by quantum mechanics, one that happens to send the particles away from 
 each other, such that their individual states might be measured separately. Just as in the case
-of ordinary polarization that Dirac discusses, the description that quantum mechanics gives of these particles involves a superposition of states, leading to a merely probabilistic prediction of the outcome. In the case of particles that stand in the uncertainty relation,\footnote{A mathematically precise way of specifying which physical quantities stand in that relation is developed in later chapters of Dirac's \emph{Principles of Quantum Mechanics,} and it is this formalism, that of ``non-commuting observables'' that EPR refer to in their 1935 paper.} EPR show that the quantum-mechanical description does not contain enough information to tell how either will react; as they conclude, "the wave function does not provide a complete description of the physical reality."
+of ordinary polarization that Dirac discusses, the description that quantum mechanics gives of these particles involves a superposition of states, leading to a merely probabilistic prediction of the outcome. In the case of particles that stand in the uncertainty relation,\footnote{A mathematically precise way of specifying which physical quantities stand in that relation is developed in later chapters of Dirac's \emph{Principles of Quantum Mechanics}, and it is this formalism, that of ``non-commuting observables,'' that EPR refer to in their 1935 paper.} EPR show that the quantum-mechanical description does not contain enough information to tell how either will react; as they conclude, ``the wave function does not provide a complete description of the physical reality.''
 
 This is where Bell's reformulation comes in, with the definitions of the measurement results $A$ and
-$B$ and the expectation value of their product $P$ in equations (1) and (2), all in terms of the "more complete specification of the state" embodied in the term $\lambda$. The predictions of quantum
-mechanics are embodied in equation (3), which here plays a role analogous to that of Bohr's 
+$B$ and the expectation value of their product $P$ in equations \eqref{eq:bell_1} and \eqref{eq:bell_2}, all in terms of the ``more complete specification of the state'' embodied in the term $\lambda$. The predictions of quantum
+mechanics are embodied in equation \eqref{eq:bell_3}, which here plays a role analogous to that of Bohr's 
 considerations (see note \ref{entangle} in Chapter \ref{EPR}, page \pageref{entangle}), concerning the momentum relation between the spatially 
 separated systems (the relation that allows a measurement on one to reveal something about the state
 of the other). A hybridization of the two accounts could be said to occur in equation (13), 

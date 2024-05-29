@@ -24,7 +24,7 @@
         - [x] Optics Practicum 3
         - [x] Optics Practicum 4
         - [x] EPR paper
-        - [ ] Bell paper (p.191)
+        - [ ] Bell paper (p.193)
         - [ ] Appendix 
 - [ ] p. 192, note 12. Clarify use of Griffiths and absolute value.
 - [x] Rename to 2024
