@@ -98,15 +98,15 @@ The main result will now be proved. Because $\rho$ is a normalized probability d
 
 \setcounter{equation}{11}
 
-\begin{equation}
+\begin{equation}\label{eq:bell_12} % eqn 12
 \int d\lambda\, \rho(\lambda) = 1,
 \end{equation}
 and because of the properties \eqref{eq:bell_1}, $P$ in \eqref{eq:bell_2} cannot be less than $-1$. It can reach $-1$ at $\pmb{a} = \pmb{b}$ only if
-\begin{equation}
+\begin{equation}\label{eq:bell_13} % eqn 13
 A(\pmb{a}, \lambda) = - B(\pmb{a}, \lambda)
 \end{equation}
 except at a set of points $\lambda$ of zero probability. Assuming this, \eqref{eq:bell_2} can be rewritten
-\begin{equation}
+\begin{equation}\label{eq:bell_14} % eqn 14
 P(\pmb{a}, \pmb{b}) = - \int d\lambda\, \rho(\lambda) A(\pmb{a}, \lambda) A(\pmb{b}, \lambda).
 \end{equation}
 
@@ -122,7 +122,7 @@ whence\footnote{[The introduction of the inequality depends on two points. The d
 |P(\pmb{a}, \pmb{b}) - P(\pmb{a}, \pmb{c})| \leq \int d\lambda\, \rho(\lambda) [1 - A(\pmb{b}, \lambda) A(\pmb{c}, \lambda)].
 \end{equation*}
 The second term on the right is $P(\pmb{b}, \pmb{c})$, whence
-\begin{equation}
+\begin{equation}\label{eq:bell_15} % eqn 15
 1 + P(\pmb{b}, \pmb{c}) \geq |P(\pmb{a}, \pmb{b}) - P(\pmb{a}, \pmb{c})|.
 \end{equation}
 Unless $P$ is constant, the right hand side is in general of order $|\pmb{b}-\pmb{c}|$ for small $|\pmb{b}-\pmb{c}|$. Thus $P(\pmb{b}, \pmb{c})$
@@ -164,42 +164,42 @@ of ordinary polarization that Dirac discusses, the description that quantum mech
 This is where Bell's reformulation comes in, with the definitions of the measurement results $A$ and
 $B$ and the expectation value of their product $P$ in equations \eqref{eq:bell_1} and \eqref{eq:bell_2}, all in terms of the ``more complete specification of the state'' embodied in the term $\lambda$. The predictions of quantum
 mechanics are embodied in equation \eqref{eq:bell_3}, which here plays a role analogous to that of Bohr's 
-considerations (see note \ref{entangle} in Chapter \ref{EPR}, page \pageref{entangle}), concerning the momentum relation between the spatially 
+considerations concerning the momentum relation between the spatially 
 separated systems (the relation that allows a measurement on one to reveal something about the state
-of the other). A hybridization of the two accounts could be said to occur in equation (13), 
+of the other).\footnote{See fn.~\ref{entangle} in Chap.~\ref{EPR}, p.~\pageref{entangle}.} A hybridization of the two accounts could be said to occur in equation \eqref{eq:bell_13}, 
 the special case where the orientations of the detectors ($\pmb{a} \text{ and } \pmb{b}$) are the same,
-such that the dot product in equation (3) yields the value $-1$. Bell exploits this case to set a
+such that the dot product in equation \eqref{eq:bell_3} yields the value $-1$. Bell exploits this case to set a
 further specification on the functions $A$ and $B$: whatever else they may say, they must
 be such that for the \emph{same} angle, they predict numerically opposed results. $A(\pmb{a},\lambda)$
-must equal the negative of $B(\pmb{a},\lambda)$. As a result, equation (14) recasts equation (2)---the equation that indicates how to calculate the correlation of the two measurements---in a form that combines the statistical predictions of quantum mechanics with the idea that the measurements are independent and determined in
-advance by $\lambda$. At this point, the deed is done: locality and determinacy have been represented mathematically. The introduction of a third angle and a few simple substitutions and rearrangements will yield Bell's inequality, equation (15), which, we will demonstrate, stands in contradiction with the experimentally verified predictions of equation (3).
+must equal the negative of $B(\pmb{a},\lambda)$. As a result, equation \eqref{eq:bell_14} recasts equation \eqref{eq:bell_2}---the equation that indicates how to calculate the correlation of the two measurements---in a form that combines the statistical predictions of quantum mechanics with the idea that the measurements are independent and determined in
+advance by $\lambda$. At this point, the deed is done: locality and determinacy have been represented mathematically. The introduction of a third angle and a few simple substitutions and rearrangements will yield Bell's inequality, equation \eqref{eq:bell_15}, which, we will demonstrate, stands in contradiction with the experimentally verified predictions of equation \eqref{eq:bell_3}.
 
-So much for an account of the arc of the argument. The all-too-brief sentences following equation (15), detailing the contradiction, require 
-significant elucidation, which will take up the remainder of this subsection. At this point, Bell might simply have chosen some values for the angles $\pmb{a}, \pmb{b},$  and $\pmb{c}$ that would make the values
-equation (3) predicts for the expectation values $P(\pmb{a}, \pmb{b}), P(\pmb{a}, \pmb{c}),$ and
+So much for an account of the arc of the argument. The all-too-brief sentences following equation \eqref{eq:bell_15}, detailing the contradiction, require 
+significant elucidation, which will take up the remainder of this subsection. At this point, Bell might simply have chosen some values for the angles $\pmb{a}$, $\pmb{b}$,  and $\pmb{c}$ that would make the values
+equation \eqref{eq:bell_3} predicts for the expectation values $P(\pmb{a}, \pmb{b})$, $P(\pmb{a}, \pmb{c})$, and
 $P(\pmb{b}, \pmb{c})$ violate the inequality. Arguably, there is something more
 satisfying in demonstrating a more general result: showing that for a whole \emph{range} of possible 
 values, the inequality is violated. 
 He accomplishes this by pointing out that when
 $\pmb{b}$ and $\pmb{c}$ are close (or in his words, "for small $|\pmb{b} - \pmb{c}|$"),
-the left-hand side of (15) is expected according to equation (3) to be "stationary" at the value 0.
+the left-hand side of \eqref{eq:bell_15} is expected according to equation \eqref{eq:bell_3} to be "stationary" at the value 0.
 (What he actually talks about is $P(\pmb{b}, \pmb{c})$ being stationary at $-1$, but since this
 is added to the constant 1, it amounts to the same.) If the left-hand side is stationary at a minimum
-of 0 when $\pmb{b}$ and $\pmb{c}$ are close, this means qualitatively that its graph in that region is "flat."
-By contrast, Bell points out, the right-hand side "is \ldots of order $|\pmb{b} - \pmb{c}|$," the
+of 0 when $\pmb{b}$ and $\pmb{c}$ are close, this means qualitatively that its graph in that region is ``flat.''
+By contrast, Bell points out, the right-hand side ``is \ldots\,of order $|\pmb{b} - \pmb{c}|$,'' the
 absolute value of the difference between the two angles; the graph of this, too, reaches a minimum
-of 0 when the angles are equal, but instead of being flat, is "pointy." In the region around 0, the graph that is 
+of 0 when the angles are equal, but instead of being flat, is ``pointy.'' In the region around 0, the graph that is 
 pointy inevitably lies \emph{above} the graph that is flat, but the right-hand side is meant to be less
-than or equal to the left, if the inequality holds. Thus, Bell's words in section IV about $P(\pmb{b}, \pmb{c})$---that it "cannot be stationary" and "cannot equal the quantum mechanical value"---have the silent proviso 
-"while equation (15) holds and $P(\pmb{a},\pmb{b})$ and $P(\pmb{a},\pmb{c})$ have their 
-quantum-mechanical values."
+than or equal to the left, if the inequality holds. Thus, Bell's words in section IV about $P(\pmb{b}, \pmb{c})$---that it ``cannot be stationary'' and ``cannot equal the quantum mechanical value''---have the silent proviso 
+``while equation \eqref{eq:bell_15} holds and $P(\pmb{a},\pmb{b})$ and $P(\pmb{a},\pmb{c})$ have their 
+quantum-mechanical values.''
 
-A quantitative derivation of this contradiction follows. For the left-hand side of (15), 
-since $P(\pmb{b}, \pmb{c})$ by (3) ought to equal $-\pmb{b} \cdot \pmb{c}$, we can put $1 - \cos (\pmb{b}-\pmb{c})$.
+A quantitative derivation of this contradiction follows. For the left-hand side of \eqref{eq:bell_15}, 
+since $P(\pmb{b}, \pmb{c})$ by \eqref{eq:bell_3} ought to equal $-\pmb{b} \cdot \pmb{c}$, we can put $1 - \cos (\pmb{b}-\pmb{c})$.
 The right-hand side is trickier, and will require a few approximations and interpolations. First, we
-will apply equation (3) to get the expected value of the products: $P(\pmb{a},\pmb{b}) = - \cos (\pmb{a}-\pmb{b})$
-and $P(\pmb{a},\pmb{c}) = - \cos(\pmb{a}-\pmb{c})$. Accordingly, we rewrite the right-hand side of (15) as
-\begin{equation*}\tag{15a -- RHS}
+will apply equation \eqref{eq:bell_3} to get the expected value of the products: $P(\pmb{a},\pmb{b}) = - \cos (\pmb{a}-\pmb{b})$
+and $P(\pmb{a},\pmb{c}) = - \cos(\pmb{a}-\pmb{c})$. Accordingly, we rewrite the right-hand side of \eqref{eq:bell_15} as
+\begin{equation*}\tag{15a -- {\small RHS}}
 |P(\pmb{a},\pmb{b})-P(\pmb{a},\pmb{c})| = |- \cos(\pmb{a}-\pmb{b}) + \cos(\pmb{a}-\pmb{c})|.
 \end{equation*}
 Now, the argument of the rightmost term ($\pmb{a}-\pmb{c}$) can be rewritten as $(\pmb{a}-\pmb{b}) + (\pmb{b}-\pmb{c})$.
@@ -211,12 +211,12 @@ According to the rule for the cosine of a sum of angles, $\cos(F + G) = \cos F \
 You may already be familiar with the small-angle approximation for the sine function, $\sin x \approx x$, used
 in Junior Lab in discussing the motion of the pendulum. There is an analogous approximation for cosine, 
 $\cos x \approx 1 - \frac{x^2}{2}$. Therefore, using both for the terms involving $(\pmb{b}-\pmb{c})$,
-\begin{equation*}
+\begin{multline*}
 \cos(\pmb{a}-\pmb{b}) \cos(\pmb{b}-\pmb{c}) - \sin(\pmb{a}-\pmb{b}) \sin(\pmb{b}-\pmb{c})
-= \cos(\pmb{a}-\pmb{b}) [1-(\pmb{b}-\pmb{c})^2/2] - \sin(\pmb{a}-\pmb{b}) (\pmb{b}-\pmb{c}).
-\end{equation*}
-Substituting this back into our (15a -- RHS) above, we get
-\begin{equation*}\tag{15b -- RHS}
+=\\ \cos(\pmb{a}-\pmb{b}) [1-(\pmb{b}-\pmb{c})^2/2] - \sin(\pmb{a}-\pmb{b}) (\pmb{b}-\pmb{c}).
+\end{multline*}
+Substituting this back into our (15a -- {\small RHS}) above, we get
+\begin{equation*}\tag{15b -- {\small RHS}}
 |- \cos(\pmb{a}-\pmb{b}) + \cos(\pmb{a}-\pmb{b}) - \cos(\pmb{a}-\pmb{b})(\pmb{b}-\pmb{c})^2/2 -
 \sin(\pmb{a}-\pmb{b}) (\pmb{b}-\pmb{c})|.
 \end{equation*}
@@ -224,8 +224,8 @@ Substituting this back into our (15a -- RHS) above, we get
 Now, since $\pmb{a}$ and $\pmb{b}$ are just some constant angles, the
 terms $\cos(\pmb{a}-\pmb{b})/2$ and $\sin(\pmb{a}-\pmb{b})$, also, are just some constants $X$ and 
 $Y$ ranging from $-$\textonehalf\  to $+$\textonehalf\  and from $-1$ to $+1$ respectively. It follows that 
-we can rewrite the right-hand side of (15) as a function of $\pmb{b}-\pmb{c}$,
-\begin{equation*}\tag{15c -- RHS}
+we can rewrite the right-hand side of \eqref{eq:bell_15} as a function of $\pmb{b}-\pmb{c}$,
+\begin{equation*}\tag{15c -- {\small RHS}}
 |P(\pmb{a},\pmb{b})-P(\pmb{a},\pmb{c})| = |X(\pmb{b}-\pmb{c})^2 + Y(\pmb{b}-\pmb{c})|.
 \end{equation*}
 This contains one term that is linear in $\pmb{b}-\pmb{c}$ and one that is quadratic in 
@@ -235,35 +235,37 @@ and the quadratic term (much, much smaller) can effectively be disregarded. This
 Bell in his assertion that ``the right hand side is in general of order $|\pmb{b}-\pmb{c}|$ for 
 small $|\pmb{b}-\pmb{c}|$.''
 
-For illustration, we take the case in which $\pmb{a}-\pmb{b}$ is equal to 45$^\circ$, and graph
-the left and right hand sides of Bell's equation (15) for values of $\pmb{b}-\pmb{c}$ near 0.
+For illustration, we take the case in which $\pmb{a}-\pmb{b}$ is equal to $45^\circ$, and graph
+the left and right hand sides of Bell's equation \eqref{eq:bell_15} for values of $\pmb{b}-\pmb{c}$ near 0.
 
 \begin{figure}[h]
-  \begin{center}
+  \centering
     \includegraphics[width=3.26667in,height=1.29333in]{images/17_bell/contradiction.png}
-  \end{center}
+    \caption*{$\pmb{a}-\pmb{b}=45^\circ$}
+    \label{fig:bell_45}
 \end{figure}
 
 The left-hand side ($1 + P(\pmb{b},\pmb{c})$) is the ``smooth'' curve, stationary at its minimum 
-when $\pmb{b}=\pmb{c}$. The right-hand side is the V-shape that resembles the graph for 
+when $\pmb{b}=\pmb{c}$. The right-hand side is the v-shape that resembles the graph for 
 $|\pmb{b}-\pmb{c}|$, and resembles it most when $|\pmb{b}-\pmb{c}|$ is small. The same basic shape 
-is visible for different values of $\pmb{a}$ and $\pmb{b}$. For comparison, below is the graph of 
-the case in which $\pmb{a}-\pmb{b}$ is equal to 22.5$^\circ$.
+is visible for different values of $\pmb{a}$ and $\pmb{b}$. For comparison, we also include a graph of 
+the case in which $\pmb{a}-\pmb{b}$ is equal to $22.5^\circ$.
 
 \begin{figure}[h]
-  \begin{center}
+  \centering
     \includegraphics[width=3.14667in,height=1.27in]{images/17_bell/contradiction2.png}
-  \end{center}
+    \caption*{$\pmb{a}-\pmb{b}=22.5^\circ$}
+    \label{fig:bell_22.5}
 \end{figure}
 
 Farther away from 0, the graph looks less like that of the absolute value function, but near 0,
 it still has the characteristic pointiness due to the predominance of the linear term in $|\pmb{b}-\pmb{c}|$. 
-Both graphs show the contradiction between the inequality (15), derived from both the local hidden
-variables theory and the quantum-mechanical anti-correlation expressed in (13), and the quantum-mechanical
-result in equation (3). Equation (15), therefore, does not count as what Bell means in section VI by ``a theory in which parameters are added to quantum mechanics to determine the results of individual measurements,
-\emph{without changing the statistical predictions}.'' Equation (1), upon which (15) is based,
-includes those added parameters and \emph{also} the "vital assumption" that the 
-function $B$, specifying the result for the measurement of particle 2, ``does not depend on the setting $\pmb{a}$ of the magnet for particle 1, nor $A$ on $\pmb{b}$.'' The final result (15), however, contradicts those predictions expressed in (3).
+Both graphs show the contradiction between the inequality \eqref{eq:bell_15}, derived from both the local hidden
+variables theory and the quantum-mechanical anti-correlation expressed in \eqref{eq:bell_13}, and the quantum-mechanical
+result in equation \eqref{eq:bell_3}. Equation \eqref{eq:bell_15}, therefore, does not count as what Bell means in section VI by ``a theory in which parameters are added to quantum mechanics to determine the results of individual measurements,
+\emph{without changing the statistical predictions}.'' Equation \eqref{eq:bell_1}, upon which \eqref{eq:bell_15} is based,
+includes those added parameters and \emph{also} the ``vital assumption'' that the 
+function $B$, specifying the result for the measurement of particle 2, ``does not depend on the setting $\pmb{a}$ of the magnet for particle 1, nor $A$ on $\pmb{b}$.'' The final result \eqref{eq:bell_15}, however, contradicts those predictions expressed in \eqref{eq:bell_3}.
 
 \subsection*{The Same Thing, Otherwise}
 
@@ -277,18 +279,18 @@ pairs of photons that will exhibit the behavior a local hidden-variables theory 
 %themselves count as proof that the photons are, as is commonly said, "entangled," and therefore
 %this is not something we need to be able to account for in order to ascertain.
 
-In particular, we use a pair of down-conversion crystals oriented at 90$^{\circ}$ to each other, and pass laser light through them at a 45$^{\circ}$ angle to both, so that each can respond to the component of that light that is oriented along their relevant axes, producing a cone of pairs of photons. The two cones must be aligned spatially and in terms of their phase (by a ``compensating crystal'') by means of a process that the lab director can attest is lengthy and finicky.\footnote{The process is described in detail in parts IV, V, and VI of Dehlinger, D. and Mitchell, M.W., ``Entangled photons, nonlocality, and Bell inequalities in the undergraduate laboratory.'' \emph{Am. J. Phys.\ }\textbf{70} (9), 903--910 (2002).} The result of all this careful alignment is that, where the cones overlap, two paths are formed from the down-conversion crystals to the detectors. Along these paths are projected pairs of photons in a special state that has the same character as the particles in all our authors' thought experiments: a state which quantum mechanics describes as indeterminate but linked. Bell imagined testing two electrons produced according a process quantum mechanics says should give them indeterminate but opposed spin directions. Our apparatus produces photons that exhibit indeterminate but correlated polarization: when measured along a certain axis, they exhibit the same direction of polarization.
+In particular, we use a pair of down-conversion crystals oriented at $90^{\circ}$ to each other, and pass laser light through them at a $45^{\circ}$ angle to both, so that each can respond to the component of that light that is oriented along their relevant axes, producing a cone of pairs of photons. The two cones must be aligned spatially and in terms of their phase (by a ``compensating crystal'') by means of a process that the lab director can attest is lengthy and finicky.\footnote{The process is described in detail in parts IV, V, and VI of D.\ Dehlinger and M.\ W.\ Mitchell, ``Entangled photons, nonlocality, and Bell inequalities in the undergraduate laboratory,'' \emph{Am.\ J.\ Phys.}\ \textbf{70} (9), 903--10 (2002).} The result of all this careful alignment is that, where the cones overlap, two paths are formed from the down-conversion crystals to the detectors. Along these paths are projected pairs of photons in a special state that has the same character as the particles in all our authors' thought experiments: a state which quantum mechanics describes as indeterminate but linked. Bell imagined testing two electrons produced according a process quantum mechanics says should give them indeterminate but opposed spin directions. Our apparatus produces photons that exhibit indeterminate but correlated polarization: when measured along a certain axis, they exhibit the same direction of polarization.
 
 
 Because we are using photon polarization, our measurement scheme will have to be somewhat different.
 In particular, Bell's function $P$, representing the average of the product of the results ($+1$ or $-1$)
 of the measurements of electron spin, will have to be redefined. $A$ and $B$ still represent, so to
 speak, a ``yes or no'' answer to the question put to each particle by the measuring device, but since
-our equipment only detects ``yes'' answers, we will express (2) in terms of experimentally feasible 
+our equipment only detects ``yes'' answers, we will express equation \eqref{eq:bell_2} in terms of experimentally feasible 
 tests. Let $A(\pmb{a},\lambda)$ be defined as equal to $+1$ when particle 1 is found to be polarized 
 \emph{parallel} to $\pmb{a}$ (which state we'll denote as $V_a$), and equal to $-1$ when particle 1 
 is found to be \emph{perpendicular} to $\pmb{a}$ (which state we'll denote as $H_a$, thinking of $\pmb{a}$
-as ``vertical'' and its perpendicular as ``horizontal''), and let $B$ be defined similarly. We will call the 
+as ``vertical'' and its perpendicular as ``horizontal''). Let $B$ be defined similarly. We will call the 
 probability that both particles are found to be polarized in the same direction as the specified measurement 
 angles $P_{VV}$, the probability that the first is found to be polarized in the same direction as $\pmb{a}$ and the second perpendicular to $\pmb{b}$ 
 $P_{VH}$, and so forth for the other two possibilities. The probabilities of each possible outcome, 
@@ -299,7 +301,7 @@ P_{HH}(\pmb{a},\pmb{b}) &= \int d\lambda\, \rho(\lambda) \frac{1-A(\pmb{a},\lamb
 P_{VH}(\pmb{a},\pmb{b}) &= \int d\lambda\, \rho(\lambda) \frac{1+A(\pmb{a},\lambda)}{2}\frac{1-B(\pmb{b},\lambda)}{2}\\
 P_{HV}(\pmb{a},\pmb{b}) &= \int d\lambda\, \rho(\lambda) \frac{1-A(\pmb{a},\lambda)}{2}\frac{1+B(\pmb{b},\lambda)}{2}.\\
 \end{align*}
-Bell calls his equation (2) the ``expectation value of the product,'' and in order to avoid possible confusion,
+Bell calls his equation \eqref{eq:bell_2} the ``expectation value of the product,'' and in order to avoid possible confusion,
 we will refer to this by the letter $E$, rather than $P$, which we've just used for the individual probabilities
 of various outcomes. The overall expectation value of the product of the measurements $A$ and $B$, then, counting the correlations as positive and the anti-correlations as negative, is
 \begin{equation*}\tag{R1}
@@ -333,15 +335,15 @@ and notice that this amounts to an expression in terms of expectation values $E$
 \end{equation*}
 Given what we showed about the allowable values for $s$, and recalling that $\rho(\lambda)$ expresses the
 probability of every possible value of $\lambda$, such that $\int d\lambda\, \rho(\lambda) = 1$, we can
-be sure that 
+be sure that\footnote{The derivation in these paragraphs is largely patterned after that found in Dehlinger and Mitchell, \emph{op. cit.} After the authors of the paper in which it first appeared (Clauser, Horne, Shimony, and Holt), (R4) is referred to as the CHSH inequality.} 
 \begin{equation*}\tag{R4}
-|S| \leq 2.\footnotemark
+|S| \leq 2.
 \end{equation*}
-\footnotetext{The derivation in these paragraphs is largely patterned after that found in Dehlinger and Mitchell, \emph{op. cit.} After the authors of the paper in which it first appeared (Clauser, Horne, Shimony, and Holt), (R4) is referred to as the CHSH inequality.}For us, this is what will play the role of Bell's equation (15). It embodies the assumption that measurements
+For us, this is what will play the role of Bell's equation \eqref{eq:bell_15}. It embodies the assumption that measurements
 on photon 1 depend on the setting of its detector ($\pmb{a}$) and some unknown parameters $\lambda$ that
 together determine the result of the measurement, but not on the setting of detector 2, and vice versa. Unlike
 in Bell's original derivation, there is nothing here that assumes anything about the relation of the
-particles, as his equations (13) and (14) do. 
+particles, as his equations \eqref{eq:bell_13} and \eqref{eq:bell_14} do. 
 
 In these derivations, almost all of our manipulations (apart from some trigonometry and approximations of trigonometric functions) have been simple multiplications, additions, and subtractions. Arguably, the most arcane thing in the whole affair is integrating against the probability distribution $\rho(\lambda)$, but even this is simply a way of saying, ``whatever the various values of $\lambda$ that determine the outcomes of our measurements may be, let us duly account for all of them, weighting the more likely more and the less likely less.''
 
@@ -356,11 +358,11 @@ In these derivations, almost all of our manipulations (apart from some trigonome
 
 \item{\emph{mirrors} to direct the light in the right path,}
 
-\item{a \emph{half-wave plate} (HWP), designed for 405 nm light, set to 45$^\circ$ so that the horizontally and vertically oriented down-conversion crystals will both receive light they can respond to,}
+\item{a \emph{half-wave plate} (HWP), designed for 405 nm light, set to $45^\circ$ so that the horizontally and vertically oriented down-conversion crystals will both receive light they can respond to,}
 
 \item{a \emph{compensating crystal} (CC) which aligns the phase of the pairs emerging from the second down-conversion crystal with that of those emerging from the first,}
 
-\item{a pair of beta-barium borate \emph{down-conversion crystals} (DC), rotated 90$^\circ$ relative to each other, to produce, by aid of the previous two components, photon \emph{pairs} in an \emph{indeterminate state} of linear polarization,}
+\item{a pair of beta-barium borate \emph{down-conversion crystals} (DC), rotated $90^\circ$ relative to each other, to produce, by aid of the previous two components, photon \emph{pairs} in an \emph{indeterminate state} of linear polarization,}
 
 \item{two \emph{half-wave plates} (HWP A/B), designed for 810 nm light, to rotate the polarization angles of the incoming photons,}
 
@@ -373,12 +375,11 @@ In these derivations, almost all of our manipulations (apart from some trigonome
 \end{itemize}
 
 \begin{figure}[h]
-  \begin{center}
+  \centering
     \includegraphics[width=4.23667in,height=1.37333in]{images/17_bell/bell-apparatus.png}
     \captionsetup{width=.75\textwidth}
     \caption*{\emph{Experimental setup for testing Bell's inequality.}}
-  \end{center}
-\end{figure}
+ \end{figure}
 
 We will measure $S$ using pairs of specially prepared photons, which (if all goes well) show a higher degree of
 correlation of polarization direction than that allowed by (R4). To do that, we will have to measure
@@ -399,39 +400,64 @@ according to (R1), and finally divide that by the total number of coincidences f
 \begin{equation*}
 E(\pmb{a},\pmb{b'}) = \frac{N(\pmb{a},\pmb{b'}) + N(\pmb{a}_\perp,\pmb{b'}_\perp) - N(\pmb{a},\pmb{b'}_\perp) - N(\pmb{a}_\perp,\pmb{b'})}{N(\pmb{a},\pmb{b'}) + N(\pmb{a}_\perp,\pmb{b'}_\perp) + N(\pmb{a},\pmb{b'}_\perp) + N(\pmb{a}_\perp,\pmb{b'})}
 \end{equation*}
-For convenience, here is a sample table of all the settings and measurements, with space to record results.
+For convenience, a sample table of all the settings and measurements appears below, with space to record results.
 The example calculation above would be for rows 5 through 8. You will notice that the half-wave plates 
 (listed as ``hwp'') have to be set to half the desired angle. Perform 2 or 3 runs for each trial. Whichever you choose, perform the same number of equally timed runs for all 16 trials.
 
-\begin{center}
-	\begin{tabular}{| r | l  l | l | l || l | l | l | l |}
-	\toprule
-	\# &  &  & A & hwp & B & hwp& Counts \;\; (30 seconds)& $\pm$\\ \toprule
-	1&$\pmb{a}$&$\pmb{b}$&$0$&$0$&$22.5$&$11.25$& &$+$\\ \hline
-	2&$\pmb{a}_\perp$&$\pmb{b}$&$90$&$45$&$22.5$&$11.25$& &$-$\\ \hline
-	3&$\pmb{a}$&$\pmb{b}_\perp$&$0$&$0$&$112.5$&$56.25$& &$-$\\ \hline
-	4&$\pmb{a}_\perp$&$\pmb{b}_\perp$&$90$&$45$&$112.5$&$56.25$& &$+$\\ \toprule
-	5&$\pmb{a}$&$\pmb{b'}$&$0$&$0$&$67.5$&$33.75$& &$+$\\ \hline
-	6&$\pmb{a}_\perp$&$\pmb{b'}$&$90$&$45$&$67.5$&$33.75$& &$-$\\ \hline
-	7&$\pmb{a}$&$\pmb{b'}_\perp$&$0$&$0$&$157.5$&$78.75$& &$-$\\ \hline
-	8&$\pmb{a}_\perp$&$\pmb{b'}_\perp$&$90$&$45$&$157.5$&$78.75$& &$+$\\ \toprule
-	9&$\pmb{a'}$&$\pmb{b'}$&$45$&$22.5$&$67.5$&$33.75$& &$+$\\ \hline
-	10&$\pmb{a'}_\perp$&$\pmb{b'}$&$135$&$67.5$&$67.5$&$33.75$& &$-$\\ \hline
-	11&$\pmb{a'}$&$\pmb{b'}_\perp$&$45$&$22.5$&$157.5$&$78.75$& &$-$\\ \hline
-	12&$\pmb{a'}_\perp$&$\pmb{b'}_\perp$&$135$&$67.5$&$157.5$&$78.75$& &$+$\\ \toprule
-	13&$\pmb{a'}$&$\pmb{b}$&$45$&$22.5$&$22.5$&$11.25$& &$+$\\ \hline
-	14&$\pmb{a'}_\perp$&$\pmb{b}$&$135$&$67.5$&$22.5$&$11.25$& &$-$\\ \hline
-	15&$\pmb{a'}$&$\pmb{b}_\perp$&$45$&$22.5$&$112.5$&$56.25$& &$-$\\ \hline
-	16&$\pmb{a'}_\perp$&$\pmb{b}_\perp$&$135$&$67.5$&$112.5$&$56.25$& &$+$\\ \toprule
+% Note: Original table appears just below, in case we want to go back to it. I think tables look better without vertical lines and a sparing use of horizontal lines, so I re-coded the table to do without them, using spacing instead.
 
+%\begin{table}[h]
+%\centering
+%	\begin{tabular}{| r | l  l | l | l || l | l | l | l |}
+%	\toprule
+%	\# &  &  & A & hwp & B & hwp& Counts \;\; (30 seconds)& $\pm$\\ \toprule
+%	1&$\pmb{a}$&$\pmb{b}$&$0$&$0$&$22.5$&$11.25$& &$+$\\ \hline
+%	2&$\pmb{a}_\perp$&$\pmb{b}$&$90$&$45$&$22.5$&$11.25$& &$-$\\ \hline
+%	3&$\pmb{a}$&$\pmb{b}_\perp$&$0$&$0$&$112.5$&$56.25$& &$-$\\ \hline
+%	4&$\pmb{a}_\perp$&$\pmb{b}_\perp$&$90$&$45$&$112.5$&$56.25$& &$+$\\ \toprule
+%	5&$\pmb{a}$&$\pmb{b'}$&$0$&$0$&$67.5$&$33.75$& &$+$\\ \hline
+%	6&$\pmb{a}_\perp$&$\pmb{b'}$&$90$&$45$&$67.5$&$33.75$& &$-$\\ \hline
+%	7&$\pmb{a}$&$\pmb{b'}_\perp$&$0$&$0$&$157.5$&$78.75$& &$-$\\ \hline
+%	8&$\pmb{a}_\perp$&$\pmb{b'}_\perp$&$90$&$45$&$157.5$&$78.75$& &$+$\\ \toprule
+%	9&$\pmb{a'}$&$\pmb{b'}$&$45$&$22.5$&$67.5$&$33.75$& &$+$\\ \hline
+%	10&$\pmb{a'}_\perp$&$\pmb{b'}$&$135$&$67.5$&$67.5$&$33.75$& &$-$\\ \hline
+%	11&$\pmb{a'}$&$\pmb{b'}_\perp$&$45$&$22.5$&$157.5$&$78.75$& &$-$\\ \hline
+%	12&$\pmb{a'}_\perp$&$\pmb{b'}_\perp$&$135$&$67.5$&$157.5$&$78.75$& &$+$\\ \toprule
+%	13&$\pmb{a'}$&$\pmb{b}$&$45$&$22.5$&$22.5$&$11.25$& &$+$\\ \hline
+%	14&$\pmb{a'}_\perp$&$\pmb{b}$&$135$&$67.5$&$22.5$&$11.25$& &$-$\\ \hline
+%	15&$\pmb{a'}$&$\pmb{b}_\perp$&$45$&$22.5$&$112.5$&$56.25$& &$-$\\ \hline
+%	16&$\pmb{a'}_\perp$&$\pmb{b}_\perp$&$135$&$67.5$&$112.5$&$56.25$& &$+$\\ \toprule
+%
+%\end{tabular}
+%\end{table}
 
+\begin{table}[h]
+\centering
+	\begin{tabular}{ r  l  l  l  l  l  l  l  l }\toprule
+	\# &  &  & A & hwp & B & hwp& Counts \;\; (30 seconds)& $\pm$\\ \midrule
+	1&$\pmb{a}$&$\pmb{b}$&$0$&$0$&$22.5$&$11.25$& &$+$\\\cmidrule(lr){8-8}
+	2&$\pmb{a}_\perp$&$\pmb{b}$&$90$&$45$&$22.5$&$11.25$& &$-$\\\cmidrule(lr){8-8} 
+	3&$\pmb{a}$&$\pmb{b}_\perp$&$0$&$0$&$112.5$&$56.25$& &$-$\\\cmidrule(lr){8-8} 
+	4&$\pmb{a}_\perp$&$\pmb{b}_\perp$&$90$&$45$&$112.5$&$56.25$& &$+$\\\cmidrule(lr){8-8}\\[-10pt]
+	5&$\pmb{a}$&$\pmb{b'}$&$0$&$0$&$67.5$&$33.75$& &$+$\\\cmidrule(lr){8-8} 
+	6&$\pmb{a}_\perp$&$\pmb{b'}$&$90$&$45$&$67.5$&$33.75$& &$-$\\\cmidrule(lr){8-8} 
+	7&$\pmb{a}$&$\pmb{b'}_\perp$&$0$&$0$&$157.5$&$78.75$& &$-$\\\cmidrule(lr){8-8} 
+	8&$\pmb{a}_\perp$&$\pmb{b'}_\perp$&$90$&$45$&$157.5$&$78.75$& &$+$\\\cmidrule(lr){8-8}\\[-10pt] 
+	9&$\pmb{a'}$&$\pmb{b'}$&$45$&$22.5$&$67.5$&$33.75$& &$+$\\\cmidrule(lr){8-8} 
+	10&$\pmb{a'}_\perp$&$\pmb{b'}$&$135$&$67.5$&$67.5$&$33.75$& &$-$\\\cmidrule(lr){8-8} 
+	11&$\pmb{a'}$&$\pmb{b'}_\perp$&$45$&$22.5$&$157.5$&$78.75$& &$-$\\\cmidrule(lr){8-8} 
+	12&$\pmb{a'}_\perp$&$\pmb{b'}_\perp$&$135$&$67.5$&$157.5$&$78.75$& &$+$\\\cmidrule(lr){8-8}\\[-10pt]
+	13&$\pmb{a'}$&$\pmb{b}$&$45$&$22.5$&$22.5$&$11.25$& &$+$\\\cmidrule(lr){8-8} 
+	14&$\pmb{a'}_\perp$&$\pmb{b}$&$135$&$67.5$&$22.5$&$11.25$& &$-$\\\cmidrule(lr){8-8} 
+	15&$\pmb{a'}$&$\pmb{b}_\perp$&$45$&$22.5$&$112.5$&$56.25$& &$-$\\\cmidrule(lr){8-8} 
+	16&$\pmb{a'}_\perp$&$\pmb{b}_\perp$&$135$&$67.5$&$112.5$&$56.25$& &$+$\\ \bottomrule
 \end{tabular}
-\end{center}
+\end{table}
 
 \section*{Conclusion}
 
-Since the first experimental verification that at least some specially prepared particles violate Bell's inequality, there have been many developments and refinements. In the most significant recent tests, many of the ``loopholes'' that critics have pointed out over the years have been closed.\footnote{E.g., M. Giustina \emph{et al.}, 
-``Significant loophole-free test of Bell's theorem with entangled photons,'' \emph{Phys. Rev. Lett.}\  
-\textbf{115} (2015), and B. Hensen \emph{et al.}, ``Loophole-free
-Bell inequality violation using electron spins separated by 1.3 km,'' \emph{Nature} \textbf{526}, 682--686 (29 Oct. 2015).}
+Since the first experimental verification that at least some specially prepared particles violate Bell's inequality, there have been many developments and refinements. In the most significant recent tests, many of the ``loopholes'' that critics have pointed out over the years have been closed.\footnote{E.g., M.\ Giustina \emph{et al.}, 
+``Significant loophole-free test of Bell's theorem with entangled photons,'' \emph{Phys.\ Rev.\ Lett.}\  
+\textbf{115} (2015), and B.\ Hensen \emph{et al.}, ``Loophole-free
+Bell inequality violation using electron spins separated by 1.3 km,'' \emph{Nature} \textbf{526}, 682--6 (29 Oct.\ 2015).}
 Reflection on the significance of this particular state of particles, which is commonly referred to as ``entanglement,'' has become a standard feature of discussions of the results of scientific inquiry into the behavior of electrons and photons and the quantum-mechanical theories that purport to explain it.

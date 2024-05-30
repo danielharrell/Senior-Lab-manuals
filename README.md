@@ -24,12 +24,12 @@
         - [x] Optics Practicum 3
         - [x] Optics Practicum 4
         - [x] EPR paper
-        - [ ] Bell paper (p.193)
+        - [x] Bell paper
         - [ ] Appendix 
-- [ ] p. 192, note 12. Clarify use of Griffiths and absolute value.
+- [x] p. 192, note 12. Clarify use of Griffiths and absolute value.
 - [x] Rename to 2024
 - [ ] Check to-do list in QM folder
-- [ ] Check formatting and footnote placement throughout manual
+- [x] Check formatting and footnote placement throughout manual
 - [x] Schrödinger: Reintroduce final paragraph at end of section 1.
 - [x] Redraw Table VI, Millikan paper, in Latex to make corrections.
     - [x] p. 33, Radius value: for .000276, read .0000276
