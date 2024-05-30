@@ -4,12 +4,12 @@
  ## To Do
 - [x] Changed math font to Palatino to be consistent with text font
 - [x] Figure out front matter blank pages so the manual prints properly.
-- [ ] Correct center environment to centering for figures throughout
-- [ ] Establish system cross-references
-    - [ ] Check all labels in documents and correct as necessary
-    - [ ] Check references to tables and figures
-    - [ ] Make sure equations from original numbering are tagged
-    - [ ] Move footnotes outside of equations to previous text
+- [x] Correct center environment to centering for figures throughout
+- [x] Establish system cross-references
+    - [x] Check all labels in documents and correct as necessary
+    - [x] Check references to tables and figures
+    - [x] Make sure equations from original numbering are tagged
+    - [x] Move footnotes outside of equations to previous text
         - [x] Millikan paper review
         - [x] Rutherford paper
         - [x] Planck paper
@@ -25,7 +25,7 @@
         - [x] Optics Practicum 4
         - [x] EPR paper
         - [x] Bell paper
-        - [ ] Appendix 
+        - [x] Appendix 
 - [x] p. 192, note 12. Clarify use of Griffiths and absolute value.
 - [x] Rename to 2024
 - [ ] Check to-do list in QM folder
